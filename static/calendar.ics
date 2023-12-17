@@ -1,0 +1,5355 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//SabreDAV//SabreDAV//EN
+X-WR-CALNAME:xHain calendar (reimerei)
+X-APPLE-CALENDAR-COLOR:#003a3e
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+X-PUBLISHED-TTL:PT4H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20210816T172526Z
+DTSTAMP:20210913T114048Z
+LAST-MODIFIED:20210913T114048Z
+SEQUENCE:3
+UID:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+DTSTART;TZID=Europe/Berlin:20210816T170000
+DTEND;TZID=Europe/Berlin:20210816T220000
+SUMMARY:offener Montag
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20210913T145959Z
+RELATED-TO;RELTYPE=SIBLING:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210831T134613Z
+DTSTAMP:20210831T134613Z
+LAST-MODIFIED:20210831T134613Z
+SEQUENCE:1
+UID:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+DTSTART;TZID=Europe/Berlin:20210906T170000
+DTEND;TZID=Europe/Berlin:20210906T220000
+SUMMARY:GESCHLOSSEN!
+DESCRIPTION:heute KEIN offener Montag! \nGeschlossene Veranstaltung.
+RECURRENCE-ID;TZID=Europe/Berlin:20210906T170000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210820T163822Z
+DTSTAMP:20210820T163940Z
+LAST-MODIFIED:20210820T163940Z
+SEQUENCE:2
+UID:ebc049e8-db39-4031-b0ab-f2b09a867fc9
+DTSTART;TZID=Europe/Berlin:20210824T190000
+DTEND;TZID=Europe/Berlin:20210824T220000
+SUMMARY:Gespräch unter Bäumen
+DESCRIPTION:mit Julia Schorlemmer. https://x-hain.de/de/blog/2021/08/20/ges
+ pr%C3%A4ch-unter-b%C3%A4umen/
+LOCATION:vor'm xHain
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210826T112712Z
+DTSTAMP:20210826T112805Z
+LAST-MODIFIED:20210826T112805Z
+SEQUENCE:3
+UID:2edb33b0-8085-41aa-a93d-d77705fa0478
+DTSTART;TZID=Europe/Berlin:20210905T120000
+DTEND;TZID=Europe/Berlin:20210905T150000
+SUMMARY:Nähworkshop
+DESCRIPTION:verbindliche Voranmeldung erforderlich (naehen[at]x-hain.de)\nh
+ ttps://x-hain.de/de/blog/2021/08/09/näh-workshop-im-xhain/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210826T115729Z
+DTSTAMP:20211004T174814Z
+LAST-MODIFIED:20211004T174814Z
+SEQUENCE:2
+UID:14bdacae-67cc-4b39-afda-08f8d01b0c6a
+DTSTART;TZID=Europe/Berlin:20210911T140000
+DTEND;TZID=Europe/Berlin:20210911T200000
+SUMMARY:xHain infrastructure workday
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20211009T115959Z
+DESCRIPTION:see #xhainUmbau channel in Rocket chat.x-hain.de
+RELATED-TO;RELTYPE=SIBLING:280960a4-7780-4800-bd25-4957b5def060
+EXDATE;TZID=Europe/Berlin:20210911T140000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220319T150216Z
+DTSTAMP:20220404T143442Z
+LAST-MODIFIED:20220404T143442Z
+SEQUENCE:4
+UID:0069fd8f-e028-4ff6-bc79-34d8d22dfea7
+DTSTART;TZID=Europe/Berlin:20220401T090000
+DTEND;TZID=Europe/Berlin:20220401T140000
+STATUS:CONFIRMED
+SUMMARY:Workshop mit Schulerïnnen
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T172740Z
+DTSTAMP:20211012T183354Z
+LAST-MODIFIED:20211012T183354Z
+SEQUENCE:3
+UID:515cf8b1-81bb-43aa-ab43-1204ca652f72
+DTSTART;TZID=Europe/Berlin:20210810T190000
+DTEND;TZID=Europe/Berlin:20210810T220000
+DESCRIPTION:https://qubesusersberlin.github.io 
+SUMMARY:Qubes OS Users Berlin Meetup
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=2;UNTIL=20211012T165959Z
+RELATED-TO;RELTYPE=SIBLING:52cf61f3-efd2-4523-966a-6926e434d10d
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211019T131507Z
+DTSTAMP:20211019T131609Z
+LAST-MODIFIED:20211019T131609Z
+SEQUENCE:2
+UID:4c53a3b5-cac9-465f-9d14-41ca6bd5ee13
+DTSTART;TZID=Europe/Berlin:20211127T170000
+DTEND;TZID=Europe/Berlin:20211127T235900
+STATUS:CONFIRMED
+SUMMARY:JugendHackt Mentor:innen Treffen
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211102T133953Z
+DTSTAMP:20211102T134004Z
+LAST-MODIFIED:20211102T134004Z
+SEQUENCE:2
+UID:fd5185b3-cc20-4ab4-9f0e-4bfaefd13db5
+DTSTART;TZID=Europe/Berlin:20211102T180000
+DTEND;TZID=Europe/Berlin:20211102T210000
+STATUS:CONFIRMED
+SUMMARY:JugendHackt Mentor:innen Treffen
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T173103Z
+DTSTAMP:20210816T173208Z
+LAST-MODIFIED:20210816T173208Z
+SEQUENCE:2
+UID:7e39a72c-c906-4089-b99b-9ddcbe954e67
+DTSTART;TZID=Europe/Berlin:20210831T160000
+DTEND;TZID=Europe/Berlin:20210831T190000
+SUMMARY:Jugend Hackt Lab
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231207T172121Z
+DESCRIPTION:This event is a recurring event every 2nd Thursday!\n\n💄invi
+ ted are all female members\, FLINTA are welcomed*. *^ that includes peop
+ le of our whole xHain community\, not only those who pay for their “memb
+ ership”\, but also many of those who love to drop by and join in\n💄no
+ t invited are men - independent of their sexual orientation (an exceptio
+ n are the men renting offices) 💄if necessary men can grab/drop off ur
+ gent works and quickly leave the space with a low profile\n 💄Orga: 
+ 💥 the MakeHERspace Day starts at 12pm and ends when the last keyholder 
+ leaves. There will be announcements when the last ones have left\, so that
+  the space becomes available for men back again 💥\n\nOrganizer: Eva (@p
+ aleva:x-hain.de)
+DTEND;TZID=Europe/Berlin:20231229T000000
+DTSTAMP:20231207T172121Z
+DTSTART;TZID=Europe/Berlin:20231228T120000
+LAST-MODIFIED:20231207T172121Z
+RELATED-TO;RELTYPE=X-CALENDARSERVER-RECURRENCE-SET:8342910D-0817-4EA0-9325-
+ EC8B053F4904
+RELATED-TO;RELTYPE=SIBLING:A321A068-1121-438F-A38A-EC6198ECA838
+RRULE:FREQ=WEEKLY;COUNT=9;INTERVAL=2;BYDAY=TH
+SEQUENCE:0
+SUMMARY:MakeHERSpace
+TRANSP:OPAQUE
+UID:6ca9f33a-8f7b-4e2f-bb19-590232f1eb43
+X-APPLE-CREATOR-IDENTITY:com.apple.mobilecal
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+LOCATION:xHain
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211022T135922Z
+DTSTAMP:20211022T135948Z
+LAST-MODIFIED:20211022T135948Z
+SEQUENCE:2
+UID:9dbdd472-6c47-43b2-ab4a-aedc73d3f935
+DTSTART;TZID=Europe/Berlin:20211029T180000
+DTEND;TZID=Europe/Berlin:20211029T200000
+STATUS:CONFIRMED
+SUMMARY:Meetup Jina & Tonic: how to contribute to open source
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210830T121825Z
+DTSTAMP:20210830T121842Z
+LAST-MODIFIED:20210830T121842Z
+SEQUENCE:2
+UID:528748b1-74ed-4e1e-b070-e55abc5a08d7
+DTSTART;TZID=Europe/Berlin:20210905T210000
+DTEND;TZID=Europe/Berlin:20210906T000000
+SUMMARY:Makercast (closed event)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211106T185812Z
+DTSTAMP:20211106T185957Z
+LAST-MODIFIED:20211106T185957Z
+SEQUENCE:2
+UID:f668a427-0209-4188-9f41-5fc2c668757e
+DTSTART:20211106T200000Z
+DTEND:20211106T233000Z
+STATUS:CONFIRMED
+DESCRIPTION:https://x-hain.de/en/blog/2021/11/03/makentell-episode-ii/
+SUMMARY:make'n'tell + exhibition
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T173259Z
+DTSTAMP:20210816T173330Z
+LAST-MODIFIED:20210816T173330Z
+SEQUENCE:2
+UID:2a8eb374-ff8f-4032-aa20-d61a5d50c2c2
+DTSTART;TZID=Europe/Berlin:20210928T160000
+DTEND;TZID=Europe/Berlin:20210928T190000
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+SUMMARY:Jugend Hackt Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210906T113854Z
+DTSTAMP:20210906T113935Z
+LAST-MODIFIED:20210906T113935Z
+SEQUENCE:2
+UID:d973f242-176a-4552-a8b0-1edb6ec400bf
+DTSTART;TZID=Europe/Berlin:20210910T200000
+DTEND;TZID=Europe/Berlin:20210911T040000
+SUMMARY:geschlossenes Event
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T221949Z
+DTSTAMP:20230915T222012Z
+LAST-MODIFIED:20230915T222012Z
+SEQUENCE:2
+UID:f7a02caa-1f72-4647-8b8a-62f7f7e6403a
+DTSTART;TZID=Europe/Berlin:20231101T183000
+DTEND;TZID=Europe/Berlin:20231101T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T173604Z
+DTSTAMP:20210907T153310Z
+LAST-MODIFIED:20210907T153310Z
+SEQUENCE:3
+UID:6d9d33a5-c41c-4fef-b46a-f6ca36a0cc34
+DTSTART;TZID=Europe/Berlin:20211026T160000
+DTEND;TZID=Europe/Berlin:20211026T190000
+SUMMARY:Jugend Hackt Lab
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210906T174826Z
+DTSTAMP:20210908T094003Z
+LAST-MODIFIED:20210908T094003Z
+SEQUENCE:4
+UID:54d03b6c-fa61-47b4-9ae2-908d967e98fe
+DTSTART;TZID=Europe/Berlin:20210912T120000
+DTEND;TZID=Europe/Berlin:20210912T150000
+SUMMARY:Nähworkshop
+DESCRIPTION:verbindliche Voranmeldung erforderlich (naehen[at]x-hain.de)\nh
+ ttps://x-hain.de/de/blog/2021/08/09/näh-workshop-im-xhain/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210907T145018Z
+DTSTAMP:20210916T103250Z
+LAST-MODIFIED:20210916T103250Z
+SEQUENCE:3
+UID:d066a63c-018f-4e59-92de-03a912e4631d
+DTSTART;TZID=Europe/Berlin:20210909T200000
+DTEND;TZID=Europe/Berlin:20210909T230000
+SUMMARY:Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/vxxkpsyccmbmb/
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20210916T175959Z
+RELATED-TO;RELTYPE=SIBLING:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T173742Z
+DTSTAMP:20210907T153457Z
+LAST-MODIFIED:20210907T153457Z
+SEQUENCE:3
+UID:bdde348b-b515-4620-9595-53e565b7eca6
+DTSTART;TZID=Europe/Berlin:20211127T140000
+DTEND;TZID=Europe/Berlin:20211127T170000
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+SUMMARY:Jugend Hackt Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210907T153320Z
+DTSTAMP:20210907T153413Z
+LAST-MODIFIED:20210907T153413Z
+SEQUENCE:3
+UID:566e78e5-b044-40f7-abf9-c4bf73ac8b4b
+DTSTART;TZID=Europe/Berlin:20211109T160000
+DTEND;TZID=Europe/Berlin:20211109T190000
+SUMMARY:Jugend Hackt Lab
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T173818Z
+DTSTAMP:20211128T172259Z
+LAST-MODIFIED:20211128T172259Z
+SEQUENCE:5
+UID:bb89fb22-c74a-418b-b65b-230d67637560
+DTSTART;TZID=Europe/Berlin:20211214T160000
+DTEND;TZID=Europe/Berlin:20211214T190000
+SUMMARY:Cancelled: Jugend Hackt Lab
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211119T182758Z
+DTSTAMP:20211128T172025Z
+LAST-MODIFIED:20211128T172025Z
+SEQUENCE:3
+UID:2b9df4f3-8c79-4b64-8b1a-647ad95db12a
+DTSTART;TZID=Europe/Berlin:20211128T180000
+DTEND;TZID=Europe/Berlin:20211128T210000
+STATUS:CONFIRMED
+SUMMARY:Cancelled Coworking evening - LED’s hack!
+DESCRIPTION:https://www.meetup.com/leds-get-together/events/fmpxqsyccpblc/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210816T202110Z
+DTSTAMP:20210826T115729Z
+LAST-MODIFIED:20210826T115729Z
+SEQUENCE:3
+UID:280960a4-7780-4800-bd25-4957b5def060
+DTSTART;TZID=Europe/Berlin:20210814T140000
+DTEND;TZID=Europe/Berlin:20210814T200000
+SUMMARY:xHain infrastructure workday
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20210911T115959Z
+RELATED-TO;RELTYPE=SIBLING:14bdacae-67cc-4b39-afda-08f8d01b0c6a
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220404T075913Z
+DTSTAMP:20220404T075934Z
+LAST-MODIFIED:20220404T075934Z
+SEQUENCE:2
+UID:2f7d88ec-e28b-48f8-8c45-f87f664ff195
+DTSTART;TZID=Europe/Berlin:20220406T180000
+DTEND;TZID=Europe/Berlin:20220406T220000
+STATUS:CONFIRMED
+SUMMARY:geschlossene veranstaltung (ask dave)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T222100Z
+DTSTAMP:20230915T222109Z
+LAST-MODIFIED:20230915T222109Z
+SEQUENCE:2
+UID:e80fb403-7c94-4b9f-9e37-af1cc35034c5
+DTSTART;TZID=Europe/Berlin:20231115T183000
+DTEND;TZID=Europe/Berlin:20231115T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210908T131438Z
+DTSTAMP:20220130T171823Z
+LAST-MODIFIED:20220130T171823Z
+SEQUENCE:5
+UID:0f6ce709-5c61-4b2c-a83f-a0522e2b6057
+DTSTART:20211013T180000Z
+DTEND:20211013T210000Z
+SUMMARY:XMPP-Meetup
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2;UNTIL=20220209T175959Z
+RELATED-TO;RELTYPE=SIBLING:75a80f4e-ef8b-4649-a791-d2378df78176
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172158Z
+DTSTAMP:20211128T172158Z
+LAST-MODIFIED:20211128T172158Z
+SEQUENCE:1
+UID:0f6ce709-5c61-4b2c-a83f-a0522e2b6057
+DTSTART:20211208T180000Z
+DTEND:20211208T210000Z
+SUMMARY:Cancelled: XMPP-Meetup
+RECURRENCE-ID:20211208T180000Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191156Z
+DTSTAMP:20220103T191156Z
+LAST-MODIFIED:20220103T191156Z
+SEQUENCE:1
+UID:0f6ce709-5c61-4b2c-a83f-a0522e2b6057
+DTSTART:20220112T180000Z
+DTEND:20220112T210000Z
+SUMMARY:Cancelled: XMPP-Meetup
+RECURRENCE-ID:20220112T180000Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220404T143858Z
+DTSTAMP:20220415T161805Z
+LAST-MODIFIED:20220415T161805Z
+SEQUENCE:3
+UID:d51c93a9-7e29-4480-9090-01efeb40078e
+DTSTART;TZID=Europe/Berlin:20220426T190000
+DTEND;TZID=Europe/Berlin:20220426T213000
+STATUS:CONFIRMED
+SUMMARY:Gespräch unter Bäumen
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211123T190046Z
+DTSTAMP:20211123T190123Z
+LAST-MODIFIED:20211123T190123Z
+SEQUENCE:2
+UID:951101d0-c8b4-4274-aff2-bdfdb26e684a
+DTSTART;TZID=Europe/Berlin:20211204T110000
+DTEND;TZID=Europe/Berlin:20211204T200000
+STATUS:CONFIRMED
+SUMMARY:Only: AVX Team Infrastructure for rc3.2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210908T131401Z
+DTSTAMP:20210908T131546Z
+LAST-MODIFIED:20210908T131546Z
+SEQUENCE:3
+UID:531fc3fc-4f8e-4ced-ad34-9a405aedec55
+DTSTART:20210908T180000Z
+DTEND:20210908T210000Z
+SUMMARY:XMPP-Meetup
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220406T202140Z
+DTSTAMP:20220406T202153Z
+LAST-MODIFIED:20220406T202153Z
+SEQUENCE:2
+UID:1787838b-340c-4348-b13f-a6b11f8fd587
+DTSTART;TZID=Europe/Berlin:20220409T140000
+DTEND;TZID=Europe/Berlin:20220409T200000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure Day
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210908T205658Z
+DTSTAMP:20210908T205739Z
+LAST-MODIFIED:20210908T205739Z
+SEQUENCE:2
+UID:e78a3265-d2a3-4e8b-b220-a93910608fc5
+DTSTART;TZID=Europe/London:20210918T140000
+DTEND;TZID=Europe/London:20210918T170000
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+SUMMARY:Jugend Hackt:Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211123T190127Z
+DTSTAMP:20211123T190131Z
+LAST-MODIFIED:20211123T190131Z
+SEQUENCE:2
+UID:29dc1f33-1ff9-4e5d-ab3d-47d82535bc2c
+DTSTART;TZID=Europe/Berlin:20211205T110000
+DTEND;TZID=Europe/Berlin:20211205T200000
+STATUS:CONFIRMED
+SUMMARY:Only: AVX Team Infrastructure for rc3.2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T222123Z
+DTSTAMP:20231205T224307Z
+LAST-MODIFIED:20231205T224307Z
+SEQUENCE:3
+UID:d3989f5a-baf2-4e1e-90ca-b9409e0c9dec
+DTSTART;TZID=Europe/Berlin:20231206T183000
+DTEND;TZID=Europe/Berlin:20231206T200000
+SUMMARY:Cancelled: Godot User Group Berlin - Meet and Greet
+DESCRIPTION:Due to illness this event had to be cancelled. 🤒\n\nWe are a
+  group of people passionate about the cross-platform\, Free and Open Sourc
+ e Godot game engine. Our goal is to share knowledge\, create art together\
+ , code together\, join game jams together and have fun!\n\nWe strive to ho
+ ld meetups at local Berlin hackspaces and makespaces like xHain in Friedri
+ chshain every first and third Wednesday in a month.\n\nThis event will be 
+ a cosy Meet & Greet for Game Creators of all trades and those aspiring to 
+ become one. 🌱🌳\n\nRegardless if you are an Artist\, Designer\, Progr
+ ammer\, total Beginner or anything in between: please join us! 🌟🌼\n\
+ nIt also does not matter which engine you are using\, or if you are using 
+ any engine at all: We are eager to see your awesome projects! ✨🎉\n\nT
+ he free and open-source Godot game engine will however remain our anchor p
+ oint and primary focus of attention. 🦾🚀\n\nAgenda\n\n1. At the begin
+ ning we will mingle for half an hour and have a short round of introductio
+ ns with a theme question. 👋💬\n2. Then we will have block of demos/li
+ ghting talks\, which can be anything you want to show or talk about for up
+  to 5 Minutes. 🎮✨ For example:\n\n- Giving a short educational presen
+ tation about a Game Creation topic.\n- Showing off the current state of yo
+ ur game\, art or soundtrack\, whether it's been shown before or you want t
+ o highlight your progress\, or ask for feedback/playtesting.\n- Asking for
+  help or input with something where you are stuck or need ideas.\n- Showin
+ g off a game that was made with Godot and that you enjoy or are impressed 
+ by.\n- Showing off aspects of games that you find intriguing\, no matter t
+ he engine.\n- And whatever else you can come up with to show in 5 minutes 
+ that may spark interest.\n\n3. Afterwards we will hang out\, chat and mayb
+ e get a drink at ScuBar downstairs in the basement! 🦜🍻\n\nYou can al
+ so join us via Discord on our Discord Server. ☎️\nhttps://discord.com/
+ invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updates. 📢\nhttps://mast
+ odon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask Matteo for more detai
+ ls.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T221846Z
+DTSTAMP:20230921T111225Z
+LAST-MODIFIED:20230921T111225Z
+SEQUENCE:4
+UID:f19db7fb-8617-49e4-b138-dcbb62edee3b
+DTSTART;TZID=Europe/Berlin:20231004T183000
+DTEND;TZID=Europe/Berlin:20231004T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet: Player Guidance
+DESCRIPTION:The topic of this meetup will be Player Guidance! 🎉\nWe will
+  talk about tutorials\, introductions to game mechanics\, as well as anyth
+ ing capturing the players attention to steer their experience. 🔍ℹ️\
+ n\nHere are some resources to get you started:\n\nhttps://www.youtube.com/
+ watch?v=-GV814cWiAw\nhttps://www.youtube.com/watch?v=45csSEotJY8\nhttps://
+ www.youtube.com/watch?v=rcrdJD8whfE\nhttp://web.archive.org/web/2011012306
+ 3139/http://facerocker.com/2011/01/12/starting-the-perfect-adventure-%E2%8
+ 0%93-link%E2%80%99s-awakening/\n\nWe are a group of people passionate abou
+ t the cross-platform\, Free and Open Source Godot game engine. Our goal is
+  to share knowledge\, create art together\, code together\, join game jams
+  together and have fun!\n\nWe strive to hold meetups at local Berlin hacks
+ paces and makespaces like xHain in Friedrichshain every first and third We
+ dnesday in a month.\n\nThis event will be a cosy Meet & Greet for Game Cre
+ ators of all trades and those aspiring to become one. 🌱🌳\n\nRegardle
+ ss if you are an Artist\, Designer\, Programmer\, total Beginner or anythi
+ ng in between: please join us! 🌟🌼\n\nIt also does not matter which e
+ ngine you are using\, or if you are using any engine at all: We are eager 
+ to see your awesome projects! ✨🎉\n\nThe free and open-source Godot ga
+ me engine will however remain our anchor point and primary focus of attent
+ ion. 🦾🚀\n\nAgenda\n\n1. At the beginning we will mingle for half an 
+ hour and have a short round of introductions with a theme question. 👋
+ 💬\n2. Then we will have block of demos/lighting talks\, which can be an
+ ything you want to show or talk about for up to 5 Minutes. 🎮✨ For exa
+ mple:\n\n- Giving a short educational presentation about a Game Creation t
+ opic.\n- Showing off the current state of your game\, art or soundtrack\, 
+ whether it's been shown before or you want to highlight your progress\, or
+  ask for feedback/playtesting.\n- Asking for help or input with something 
+ where you are stuck or need ideas.\n- Showing off a game that was made wit
+ h Godot and that you enjoy or are impressed by.\n- Showing off aspects of 
+ games that you find intriguing\, no matter the engine.\n- And whatever els
+ e you can come up with to show in 5 minutes that may spark interest.\n\n3.
+  Afterwards we will hang out\, chat and maybe get a drink at ScuBar downst
+ airs in the basement! 🦜🍻\n\nYou can also join us via Discord on our 
+ Discord Server. ☎️\nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us
+  on Mastodon for updates. 📢\nhttps://mastodon.gamedev.place/@GodotUserG
+ roupBerlin\n\nAlso ask Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210913T114048Z
+DTSTAMP:20220130T171814Z
+LAST-MODIFIED:20220130T171814Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20210913T180000
+DTEND;TZID=Europe/Berlin:20210913T220000
+SUMMARY:offener Montag
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20220207T165959Z
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RELATED-TO;RELTYPE=SIBLING:5ed96d0b-eace-4e0c-a756-03e3798d8d9a
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172057Z
+DTSTAMP:20211128T172116Z
+LAST-MODIFIED:20211128T172116Z
+SEQUENCE:2
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20211129T180000
+DTEND;TZID=Europe/Berlin:20211129T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20211129T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172137Z
+DTSTAMP:20211128T172137Z
+LAST-MODIFIED:20211128T172137Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20211206T180000
+DTEND;TZID=Europe/Berlin:20211206T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20211206T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172224Z
+DTSTAMP:20211128T172224Z
+LAST-MODIFIED:20211128T172224Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20211213T180000
+DTEND;TZID=Europe/Berlin:20211213T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20211213T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172315Z
+DTSTAMP:20211128T172315Z
+LAST-MODIFIED:20211128T172315Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20211220T180000
+DTEND;TZID=Europe/Berlin:20211220T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20211220T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172353Z
+DTSTAMP:20211128T172353Z
+LAST-MODIFIED:20211128T172353Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20211227T180000
+DTEND;TZID=Europe/Berlin:20211227T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20211227T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191100Z
+DTSTAMP:20220103T191100Z
+LAST-MODIFIED:20220103T191100Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20220103T180000
+DTEND;TZID=Europe/Berlin:20220103T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20220103T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191142Z
+DTSTAMP:20220103T191142Z
+LAST-MODIFIED:20220103T191142Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20220110T180000
+DTEND;TZID=Europe/Berlin:20220110T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20220110T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191247Z
+DTSTAMP:20220103T191247Z
+LAST-MODIFIED:20220103T191247Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20220117T180000
+DTEND;TZID=Europe/Berlin:20220117T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20220117T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191257Z
+DTSTAMP:20220103T191257Z
+LAST-MODIFIED:20220103T191257Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20220124T180000
+DTEND;TZID=Europe/Berlin:20220124T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20220124T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191321Z
+DTSTAMP:20220103T191321Z
+LAST-MODIFIED:20220103T191321Z
+SEQUENCE:1
+UID:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+DTSTART;TZID=Europe/Berlin:20220131T180000
+DTEND;TZID=Europe/Berlin:20220131T220000
+SUMMARY:Cancelled: offener Montag
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RECURRENCE-ID;TZID=Europe/Berlin:20220131T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T222224Z
+DTSTAMP:20230915T222233Z
+LAST-MODIFIED:20230915T222233Z
+SEQUENCE:2
+UID:bfa4019a-2082-4221-bc78-3b71c81bea65
+DTSTART;TZID=Europe/Berlin:20231220T183000
+DTEND;TZID=Europe/Berlin:20231220T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210916T103250Z
+DTSTAMP:20220130T171742Z
+LAST-MODIFIED:20220130T171742Z
+SEQUENCE:5
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20210916T200000
+DTEND;TZID=Europe/Berlin:20210916T230000
+SUMMARY:Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20220203T185959Z
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RELATED-TO;RELTYPE=SIBLING:1fe91699-8ae1-449c-81f4-3782cc2400f0
+EXDATE;TZID=Europe/Berlin:20210930T200000
+EXDATE;TZID=Europe/Berlin:20211021T200000
+EXDATE;TZID=Europe/Berlin:20211104T200000
+EXDATE;TZID=Europe/Berlin:20211202T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172208Z
+DTSTAMP:20211128T172208Z
+LAST-MODIFIED:20211128T172208Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20211209T200000
+DTEND;TZID=Europe/Berlin:20211209T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20211209T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172308Z
+DTSTAMP:20211128T172308Z
+LAST-MODIFIED:20211128T172308Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20211216T200000
+DTEND;TZID=Europe/Berlin:20211216T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20211216T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172330Z
+DTSTAMP:20211128T172330Z
+LAST-MODIFIED:20211128T172330Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20211223T200000
+DTEND;TZID=Europe/Berlin:20211223T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20211223T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172416Z
+DTSTAMP:20211128T172416Z
+LAST-MODIFIED:20211128T172416Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20211230T200000
+DTEND;TZID=Europe/Berlin:20211230T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20211230T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191106Z
+DTSTAMP:20220103T191106Z
+LAST-MODIFIED:20220103T191106Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20220106T200000
+DTEND;TZID=Europe/Berlin:20220106T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20220106T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191204Z
+DTSTAMP:20220103T191204Z
+LAST-MODIFIED:20220103T191204Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20220113T200000
+DTEND;TZID=Europe/Berlin:20220113T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20220113T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191243Z
+DTSTAMP:20220103T191243Z
+LAST-MODIFIED:20220103T191243Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20220120T200000
+DTEND;TZID=Europe/Berlin:20220120T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20220120T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191309Z
+DTSTAMP:20220103T191309Z
+LAST-MODIFIED:20220103T191309Z
+SEQUENCE:1
+UID:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+DTSTART;TZID=Europe/Berlin:20220127T200000
+DTEND;TZID=Europe/Berlin:20220127T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RECURRENCE-ID;TZID=Europe/Berlin:20220127T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220420T104740Z
+DTSTAMP:20220426T151508Z
+LAST-MODIFIED:20220426T151508Z
+SEQUENCE:4
+UID:2fd4aa80-5ba8-43c7-b1bd-eb17a8b09871
+DTSTART;TZID=Europe/Berlin:20220514T090000
+DTEND;TZID=Europe/Berlin:20220514T153000
+STATUS:CONFIRMED
+SUMMARY:Jugendhackt Interne Schulung
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T222346Z
+DTSTAMP:20230915T222353Z
+LAST-MODIFIED:20230915T222353Z
+SEQUENCE:2
+UID:1ee51937-dbc7-47e2-a2d0-340d0569d9dd
+DTSTART;TZID=Europe/Berlin:20240103T183000
+DTEND;TZID=Europe/Berlin:20240103T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210918T090056Z
+DTSTAMP:20210918T090205Z
+LAST-MODIFIED:20210918T090205Z
+SEQUENCE:2
+UID:4d102117-ab45-460b-bdde-966b99e35ada
+DTSTART;TZID=Europe/Berlin:20210926T120000
+DTEND;TZID=Europe/Berlin:20210926T150000
+SUMMARY:Nähgruppe (geschlossenes Event)
+DESCRIPTION:geschlossenes Event. Interessierte können sich bei uns im Rock
+ et chat.x-hain.de im Channel #textiles melden für weitere Termine
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211012T183354Z
+DTSTAMP:20220130T171819Z
+LAST-MODIFIED:20220130T171819Z
+SEQUENCE:3
+UID:52cf61f3-efd2-4523-966a-6926e434d10d
+DTSTART;TZID=Europe/Berlin:20211012T193000
+DTEND;TZID=Europe/Berlin:20211012T223000
+DESCRIPTION:https://qubesusersberlin.github.io 
+SUMMARY:Qubes OS Users Berlin Meetup
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=2;UNTIL=20220208T182959Z
+RELATED-TO;RELTYPE=SIBLING:515cf8b1-81bb-43aa-ab43-1204ca652f72
+RELATED-TO;RELTYPE=SIBLING:11551bcc-82bc-4e59-8233-991526d60211
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172228Z
+DTSTAMP:20211128T172228Z
+LAST-MODIFIED:20211128T172228Z
+SEQUENCE:1
+UID:52cf61f3-efd2-4523-966a-6926e434d10d
+DTSTART;TZID=Europe/Berlin:20211214T193000
+DTEND;TZID=Europe/Berlin:20211214T223000
+DESCRIPTION:https://qubesusersberlin.github.io 
+SUMMARY:Cancelled: Qubes OS Users Berlin Meetup
+RELATED-TO;RELTYPE=SIBLING:515cf8b1-81bb-43aa-ab43-1204ca652f72
+RECURRENCE-ID;TZID=Europe/Berlin:20211214T193000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191147Z
+DTSTAMP:20220103T191147Z
+LAST-MODIFIED:20220103T191147Z
+SEQUENCE:1
+UID:52cf61f3-efd2-4523-966a-6926e434d10d
+DTSTART;TZID=Europe/Berlin:20220111T193000
+DTEND;TZID=Europe/Berlin:20220111T223000
+DESCRIPTION:https://qubesusersberlin.github.io 
+SUMMARY:Cancelled: Qubes OS Users Berlin Meetup
+RELATED-TO;RELTYPE=SIBLING:515cf8b1-81bb-43aa-ab43-1204ca652f72
+RECURRENCE-ID;TZID=Europe/Berlin:20220111T193000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210918T162327Z
+DTSTAMP:20210918T162446Z
+LAST-MODIFIED:20210918T162446Z
+SEQUENCE:6
+UID:c511acec-b6f7-49e1-8b05-ae20023b5692
+DTSTART;TZID=Europe/Berlin:20210921T190000
+DTEND;TZID=Europe/Berlin:20210921T210000
+SUMMARY:Gespräch unter Bäumen mit Maria Reimer
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211025T090353Z
+DTSTAMP:20220130T171802Z
+LAST-MODIFIED:20220130T171802Z
+SEQUENCE:5
+UID:bb0c0d34-827b-4d8f-bca5-316cb282e849
+DTSTART;TZID=Europe/Berlin:20211030T110000
+DTEND;TZID=Europe/Berlin:20211030T170000
+STATUS:CONFIRMED
+SUMMARY:Members Only: x-Hain Infrastructure
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20220205T095959Z
+EXDATE;TZID=Europe/Berlin:20211127T110000
+RELATED-TO;RELTYPE=SIBLING:67bb11db-1c57-4e40-8393-85dccd74e73d
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172335Z
+DTSTAMP:20211128T172343Z
+LAST-MODIFIED:20211128T172343Z
+SEQUENCE:2
+UID:bb0c0d34-827b-4d8f-bca5-316cb282e849
+DTSTART;TZID=Europe/Berlin:20211225T110000
+DTEND;TZID=Europe/Berlin:20211225T170000
+STATUS:CONFIRMED
+SUMMARY:Members Only: x-Hain Infrastructure
+RECURRENCE-ID;TZID=Europe/Berlin:20211225T110000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191115Z
+DTSTAMP:20220103T191115Z
+LAST-MODIFIED:20220103T191115Z
+SEQUENCE:1
+UID:bb0c0d34-827b-4d8f-bca5-316cb282e849
+DTSTART;TZID=Europe/Berlin:20220108T110000
+DTEND;TZID=Europe/Berlin:20220108T170000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: Members Only: x-Hain Infrastructure
+RECURRENCE-ID;TZID=Europe/Berlin:20220108T110000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191250Z
+DTSTAMP:20220103T191250Z
+LAST-MODIFIED:20220103T191250Z
+SEQUENCE:1
+UID:bb0c0d34-827b-4d8f-bca5-316cb282e849
+DTSTART;TZID=Europe/Berlin:20220122T110000
+DTEND;TZID=Europe/Berlin:20220122T170000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: Members Only: x-Hain Infrastructure
+RECURRENCE-ID;TZID=Europe/Berlin:20220122T110000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210920T095421Z
+DTSTAMP:20210927T092754Z
+LAST-MODIFIED:20210927T092754Z
+SEQUENCE:3
+UID:4fb0a574-8b0d-4011-b791-c353aef683c3
+DTSTART;TZID=Europe/Berlin:20211027T190000
+DTEND;TZID=Europe/Berlin:20211027T210000
+SUMMARY:Gespräch unter Bäumen mit Ulrike Thalheim
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211122T112633Z
+DTSTAMP:20220130T171737Z
+LAST-MODIFIED:20220130T171737Z
+SEQUENCE:3
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211125T160000
+DTEND;TZID=Europe/Berlin:20211125T200000
+STATUS:CONFIRMED
+SUMMARY:FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20220203T145959Z
+RELATED-TO;RELTYPE=SIBLING:a7cf0a66-89f5-4a14-aa8b-4359b942c496
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172110Z
+DTSTAMP:20211128T172110Z
+LAST-MODIFIED:20211128T172110Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211202T160000
+DTEND;TZID=Europe/Berlin:20211202T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20211202T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172203Z
+DTSTAMP:20211128T172203Z
+LAST-MODIFIED:20211128T172203Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211209T160000
+DTEND;TZID=Europe/Berlin:20211209T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20211209T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172303Z
+DTSTAMP:20211128T172303Z
+LAST-MODIFIED:20211128T172303Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211216T160000
+DTEND;TZID=Europe/Berlin:20211216T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20211216T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172326Z
+DTSTAMP:20211128T172326Z
+LAST-MODIFIED:20211128T172326Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211223T160000
+DTEND;TZID=Europe/Berlin:20211223T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20211223T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20211128T172412Z
+DTSTAMP:20211128T172412Z
+LAST-MODIFIED:20211128T172412Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20211230T160000
+DTEND;TZID=Europe/Berlin:20211230T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20211230T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191110Z
+DTSTAMP:20220103T191110Z
+LAST-MODIFIED:20220103T191110Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20220106T160000
+DTEND;TZID=Europe/Berlin:20220106T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20220106T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191200Z
+DTSTAMP:20220103T191200Z
+LAST-MODIFIED:20220103T191200Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20220113T160000
+DTEND;TZID=Europe/Berlin:20220113T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20220113T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191240Z
+DTSTAMP:20220103T191240Z
+LAST-MODIFIED:20220103T191240Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20220120T160000
+DTEND;TZID=Europe/Berlin:20220120T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20220120T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220103T191305Z
+DTSTAMP:20220103T191305Z
+LAST-MODIFIED:20220103T191305Z
+SEQUENCE:1
+UID:facea5ee-756d-4108-a996-789d9422393a
+DTSTART;TZID=Europe/Berlin:20220127T160000
+DTEND;TZID=Europe/Berlin:20220127T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RECURRENCE-ID;TZID=Europe/Berlin:20220127T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T151648Z
+DTSTAMP:20220210T151727Z
+LAST-MODIFIED:20220210T151727Z
+SEQUENCE:2
+UID:e7bc1b6c-8ddd-4e35-b70e-9bc8164eef8d
+DTSTART;TZID=Europe/Berlin:20220226T140000
+DTEND;TZID=Europe/Berlin:20220226T193000
+STATUS:CONFIRMED
+SUMMARY:Members only: Infrastructure Day
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220304T125719Z
+DTSTAMP:20220404T143545Z
+LAST-MODIFIED:20220404T143545Z
+SEQUENCE:4
+UID:c1373dd0-8a27-4b82-a6e5-b521b5717d0a
+DTSTART;VALUE=DATE:20220420
+DTEND;VALUE=DATE:20220422
+STATUS:CONFIRMED
+SUMMARY:xHain closed for all (ask Felix)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210920T095621Z
+DTSTAMP:20211115T142941Z
+LAST-MODIFIED:20211115T142941Z
+SEQUENCE:4
+UID:7b0b2eb6-dca6-40c6-80ad-110298fa3a1c
+DTSTART;TZID=Europe/Berlin:20211116T190000
+DTEND;TZID=Europe/Berlin:20211116T210000
+SUMMARY:abgesagt: Gespräch unter Bäumen mit Lena Rohrbach
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171737Z
+DTSTAMP:20220504T105047Z
+LAST-MODIFIED:20220504T105047Z
+SEQUENCE:2
+UID:a7cf0a66-89f5-4a14-aa8b-4359b942c496
+DTSTART;TZID=Europe/Berlin:20220203T160000
+DTEND;TZID=Europe/Berlin:20220203T200000
+STATUS:CONFIRMED
+SUMMARY:Cancelled: FLINTA Meetup
+DESCRIPTION:freies basteln/coden/werkeln nur für FLINTA-Personen\, bei Fra
+ gen wendet euch an @Shi0 im Rocket chat.x-Hain.de
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20220505T135959Z
+RELATED-TO;RELTYPE=SIBLING:facea5ee-756d-4108-a996-789d9422393a
+EXDATE;TZID=Europe/Berlin:20220407T160000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T152419Z
+DTSTAMP:20220210T152441Z
+LAST-MODIFIED:20220210T152441Z
+SEQUENCE:2
+UID:f8d9191e-a7ef-40f4-b3dd-612c1dd2d0a9
+DTSTART;TZID=Europe/Berlin:20220308T140000
+DTEND;TZID=Europe/Berlin:20220308T170000
+STATUS:CONFIRMED
+SUMMARY:Online: Jugendhackt Internationaler Frauentag / Community Talk
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230224T152336Z
+DTSTAMP:20230227T115419Z
+LAST-MODIFIED:20230227T115419Z
+SEQUENCE:3
+UID:4cf5a2ae-420f-4cba-93d2-434faf0de11a
+DTSTART;TZID=Europe/Berlin:20230311T110000
+DTEND;TZID=Europe/Berlin:20230311T190000
+STATUS:CONFIRMED
+SUMMARY:infrastructure and dinner
+DESCRIPTION:Let's meet once a month to work on infrastructure things\, may 
+ it be sorting screws\, cleaning the space or building cool things. It's a 
+ nice way to also get to know each other and have a nice lunch/dinner toget
+ her afterwards.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210920T095652Z
+DTSTAMP:20211128T172320Z
+LAST-MODIFIED:20211128T172320Z
+SEQUENCE:3
+UID:976369e1-5eeb-47ed-b399-29292794cc71
+DTSTART;TZID=Europe/Berlin:20211221T190000
+DTEND;TZID=Europe/Berlin:20211221T210000
+SUMMARY:Cancelled: Gespräch unter Bäumen mit Gesine Born
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171742Z
+DTSTAMP:20220210T152912Z
+LAST-MODIFIED:20220210T152912Z
+SEQUENCE:1
+UID:1fe91699-8ae1-449c-81f4-3782cc2400f0
+DTSTART;TZID=Europe/Berlin:20220203T200000
+DTEND;TZID=Europe/Berlin:20220203T230000
+SUMMARY:Cancelled: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20220224T185959Z
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RELATED-TO;RELTYPE=SIBLING:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+RELATED-TO;RELTYPE=SIBLING:22e4312d-8a3f-442a-b0c5-d53d3e12483a
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T152942Z
+DTSTAMP:20220210T152942Z
+LAST-MODIFIED:20220210T152942Z
+SEQUENCE:1
+UID:1fe91699-8ae1-449c-81f4-3782cc2400f0
+DTSTART;TZID=Europe/Berlin:20220210T200000
+DTEND;TZID=Europe/Berlin:20220210T230000
+SUMMARY:Online: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RELATED-TO;RELTYPE=SIBLING:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+RELATED-TO;RELTYPE=SIBLING:22e4312d-8a3f-442a-b0c5-d53d3e12483a
+RECURRENCE-ID;TZID=Europe/Berlin:20220210T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T152951Z
+DTSTAMP:20220210T152951Z
+LAST-MODIFIED:20220210T152951Z
+SEQUENCE:1
+UID:1fe91699-8ae1-449c-81f4-3782cc2400f0
+DTSTART;TZID=Europe/Berlin:20220217T200000
+DTEND;TZID=Europe/Berlin:20220217T230000
+SUMMARY:Online: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RELATED-TO;RELTYPE=SIBLING:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+RELATED-TO;RELTYPE=SIBLING:22e4312d-8a3f-442a-b0c5-d53d3e12483a
+RECURRENCE-ID;TZID=Europe/Berlin:20220217T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210920T125758Z
+DTSTAMP:20210920T125910Z
+LAST-MODIFIED:20210920T125910Z
+SEQUENCE:2
+UID:3792014c-3ecd-4f86-9a15-5f6729ca0975
+DTSTART;TZID=Europe/Berlin:20211011T090000
+DTEND;TZID=Europe/Berlin:20211011T150000
+SUMMARY:Ferienschule (closed event)
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20211022T220000Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171802Z
+DTSTAMP:20220210T154434Z
+LAST-MODIFIED:20220210T154434Z
+SEQUENCE:1
+UID:67bb11db-1c57-4e40-8393-85dccd74e73d
+DTSTART;TZID=Europe/Berlin:20220205T140000
+DTEND;TZID=Europe/Berlin:20220205T200000
+STATUS:CONFIRMED
+SUMMARY:Members Only: x-Hain Infrastructure
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20220402T115959Z
+RELATED-TO;RELTYPE=SIBLING:bb0c0d34-827b-4d8f-bca5-316cb282e849
+RELATED-TO;RELTYPE=SIBLING:6267adfd-0d74-42ed-bb5a-001f3334ec22
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220304T125649Z
+DTSTAMP:20220304T125649Z
+LAST-MODIFIED:20220304T125649Z
+SEQUENCE:1
+UID:67bb11db-1c57-4e40-8393-85dccd74e73d
+DTSTART;TZID=Europe/Berlin:20220305T140000
+DTEND;TZID=Europe/Berlin:20220305T200000
+STATUS:CONFIRMED
+SUMMARY:cancelld: Members Only: x-Hain Infrastructure
+RELATED-TO;RELTYPE=SIBLING:bb0c0d34-827b-4d8f-bca5-316cb282e849
+RELATED-TO;RELTYPE=SIBLING:6267adfd-0d74-42ed-bb5a-001f3334ec22
+RECURRENCE-ID;TZID=Europe/Berlin:20220305T140000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154340Z
+DTSTAMP:20220210T154400Z
+LAST-MODIFIED:20220210T154400Z
+SEQUENCE:2
+UID:88c3337b-e947-499b-baaf-ec8e3fd96308
+DTSTART;TZID=Europe/Berlin:20220326T140000
+DTEND;TZID=Europe/Berlin:20220326T170000
+STATUS:CONFIRMED
+SUMMARY:Jugendhackt: Open Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20210924T101032Z
+DTSTAMP:20210924T101128Z
+LAST-MODIFIED:20210924T101128Z
+SEQUENCE:2
+UID:3d9578fc-f2aa-4bd6-a6c7-c06f4cf37939
+DTSTART;TZID=Europe/Berlin:20211001T190000
+DTEND;TZID=Europe/Berlin:20211001T220000
+SUMMARY:open source AI meet-up
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171814Z
+DTSTAMP:20220327T133104Z
+LAST-MODIFIED:20220327T133104Z
+SEQUENCE:1
+UID:5ed96d0b-eace-4e0c-a756-03e3798d8d9a
+DTSTART;TZID=Europe/Berlin:20220207T180000
+DTEND;TZID=Europe/Berlin:20220207T220000
+SUMMARY:Cancelled: offener Montag
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20220328T155959Z
+RELATED-TO;RELTYPE=SIBLING:3fcbcbb1-0272-43ce-ac35-ff7b0fcddee6
+RELATED-TO;RELTYPE=SIBLING:647f9570-4a8c-45a0-8a04-8bb9ee4e56be
+RELATED-TO;RELTYPE=SIBLING:6bc74874-078e-4bbe-a07e-844021b33ad8
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154434Z
+DTSTAMP:20220210T154522Z
+LAST-MODIFIED:20220210T154522Z
+SEQUENCE:1
+UID:6267adfd-0d74-42ed-bb5a-001f3334ec22
+DTSTART;TZID=Europe/Berlin:20220408T140000
+DTEND;TZID=Europe/Berlin:20220408T200000
+STATUS:CONFIRMED
+SUMMARY:Members Only: x-Hain Infrastructure
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20220409T115959Z
+RELATED-TO;RELTYPE=SIBLING:bb0c0d34-827b-4d8f-bca5-316cb282e849
+RELATED-TO;RELTYPE=SIBLING:67bb11db-1c57-4e40-8393-85dccd74e73d
+RELATED-TO;RELTYPE=SIBLING:083a1696-46aa-46b0-9d2f-2d0fb3bd896b
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154522Z
+DTSTAMP:20220210T155358Z
+LAST-MODIFIED:20220210T155358Z
+SEQUENCE:3
+UID:083a1696-46aa-46b0-9d2f-2d0fb3bd896b
+DTSTART;TZID=Europe/Berlin:20220402T140000
+DTEND;TZID=Europe/Berlin:20220402T200000
+STATUS:CONFIRMED
+SUMMARY:Members Only: x-Hain Infrastructure
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=SA;UNTIL=20220514T115959Z
+RELATED-TO;RELTYPE=SIBLING:bb0c0d34-827b-4d8f-bca5-316cb282e849
+RELATED-TO;RELTYPE=SIBLING:67bb11db-1c57-4e40-8393-85dccd74e73d
+RELATED-TO;RELTYPE=SIBLING:6267adfd-0d74-42ed-bb5a-001f3334ec22
+RELATED-TO;RELTYPE=SIBLING:4d94ee05-a680-4619-aa3f-9a5cf4a2c399
+EXDATE;TZID=Europe/Berlin:20220430T140000
+EXDATE;TZID=Europe/Berlin:20220416T140000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T222409Z
+DTSTAMP:20230915T222419Z
+LAST-MODIFIED:20230915T222419Z
+SEQUENCE:2
+UID:ee842d47-2d1a-4c3c-8c82-2f74efd11894
+DTSTART;TZID=Europe/Berlin:20240117T183000
+DTEND;TZID=Europe/Berlin:20240117T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171823Z
+DTSTAMP:20220401T092909Z
+LAST-MODIFIED:20220401T092909Z
+SEQUENCE:1
+UID:75a80f4e-ef8b-4649-a791-d2378df78176
+DTSTART:20220209T180000Z
+DTEND:20220209T210000Z
+SUMMARY:Cancelled: XMPP-Meetup
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2;UNTIL=20220413T175959Z
+RELATED-TO;RELTYPE=SIBLING:0f6ce709-5c61-4b2c-a83f-a0522e2b6057
+RELATED-TO;RELTYPE=SIBLING:cac55057-5a3c-4a0e-b4f4-98a0d4e395fa
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154559Z
+DTSTAMP:20220210T154637Z
+LAST-MODIFIED:20220210T154637Z
+SEQUENCE:2
+UID:598738eb-7f77-4e83-bdb8-389125c58dfd
+DTSTART;TZID=Europe/Berlin:20220412T140000
+DTEND;TZID=Europe/Berlin:20220412T170000
+STATUS:CONFIRMED
+SUMMARY:Jugendhackt: Open Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220204T184723Z
+DTSTAMP:20220210T151641Z
+LAST-MODIFIED:20220210T151641Z
+SEQUENCE:3
+UID:e51800b1-6fb5-4bb5-b33a-3ad9b9611994
+DTSTART;TZID=Europe/Berlin:20220226T140000
+DTEND;TZID=Europe/Berlin:20220226T170000
+STATUS:CONFIRMED
+SUMMARY:Online: Jugendhackt & Coder DOJO
+DESCRIPTION:https://jugendhackt.org/lab/berlin/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154812Z
+DTSTAMP:20220210T155319Z
+LAST-MODIFIED:20220210T155319Z
+SEQUENCE:3
+UID:b3f92efd-7801-4d22-89ab-b794fa554708
+DTSTART;TZID=Europe/Berlin:20220430T140000
+DTEND;TZID=Europe/Berlin:20220430T170000
+STATUS:CONFIRMED
+SUMMARY:Jugendhackt: ATTiny I - Microcontroller programmieren
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230401T074700Z
+DTSTAMP:20230401T074738Z
+LAST-MODIFIED:20230401T074738Z
+SEQUENCE:2
+UID:294dd56d-3ba3-4ed4-872d-b2e6e559d4fc
+DTSTART;TZID=Europe/Berlin:20230503T183000
+DTEND;TZID=Europe/Berlin:20230503T203000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin
+DESCRIPTION:ask Matteo for more
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154947Z
+DTSTAMP:20220210T155001Z
+LAST-MODIFIED:20220210T155001Z
+SEQUENCE:3
+UID:8656ad9b-c550-43d7-bcf8-ac67da9469a0
+DTSTART;TZID=Europe/Berlin:20220521T140000
+DTEND;TZID=Europe/Berlin:20220521T170000
+STATUS:CONFIRMED
+SUMMARY:Jugendhackt: ATTiny II - Microcontroller programmieren
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T155057Z
+DTSTAMP:20220210T155112Z
+LAST-MODIFIED:20220210T155112Z
+SEQUENCE:2
+UID:4552df96-e43c-4274-935e-fe032f14cc12
+DTSTART;TZID=Europe/Berlin:20220312T140000
+DTEND;TZID=Europe/Berlin:20220312T200000
+STATUS:CONFIRMED
+SUMMARY:Members only: Infrastructure Day
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230401T103801Z
+DTSTAMP:20230401T103856Z
+LAST-MODIFIED:20230401T103856Z
+SEQUENCE:2
+UID:af6901c0-cbba-4745-9331-867bffa3d68e
+DTSTART;TZID=Europe/Berlin:20230406T180000
+DTEND;TZID=Europe/Berlin:20230406T200000
+STATUS:CONFIRMED
+SUMMARY:Fusion360 for xHain's CNC  Workshop
+DESCRIPTION:Markus will first tell people how to design something in fusion
+ 360 and then setup for the use of the CNC machine
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T155212Z
+DTSTAMP:20220404T143410Z
+LAST-MODIFIED:20220404T143410Z
+SEQUENCE:5
+UID:7f05bdc3-86e7-4de0-b187-26dd6d4840e7
+DTSTART;TZID=Europe/Berlin:20220423T140000
+DTEND;TZID=Europe/Berlin:20220423T200000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure Day
+RRULE:FREQ=DAILY;INTERVAL=14;UNTIL=20220604T115959Z
+EXDATE;TZID=Europe/Berlin:20220521T140000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230305T144015Z
+DTSTAMP:20230305T144107Z
+LAST-MODIFIED:20230305T144107Z
+SEQUENCE:2
+UID:7edc3d9d-3445-4e17-b8d8-1abe1ede9635
+DTSTART;TZID=Europe/Berlin:20230309T180000
+DTEND;TZID=Europe/Berlin:20230309T200000
+STATUS:CONFIRMED
+SUMMARY:Fusion360/CNC work shop
+DESCRIPTION:We will probably focus on how to import and scale 2d file types
+  (dxf and jpg) and some tips  to work around the issues with some DXF file
+ s.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T155604Z
+DTSTAMP:20220210T155619Z
+LAST-MODIFIED:20220210T155619Z
+SEQUENCE:2
+UID:6323a70c-62c9-4c0a-a53c-0718f73d0453
+DTSTART;TZID=Europe/Berlin:20220212T140000
+DTEND;TZID=Europe/Berlin:20220212T200000
+STATUS:CONFIRMED
+SUMMARY:Members only: Infrastructure Day
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221231T135824Z
+UID:48d4dfe2-641c-41b9-b3aa-57792ab19abb
+SUMMARY:xHain Maintenance and More
+DESCRIPTION:Anyone can come and see the space\, but be aware that there mig
+ ht be loud tools running and some cursing around working on projects for t
+ he xHain. This is a good chance to talk to other members and get to know t
+ he space a bit better.\n\nhttps://wiki.x-hain.de/en/Infrastructure/tasks
+DTSTART;TZID=Europe/Berlin:20220820T140000
+DTEND;TZID=Europe/Berlin:20220820T200000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20230107T125959Z
+STATUS:CONFIRMED
+EXDATE;TZID=Europe/Berlin:20220917T140000
+SEQUENCE:2
+LAST-MODIFIED:20221231T135824Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221019T114651Z
+UID:48d4dfe2-641c-41b9-b3aa-57792ab19abb
+SUMMARY:xHain Maintenance and More
+DESCRIPTION:Anyone can come and see the space\, but be aware that there mig
+ ht be loud tools running and some cursing around working on projects for t
+ he xHain. This is a good chance to talk to other members and get to know t
+ he space a bit better.\n\nhttps://wiki.x-hain.de/en/Infrastructure/tasks
+DTSTART;TZID=Europe/Berlin:20221022T170000
+DTEND;TZID=Europe/Berlin:20221022T220000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20221019T114651Z
+RECURRENCE-ID;TZID=Europe/Berlin:20221022T140000
+CREATED:20221019T114651Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221021T132057Z
+UID:48d4dfe2-641c-41b9-b3aa-57792ab19abb
+SUMMARY:xHain Maintenance and More
+DESCRIPTION:Anyone can come and see the space\, but be aware that there mig
+ ht be loud tools running and some cursing around working on projects for t
+ he xHain. This is a good chance to talk to other members and get to know t
+ he space a bit better.\n\nhttps://wiki.x-hain.de/en/Infrastructure/tasks
+DTSTART;TZID=Europe/Berlin:20221126T170000
+DTEND;TZID=Europe/Berlin:20221126T220000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20221021T132057Z
+RECURRENCE-ID;TZID=Europe/Berlin:20221126T140000
+CREATED:20221021T132057Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T084714Z
+DTSTAMP:20230801T143315Z
+LAST-MODIFIED:20230801T143315Z
+SEQUENCE:5
+UID:18d2733d-2211-4297-ada7-60e8a2187eb6
+DTSTART;VALUE=DATE:20230815
+DTEND;VALUE=DATE:20230816
+STATUS:CONFIRMED
+SUMMARY:CCCamp2023
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220922T080020Z
+UID:1bebcf82-b39a-4554-8403-e3a7631efea6
+SUMMARY:xHain member meeting
+DTSTART;TZID=Europe/Berlin:20221007T190000
+DTEND;TZID=Europe/Berlin:20221007T230000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221019T114653Z
+DTSTAMP:20221019T114902Z
+LAST-MODIFIED:20221019T114902Z
+SEQUENCE:2
+UID:533a490b-56f9-4219-a275-2f939d23f1b9
+DTSTART;TZID=Europe/Berlin:20221022T140000
+DTEND;TZID=Europe/Berlin:20221022T170000
+STATUS:CONFIRMED
+SUMMARY:JugendHackt Offenes Lab
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220827T102946Z
+UID:5c7c78fc-1233-40f7-b786-4b5ea2e3f074
+SUMMARY:Coder Dojo
+DESCRIPTION:Die hast noch keine oder sehr geringe Vorkenntnisse im Programm
+ ieren - dann komm zu unserem Einführungsworkshop am 2. Oktober 2022 vorbe
+ i. Wir treffen uns in präsenz\, also so richtig in Bunt und in Farbe im x
+ -hain in der Grünberger Straße 16 (zwischen U-Bhf. Warschauer Straße un
+ d Frankfurter Tor). Wir beginnen nicht mit dem Rechner\, sondern mit einem
+  Brettspiel. So lernst du\, wie Programmierer denken. Wenn du dein eigenes
+  Notebook (kein Tablet!) mitbringst\, helfen wir dir dabei\, die notwendig
+ en Komponenten zu installieren\, die du zum Programmieren brauchst. Falls 
+ du über kein eigenes Gerät verfügst\, sag uns vorher Bescheid und wir s
+ tellen dir ein Leihgerät zu Verfügung. Danach beginnen wir mit den erste
+ n Schritten in Python. Solltest du schon paar Vorerfahrungen mitbringen\, 
+ so haben wir für dich auch passende Herausforderungen. Der Workshop finde
+ t von 14 bis 17 Uhr statt.\n\nUm unseren Workshop besser planen zu können
+ \, buche Dir bitte vorher über die Coderdojo-Seite ein Ticket.\n\nhttps:/
+ /zen.coderdojo.com/dojos/de/berlin/berlin-mitte-xhain
+DTSTART;TZID=Europe/Berlin:20221002T140000
+DTEND;TZID=Europe/Berlin:20221002T170000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230404T053321Z
+DTSTAMP:20230404T053335Z
+LAST-MODIFIED:20230404T053335Z
+SEQUENCE:2
+UID:cc5f454b-91c3-493d-ab68-113acd84f734
+DTSTART;TZID=Europe/Berlin:20230822T160000
+DTEND;TZID=Europe/Berlin:20230822T200000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin - Gamescom Prelude
+DESCRIPTION:ask Matteo for more
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230421T203851Z
+DTSTAMP:20230421T204229Z
+LAST-MODIFIED:20230421T204229Z
+SEQUENCE:4
+UID:4cdc5f74-43c2-4f99-8af3-1d3d080240c1
+DTSTART;TZID=Europe/Berlin:20230422T150000
+DTEND;TZID=Europe/Berlin:20230422T170000
+STATUS:CONFIRMED
+SUMMARY:Internal Enting Meeting
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T154859Z
+DTSTAMP:20220510T085054Z
+LAST-MODIFIED:20220510T085054Z
+SEQUENCE:4
+UID:548b9ade-58eb-4cdc-8e5f-62ed7e166077
+DTSTART;TZID=Europe/Berlin:20220510T160000
+DTEND;TZID=Europe/Berlin:20220510T190000
+STATUS:CONFIRMED
+SUMMARY:ABGESAGT Jugendhackt: Thunkable
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220130T171819Z
+DTSTAMP:20220510T090033Z
+LAST-MODIFIED:20220510T090033Z
+SEQUENCE:1
+UID:11551bcc-82bc-4e59-8233-991526d60211
+DTSTART;TZID=Europe/Berlin:20220208T193000
+DTEND;TZID=Europe/Berlin:20220208T223000
+DESCRIPTION:https://qubesusersberlin.github.io 
+SUMMARY:Cancelled: Qubes OS Users Berlin Meetup
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=2;UNTIL=20220510T172959Z
+RELATED-TO;RELTYPE=SIBLING:515cf8b1-81bb-43aa-ab43-1204ca652f72
+RELATED-TO;RELTYPE=SIBLING:52cf61f3-efd2-4523-966a-6926e434d10d
+RELATED-TO;RELTYPE=SIBLING:6b6f957a-9f1b-4502-9d99-2ae0649fac24
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221222T230230Z
+DTSTAMP:20230209T105322Z
+LAST-MODIFIED:20230209T105322Z
+SEQUENCE:6
+UID:e6436044-36a2-4d34-b50d-4c6855f97133
+DTSTART;TZID=Europe/Berlin:20230119T183000
+DTEND;TZID=Europe/Berlin:20230119T203000
+STATUS:CONFIRMED
+SUMMARY:Workshop - Learn PCB design with KiCad
+LOCATION:xHain
+DESCRIPTION:A beginner friendly introduction to learn PCB design with KiCad
+ . It's not as complicated as you think!:) Basic electronics knowledge reco
+ mmended. \n\nWhat you should bring with you:\nPlease being your laptop. Wi
+ th Windows\, macOS\, or Linux.\nAnd prepare for the workshop by downloadin
+ g this repo as a zip and follow the "Workshop preparation" part of the REA
+ DME:\nhttp://pcb-workshop.glowingkitty.com/\n\nMore details & other LED re
+ lated events: https://events.glowingkitty.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20220210T152912Z
+DTSTAMP:20220511T102026Z
+LAST-MODIFIED:20220511T102026Z
+SEQUENCE:2
+UID:22e4312d-8a3f-442a-b0c5-d53d3e12483a
+DTSTART;TZID=Europe/Berlin:20220224T200000
+DTEND;TZID=Europe/Berlin:20220224T230000
+SUMMARY:Online: Android Co-Learning
+DESCRIPTION:https://adg-berlin.herokuapp.com/\nhttps://www.meetup.com/berli
+ ndroid/events/
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20220519T175959Z
+RELATED-TO;RELTYPE=SIBLING:d066a63c-018f-4e59-92de-03a912e4631d
+RELATED-TO;RELTYPE=SIBLING:31eb5bbd-7778-459c-a0c3-7c2c6194b122
+RELATED-TO;RELTYPE=SIBLING:1fe91699-8ae1-449c-81f4-3782cc2400f0
+RELATED-TO;RELTYPE=SIBLING:497ab3dc-f676-45c2-8fb0-40dbe6896ed9
+EXDATE;TZID=Europe/Berlin:20220407T200000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230502T071636Z
+DTSTAMP:20230508T181039Z
+LAST-MODIFIED:20230508T181039Z
+SEQUENCE:4
+UID:2b24ac7f-f6a4-44f8-994f-6546c8d3d340
+DTSTART;TZID=Europe/Berlin:20230527T130000
+DTEND;TZID=Europe/Berlin:20230527T140000
+STATUS:CONFIRMED
+SUMMARY:Besuch vom CCCHH
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230516T203656Z
+DTSTAMP:20230516T203659Z
+LAST-MODIFIED:20230516T203659Z
+SEQUENCE:2
+UID:bf072ba4-9032-40b8-9f7a-0c1a77d4e11f
+DTSTART;TZID=Europe/Berlin:20230523T200000
+DTEND;TZID=Europe/Berlin:20230523T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221021T132059Z
+DTSTAMP:20221021T132224Z
+LAST-MODIFIED:20221021T132224Z
+SEQUENCE:2
+UID:50df8c4a-5d59-4bb9-980d-b7a0b951100d
+DTSTART;TZID=Europe/Berlin:20221126T140000
+DTEND;TZID=Europe/Berlin:20221126T170000
+STATUS:CONFIRMED
+SUMMARY:JugendHackt Lab - Programmier dein Weltraumspiel mit pygames
+DESCRIPTION:Du hast die ersten Schritte in Python bereits gemacht und Begri
+ ffe wie Integer und Strings sind keine Fremdworte mehr für dich? Mit For-
+  und While-Schleifen kommst du bereits zurecht und Funktionen hast du scho
+ n mal benutzt? Dann lass uns zusammen pygames kennen lernen! Mit pygames k
+ ann man Spiele programmieren. Zusammen wollen wir ein kleines Weltraumspie
+ l coden\, welches zu zweit gespielt werden kann.\n\nBitte bring dein Noteb
+ ook mit\, auf dem idealerweise bereits Python 3.1\, virtualenv und PyCharm
+  installiert ist. Wenn du kein eigenes Notebook hast\, sag uns bitte recht
+ zeitig Bescheid. Dann erhältst du von uns ein Leihgerät.\n\nDu bist dir 
+ unsicher\, ob du fit genug für den Workshop bist? Kein Problem - der Work
+ shops ist für junge Menschen ausgerichtet\, die ungefähr auf dem Niveau 
+ des 7. Kyo sind. Die dortigen Aufgaben solltest du mit Ausnahme des Teils 
+ „Löten“ selber lösen können.\n\nAnmeldung:\nhttps://anmeldung.jugen
+ dhackt.org/berlin/pygames/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221215T152254Z
+DTSTAMP:20221215T152534Z
+LAST-MODIFIED:20221215T152534Z
+SEQUENCE:3
+UID:c19fd135-c17d-4527-a3fa-9aea5a13330c
+DTSTART;TZID=Europe/Berlin:20221220T190000
+DTEND;TZID=Europe/Berlin:20221220T200000
+STATUS:CONFIRMED
+SUMMARY:Gespräch unter Bäumen: out of xHain!
+DESCRIPTION:Wir machen heute einen Ausflug. Wer mit ausfliegen will\, kann 
+ sich zum Newsletter anmelden und kriegt dann alle Infos zugeschickt: https
+ ://mails.gespraeche.x-hain.de/subscription/form
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230421T203902Z
+DTSTAMP:20230421T204209Z
+LAST-MODIFIED:20230421T204209Z
+SEQUENCE:2
+UID:c3aa5edc-19fe-465d-9a16-0fc919862cc4
+DTSTART;TZID=Europe/Berlin:20230422T180000
+DTEND;TZID=Europe/Berlin:20230422T200000
+STATUS:CONFIRMED
+SUMMARY:xProperty - what's next\, what's needed\, who 
+DESCRIPTION:es geht nur um eine Struktur für das xProperty Projekt\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221116T165154Z
+DTSTAMP:20221120T165036Z
+LAST-MODIFIED:20221120T165036Z
+SEQUENCE:4
+UID:f5a136bf-4c99-441d-a055-c060714cf899
+DTSTART;TZID=Europe/Berlin:20230128T110000
+DTEND;TZID=Europe/Berlin:20230128T140000
+STATUS:CONFIRMED
+SUMMARY:CoderDojo: Lötworkshop
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230317T095716Z
+DTSTAMP:20230317T095955Z
+LAST-MODIFIED:20230317T095955Z
+SEQUENCE:2
+UID:5baeeb24-e843-4143-bab8-13ceb8ad0c96
+DTSTART;TZID=Europe/Berlin:20230326T150000
+DTEND;TZID=Europe/Berlin:20230326T180000
+STATUS:CONFIRMED
+SUMMARY:Hackaday Tour
+DESCRIPTION:On March 25th Hackaday Berlin celebrates makers and hackers at 
+ MotionLab. After a Brunch and badge hacking session on Sunday everyone is 
+ invited by Dave to a tour to see our hackspace
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230103T120550Z
+DTSTAMP:20230109T071116Z
+LAST-MODIFIED:20230109T071116Z
+SEQUENCE:5
+UID:290b69b7-aaaf-47d4-88d1-d42366e36163
+DTSTART;TZID=Europe/Berlin:20230122T130000
+DTEND;TZID=Europe/Berlin:20230122T180000
+STATUS:CONFIRMED
+SUMMARY:Kindernachmittag
+DESCRIPTION:Am Sonntag dem 22.1. öffnet der xHain extra für Kinder. Du ka
+ nnst dir die verschiedenen Maschinen und Geräte anschauen und wir zeigen 
+ dir auch\, wie man mit dem 3D-Drucker\, Lasercutter und der Stickmaschine 
+ coole Sachen deiner Wahl erstellen kann.\n\nEs gibt keine Altersbegrenzung
+ . Kinder jünger als 12 Jahre sollten aber von einem Erziehungsberechtigte
+ n begleitet werden.\n\nEs gelten die Regeln des Landes Berlin für Schulen
+ . Diese sind hier zu finden https://www.berlin.de/sen/bjf/corona/schule.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230317T223320Z
+DTSTAMP:20230317T223327Z
+LAST-MODIFIED:20230317T223327Z
+SEQUENCE:2
+UID:f2f00a51-ee5c-476c-989f-f1cb227f45fb
+DTSTART;TZID=Europe/Berlin:20230422T110000
+DTEND;TZID=Europe/Berlin:20230422T140000
+STATUS:CONFIRMED
+SUMMARY:coderdojo soldering workshop
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230502T102757Z
+DTSTAMP:20230502T102903Z
+LAST-MODIFIED:20230502T102903Z
+SEQUENCE:2
+UID:67d09581-b3a3-49eb-a80c-b5e285614a2a
+DTSTART;TZID=Europe/Berlin:20230507T140000
+DTEND;TZID=Europe/Berlin:20230507T160000
+STATUS:CONFIRMED
+SUMMARY:fusion360/CNC router work shop
+DESCRIPTION:learn how to setup fusion360 for our CNC\, first bit is a littl
+ e intro into designing things with fusion360 and the other half is about s
+ etting up the tool chain. 
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230516T203704Z
+DTSTAMP:20230516T203707Z
+LAST-MODIFIED:20230516T203707Z
+SEQUENCE:2
+UID:aa3b6f74-a6d6-4090-8713-6d9a6f3ea564
+DTSTART;TZID=Europe/Berlin:20230530T200000
+DTEND;TZID=Europe/Berlin:20230530T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221118T143132Z
+DTSTAMP:20221118T143414Z
+LAST-MODIFIED:20221118T143414Z
+SEQUENCE:2
+UID:bcc9c2ad-cda4-483e-818a-4ce8930b8f63
+DTSTART;TZID=Europe/Berlin:20221124T183000
+DTEND;TZID=Europe/Berlin:20221124T213000
+STATUS:CONFIRMED
+SUMMARY:LED co-hacking evening
+LOCATION:xHain
+DESCRIPTION:Work on your LED projects with your fellow hackers. More detail
+ s: https://www.meetup.com/led-makers-berlin/events/jplfzsydcpbgc/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230110T122059Z
+DTSTAMP:20230110T122257Z
+LAST-MODIFIED:20230110T122257Z
+SEQUENCE:2
+UID:0c2af467-8096-4bfd-a6f3-2b0c9415efb6
+DTSTART;TZID=Europe/Berlin:20230111T193000
+DTEND;TZID=Europe/Berlin:20230111T203000
+STATUS:CONFIRMED
+SUMMARY:Wiki Wednesday
+DESCRIPTION:The wiki needs some work\, so let's meet and see what we could 
+ work on.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230209T105328Z
+DTSTAMP:20230209T105352Z
+LAST-MODIFIED:20230209T105352Z
+SEQUENCE:2
+UID:dae1e4eb-7213-4620-bc9f-1bdb8a023af9
+DTSTART;TZID=Europe/Berlin:20230223T183000
+DTEND;TZID=Europe/Berlin:20230223T203000
+SUMMARY:Workshop - Learn PCB design with KiCad
+LOCATION:xHain
+DESCRIPTION:A beginner friendly introduction to learn PCB design with KiCad
+ . It's not as complicated as you think!:) Basic electronics knowledge reco
+ mmended. \n\nWhat you should bring with you:\nPlease being your laptop. Wi
+ th Windows\, macOS\, or Linux.\nAnd prepare for the workshop by downloadin
+ g this repo as a zip and follow the "Workshop preparation" part of the REA
+ DME:\nhttp://pcb-workshop.glowingkitty.com/\n\nMore details & other LED re
+ lated events: https://events.glowingkitty.com
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230504T063028Z
+DTSTAMP:20230504T083251Z
+LAST-MODIFIED:20230504T083251Z
+SEQUENCE:3
+UID:986b3aa4-065d-4bb3-8d94-284348407d0d
+DTSTART;VALUE=DATE:20230504
+DTEND;VALUE=DATE:20230505
+STATUS:CONFIRMED
+SUMMARY:May the force be with you\, always!
+RRULE:FREQ=YEARLY;BYMONTH=5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230516T203729Z
+DTSTAMP:20230516T203735Z
+LAST-MODIFIED:20230516T203735Z
+SEQUENCE:2
+UID:28fa6722-c6fe-4ad5-9398-89dee4dd0e4c
+DTSTART;TZID=Europe/Berlin:20230627T200000
+DTEND;TZID=Europe/Berlin:20230627T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230504T083014Z
+DTSTAMP:20230504T083230Z
+LAST-MODIFIED:20230504T083230Z
+SEQUENCE:3
+UID:8b6bd773-7e4a-492a-a749-41caae4f8243
+DTSTART;VALUE=DATE:20230525
+DTEND;VALUE=DATE:20230526
+STATUS:CONFIRMED
+SUMMARY:Towel Day
+DESCRIPTION:Don’t Panic and Always Carry a Towel
+RRULE:FREQ=YEARLY;BYMONTH=5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221119T173515Z
+DTSTAMP:20221119T173645Z
+LAST-MODIFIED:20221119T173645Z
+SEQUENCE:2
+UID:202a7a80-3db9-4c1f-b056-f99fe0e5442c
+DTSTART;TZID=Europe/Berlin:20221211T150000
+DTEND;TZID=Europe/Berlin:20221211T170000
+STATUS:CONFIRMED
+SUMMARY:Workshop - Learn PCB design with KiCad
+DESCRIPTION:Learn how to design (and order) your own PCBs. More details: ht
+ tps://www.meetup.com/led-makers-berlin/events/289850603/
+LOCATION:xHain
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230111T132617Z
+DTSTAMP:20230111T132957Z
+LAST-MODIFIED:20230111T132957Z
+SEQUENCE:2
+UID:0285e608-c21d-45f2-aff8-d49327c4f189
+DTSTART;TZID=Europe/Berlin:20230115T150000
+DTEND;TZID=Europe/Berlin:20230115T170000
+STATUS:CONFIRMED
+SUMMARY:Fusion360 intro for CNC use at xHain
+DESCRIPTION:Markus is generous with his time and spreading the fusion360 kn
+ owledge so we can use the CNC in the future. 
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230309T091817Z
+UID:45893fe8-b6f7-4841-8fb3-78a6a1bbf8ff
+SUMMARY:xHain binge watching night
+DTSTART;TZID=Europe/Berlin:20230319T180000
+DTEND;TZID=Europe/Berlin:20230319T235900
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221119T180415Z
+DTSTAMP:20221119T182255Z
+LAST-MODIFIED:20221119T182255Z
+SEQUENCE:3
+UID:5833e800-615e-4dd9-a701-4aa84ca0a39a
+DTSTART;TZID=Europe/Berlin:20221208T183000
+DTEND;TZID=Europe/Berlin:20221208T213000
+STATUS:CONFIRMED
+SUMMARY:LED co-hacking evening
+LOCATION:xHain
+DESCRIPTION:Work on your LED projects with your fellow hackers. More detail
+ s:\nhttps://www.meetup.com/led-makers-berlin/events/jplfzsydcqblb/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221119T182658Z
+DTSTAMP:20221119T182901Z
+LAST-MODIFIED:20221119T182901Z
+SEQUENCE:2
+UID:2aab72b7-410c-43b3-8be2-461a1d141d0b
+DTSTART;TZID=Europe/Berlin:20221215T183000
+DTEND;TZID=Europe/Berlin:20221215T203000
+STATUS:CONFIRMED
+SUMMARY:Beginners workshop - How to plan & build your own LED project
+LOCATION:xHain
+DESCRIPTION:Learn how to plan & build your own LED project! More details: h
+ ttps://www.meetup.com/led-makers-berlin/events/tplfzsydcqbtb/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220726T084747Z
+UID:29cc88fb-cb4a-4f81-9204-9db964c61aa0
+SEQUENCE:7
+SUMMARY:3D printers meetup
+DTSTART;TZID=Europe/Berlin:20211026T200000
+DTEND;TZID=Europe/Berlin:20211026T220000
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=4;UNTIL=20220524T175959Z
+EXDATE;TZID=Europe/Berlin:20211228T200000
+CLASS:PUBLIC
+STATUS:CONFIRMED
+CREATED:20211013T174821Z
+RELATED-TO;RELTYPE=SIBLING:519acb32-cf57-41ae-ab53-6cafa9f3920d
+LAST-MODIFIED:20220726T084747Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220726T082315Z
+UID:29cc88fb-cb4a-4f81-9204-9db964c61aa0
+RECURRENCE-ID;TZID=Europe/Berlin:20220125T200000
+SEQUENCE:1
+SUMMARY:Cancelled: 3D printers meetup
+DTSTART;TZID=Europe/Berlin:20220125T200000
+DTEND;TZID=Europe/Berlin:20220125T220000
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220726T082315Z
+UID:29cc88fb-cb4a-4f81-9204-9db964c61aa0
+RECURRENCE-ID;TZID=Europe/Berlin:20220222T200000
+SEQUENCE:1
+SUMMARY:Cancelled: 3D printers meetup
+DTSTART;TZID=Europe/Berlin:20220222T200000
+DTEND;TZID=Europe/Berlin:20220222T220000
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220726T082315Z
+UID:29cc88fb-cb4a-4f81-9204-9db964c61aa0
+RECURRENCE-ID;TZID=Europe/Berlin:20220426T200000
+SEQUENCE:1
+SUMMARY:Cancelled: 3D printers meetup
+DTSTART;TZID=Europe/Berlin:20220426T200000
+DTEND;TZID=Europe/Berlin:20220426T220000
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221004T094016Z
+DTSTAMP:20221113T105859Z
+LAST-MODIFIED:20221113T105859Z
+SEQUENCE:4
+UID:73905dda-2fbb-4fab-83c1-b4689c9b9a3b
+DTSTART;TZID=Europe/Berlin:20221120T100000
+DTEND;TZID=Europe/Berlin:20221120T163000
+STATUS:CONFIRMED
+SUMMARY:Gespräch auf der Lichtung (Teil 1)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230120T101100Z
+DTSTAMP:20230120T101135Z
+LAST-MODIFIED:20230120T101135Z
+SEQUENCE:2
+UID:77b564a3-4e8c-4e3b-b9db-990e622d04ff
+DTSTART;TZID=Europe/Berlin:20230122T200000
+DTEND;TZID=Europe/Berlin:20230122T210000
+STATUS:CONFIRMED
+SUMMARY:xHain @ Camp23 Brainstorming
+DESCRIPTION:Let's talk about what we want to do at Camp 2023. We'll discuss
+  possible projects and collaborations. Join this meeting if you are intere
+ sted to organise xHain @ Camp 2023!\nJoin #camp23:x-hain.de on matrix for 
+ further info before!\nThe meeting will be remote in BigBlueButton: https:/
+ /bbb.cyber4edu.org/b/gue-vof-5gg-ynu
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230131T075303Z
+UID:bef7717c-ef85-42bf-a695-48b158b5aec2
+SUMMARY:xHain Wednesday meeting
+DESCRIPTION:see chat for more
+DTSTART;TZID=Europe/Berlin:20230201T203000
+DTEND;TZID=Europe/Berlin:20230201T220000
+RRULE:FREQ=WEEKLY;UNTIL=20230208;INTERVAL=1;BYDAY=WE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221222T231823Z
+DTSTAMP:20230209T105449Z
+LAST-MODIFIED:20230209T105449Z
+SEQUENCE:4
+UID:bcc1ce94-d111-4cd6-9083-6a1901755f71
+DTSTART;TZID=Europe/Berlin:20230105T183000
+DTEND;TZID=Europe/Berlin:20230105T203000
+STATUS:CONFIRMED
+SUMMARY:LED co-hacking evening
+LOCATION:xHain
+DESCRIPTION:Have an idea for an LED project you want to work on? Come to xH
+ ain to use our equipment\, make progress on your projects\, share ideas\, 
+ ask for advice - and have fun while making the world glow more!\n\nMore de
+ tails & other LED related events: https://www.meetup.com/led-makers-berlin
+ /events
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20230216T172959Z
+EXDATE;TZID=Europe/Berlin:20230119T183000
+RELATED-TO;RELTYPE=SIBLING:66adcfc4-6827-45a2-a5b4-655923d5dd62
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221004T094045Z
+DTSTAMP:20221113T105915Z
+LAST-MODIFIED:20221113T105915Z
+SEQUENCE:4
+UID:566a5497-8b90-4336-bea9-035212ff05aa
+DTSTART;TZID=Europe/Berlin:20221204T100000
+DTEND;TZID=Europe/Berlin:20221204T163000
+STATUS:CONFIRMED
+SUMMARY:Gespräch auf der Lichtung (Teil 2)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230504T083348Z
+DTSTAMP:20230504T083355Z
+LAST-MODIFIED:20230504T083355Z
+SEQUENCE:2
+UID:f6c2b088-4f67-42cb-8800-a6bc822690f6
+DTSTART;VALUE=DATE:20240513
+DTEND;VALUE=DATE:20240514
+STATUS:CONFIRMED
+SUMMARY:8! 🎂🎂🎂🎂🎂🎂🎂
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221222T232430Z
+DTSTAMP:20230209T105507Z
+LAST-MODIFIED:20230209T105507Z
+SEQUENCE:6
+UID:a50acfcb-b86f-4aa4-8613-a1a7ccc23892
+DTSTART;TZID=Europe/Berlin:20230112T183000
+DTEND;TZID=Europe/Berlin:20230112T203000
+STATUS:CONFIRMED
+SUMMARY:Beginners workshop - How to plan & build your own LED project
+LOCATION:xHain
+DESCRIPTION:Learn how to plan and build a simple LED project\, while learni
+ ng the basics of LEDs\, soldering and how to build an awesome looking LED 
+ project. No experience needed.\n\nMore details and other LED related event
+ s: https://www.meetup.com/led-makers-berlin/events
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20230309T172959Z
+EXDATE;TZID=Europe/Berlin:20230126T183000
+EXDATE;TZID=Europe/Berlin:20230209T183000
+EXDATE;TZID=Europe/Berlin:20230223T183000
+RELATED-TO;RELTYPE=SIBLING:892e3abe-3eca-40a6-9b87-4be7da3b10bd
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221231T145542Z
+DTSTAMP:20221231T145851Z
+LAST-MODIFIED:20221231T145851Z
+SEQUENCE:2
+UID:a50acfcb-b86f-4aa4-8613-a1a7ccc23892
+DTSTART;TZID=Europe/Berlin:20230112T183000
+DTEND;TZID=Europe/Berlin:20230112T203000
+STATUS:CONFIRMED
+SUMMARY:Beginner workshop - 3D model your LED project in Fusion360
+LOCATION:xHain
+DESCRIPTION:Learn how to 3D model your LED project in Fusion360. For better
+  planning your project\, creating files for 3D printing\, laser cutting\, 
+ CNC machines and more.\n\nPlease bring a Windows or macOS laptop with you.
+  \nAlternatively\, we might also be able to give you a Windows laptop for 
+ the workshop.\n\nMore details and other LED related events: https://www.me
+ etup.com/led-makers-berlin/events
+RECURRENCE-ID;TZID=Europe/Berlin:20230112T183000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230320T121638Z
+DTSTAMP:20230320T121725Z
+LAST-MODIFIED:20230320T121725Z
+SEQUENCE:2
+UID:c0dd944a-5319-40eb-9da3-e1428874c0f8
+DTSTART;TZID=Europe/Berlin:20230325T133700
+DTEND;TZID=Europe/Berlin:20230325T235900
+STATUS:CONFIRMED
+SUMMARY:open hackspace day
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230121T083814Z
+UID:d2186fb2-a58f-420e-8d11-84b0efd55ee9
+SUMMARY:Critical making workshop
+DESCRIPTION:Geschlossene Veranstaltung
+DTSTART;TZID=Europe/Berlin:20230418T100000
+DTEND;TZID=Europe/Berlin:20230418T180000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230424T094929Z
+DTSTAMP:20230424T095011Z
+LAST-MODIFIED:20230424T095011Z
+SEQUENCE:2
+UID:7e56fb74-fbba-497a-90f8-4e7ebe67fd9d
+DTSTART;TZID=Europe/Berlin:20240330T170000
+DTEND;TZID=Europe/Berlin:20240330T230000
+STATUS:CONFIRMED
+SUMMARY:International Hackspace Open Day
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230504T083435Z
+DTSTAMP:20230504T083501Z
+LAST-MODIFIED:20230504T083501Z
+SEQUENCE:2
+UID:5bc965cf-a00e-468b-bf8e-7425c6023d5d
+DTSTART;VALUE=DATE:20230314
+DTEND;VALUE=DATE:20230315
+STATUS:CONFIRMED
+SUMMARY:PI Day
+RRULE:FREQ=YEARLY;BYMONTH=3
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221126T165141Z
+DTSTAMP:20221126T165239Z
+LAST-MODIFIED:20221126T165239Z
+SEQUENCE:2
+UID:8683a2ca-1dff-4aa2-9a55-b3583852d36e
+DTSTART;TZID=Europe/Berlin:20221228T090000
+DTEND;TZID=Europe/Berlin:20221228T200000
+STATUS:CONFIRMED
+SUMMARY:JungHacker:innen Tag
+DESCRIPTION:https://coderdojo.red/posts/junghackerinnentag//
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230504T083551Z
+DTSTAMP:20230504T083616Z
+LAST-MODIFIED:20230504T083616Z
+SEQUENCE:2
+UID:edd8e3f2-8e08-4cd9-bc71-ab04c484be43
+DTSTART;VALUE=DATE:20230405
+DTEND;VALUE=DATE:20230406
+STATUS:CONFIRMED
+SUMMARY:First Contact Day
+DESCRIPTION:that's a Star Trek reference
+RRULE:FREQ=YEARLY;BYMONTH=4
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230216T092448Z
+DTSTAMP:20230216T093015Z
+LAST-MODIFIED:20230216T093015Z
+SEQUENCE:3
+UID:ebae30d9-1d62-402f-8348-180ffc2c976c
+DTSTART;TZID=Europe/Berlin:20230226T143000
+DTEND;TZID=Europe/Berlin:20230226T183000
+STATUS:CONFIRMED
+SUMMARY:Foto Field Trip
+DESCRIPTION:Let's have an event\, a walk and shoot (photos) for a couple ho
+ urs around somewhere cool in Berlin? Anyone can bring their own camera\, d
+ igital\, analog or even if just using their phones\, goal is to have a nic
+ e walk\, shoot some photos and meet and talk. What do you all think? Locat
+ ion ideas would be nice\, but some post-industrial place in the city would
+  be cool\, imo. Disposable cameras can also be bought if one wants to give
+  analog a try\, fotoimpex carries them\, and lots of other places too. I m
+ ay bring two extra cameras\, one digital (Canon RP)\, one analog (Mamiya 6
+ \, if I get it fixed by then)\, anyone wanting to try some\, let me know.\
+ n\nJoin darkhain chat if you're interested
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230210T182236Z
+UID:b85e9159-13d1-425c-9641-a82816c1c6db
+SUMMARY:7! 🎂🎂🎂🎂🎂🎂🎂
+DTSTART;VALUE=DATE:20230513
+DTEND;VALUE=DATE:20230514
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221129T173837Z
+DTSTAMP:20221130T213448Z
+LAST-MODIFIED:20221130T213448Z
+SEQUENCE:3
+UID:e069e02b-47b6-4082-b0fa-df36b37aedd4
+DTSTART;TZID=Europe/Berlin:20221206T190000
+DTEND;TZID=Europe/Berlin:20221206T210000
+STATUS:CONFIRMED
+SUMMARY:git workshop
+DESCRIPTION:----- English Version below ------\nWas ist git? Wofür brauche
+  ich es und wie kann ich damit mit anderen kollaborieren? Dieser Workshop 
+ gibt dir eine Einführung in git\, ein Programm zur Versionskontrolle\, da
+ s weltweit in verschiedenen Projekten eingesetzt wird. Wir werden zusammen
+  an praktischen Beispielen den Umgang mit git und Plattformen wie z.Bsp. G
+ itHub lernen.\n\nBitte bring\, falls vorhanden\, deinen Laptop mit. Im xHa
+ in stehen ansonsten Laptops zur Verfügung.\n\n---- English version ------
+ \nWhat is git? For what do I need it and how can I collaborate with others
+  using it? This workshop will give you an introduction to git\, a program 
+ for version control\, which is used worldwide! We will learn together in p
+ ractical examples how to use git and platforms like GitHub.\n\nPlease brin
+ g your laptop if you have on. There are also laptops at xHain you can use.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221130T081720Z
+UID:0730d256-0b52-4d03-9838-2c16eb3c4c82
+SUMMARY:Media CCC & Chill
+DESCRIPTION:Masks are welcome\, not required.
+DTSTART;VALUE=DATE:20221227
+DTEND;VALUE=DATE:20221228
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Media CCC & Chill
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221006T194308Z
+DTSTAMP:20221006T194358Z
+LAST-MODIFIED:20221006T194358Z
+SEQUENCE:3
+UID:54e84359-220c-4bac-bace-8cfa975a1263
+DTSTART;TZID=Europe/Berlin:20221014T183000
+DTEND;TZID=Europe/Berlin:20221014T213000
+STATUS:CONFIRMED
+SUMMARY:LED co-working evening
+DESCRIPTION:https://www.meetup.com/led-makers-berlin/events/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221006T194609Z
+DTSTAMP:20221006T194643Z
+LAST-MODIFIED:20221006T194643Z
+SEQUENCE:2
+UID:1012d19e-3e08-4e56-8f55-e2536f469243
+DTSTART;TZID=Europe/Berlin:20221020T183000
+DTEND;TZID=Europe/Berlin:20221020T213000
+STATUS:CONFIRMED
+SUMMARY:Beginners workshop - How to plan & build your own LED project
+DESCRIPTION:https://www.meetup.com/led-makers-berlin/events/pdwrxsydcnbbc/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221130T081721Z
+UID:0a117901-425e-41da-85e5-5e78d8f98cbd
+SUMMARY:Media CCC & Chill
+DESCRIPTION:Masks are welcome\, not required.
+DTSTART;TZID=Europe/Berlin:20221228T193000
+DTEND;TZID=Europe/Berlin:20221228T235900
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Media CCC & Chill
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221006T194732Z
+DTSTAMP:20221006T194753Z
+LAST-MODIFIED:20221006T194753Z
+SEQUENCE:2
+UID:704a05e7-2d6a-4078-a57c-3bc2c01369b1
+DTSTART;TZID=Europe/Berlin:20221027T183000
+DTEND;TZID=Europe/Berlin:20221027T203000
+STATUS:CONFIRMED
+SUMMARY:LED co-working evening 
+DESCRIPTION:hosted by @glowingkitty\nhttps://www.meetup.com/led-makers-berl
+ in/events/hcwrxsydcnbkc/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221130T081721Z
+UID:8637470f-a6dd-476c-9234-1023b169db0d
+SUMMARY:Media CCC & chill
+DESCRIPTION:Masks are welcome\, not required.
+DTSTART;VALUE=DATE:20221229
+DTEND;VALUE=DATE:20221230
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Media CCC & chill
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221228T175602Z
+DTSTAMP:20221230T152121Z
+LAST-MODIFIED:20221230T152121Z
+SEQUENCE:4
+UID:753c2e91-35f2-4bf9-b519-4fbcc0a76981
+DTSTART;TZID=Europe/Berlin:20221231T200000
+DTEND;TZID=Europe/Berlin:20230101T002500
+STATUS:CONFIRMED
+SUMMARY:Geschlossene Veranstaltung (ask richard)
+DESCRIPTION:Masks are welcome\, not required.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230207T151842Z
+DTSTAMP:20230214T211821Z
+LAST-MODIFIED:20230214T211821Z
+SEQUENCE:4
+UID:bc4febd7-fa94-4d89-a642-74275f6a2e5e
+DTSTART;TZID=Europe/Berlin:20230218T140000
+DTEND;TZID=Europe/Berlin:20230218T160000
+STATUS:CONFIRMED
+SUMMARY:cnc workshop
+DESCRIPTION:First bit is designing in fusion360\, the other is tool setup f
+ or cnc (for wood)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230507T201740Z
+DTSTAMP:20230507T201826Z
+LAST-MODIFIED:20230507T201826Z
+SEQUENCE:2
+UID:71a43d26-f50f-457e-a20e-5315171c3cf5
+DTSTART;TZID=Europe/Berlin:20230509T180000
+DTEND;TZID=Europe/Berlin:20230509T190000
+STATUS:CONFIRMED
+SUMMARY:xProperty hybrid meeting
+LOCATION:https://bbb.cyber4edu.org/b/dan-stu-3a2-0bi
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221130T081722Z
+UID:f56073fc-72c0-4646-b81c-ab1cf4a2a127
+SUMMARY:Media CCC & chill
+DESCRIPTION:Masks are welcome\, not required.
+DTSTART;VALUE=DATE:20221230
+DTEND;VALUE=DATE:20221231
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Media CCC & chill
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230102T210446Z
+DTSTAMP:20230102T210712Z
+LAST-MODIFIED:20230102T210712Z
+SEQUENCE:2
+UID:60d84305-ee77-459f-b9fe-87e7bdad2577
+DTSTART;TZID=Europe/Berlin:20230106T180000
+DTEND;TZID=Europe/Berlin:20230106T200000
+STATUS:CONFIRMED
+SUMMARY:CNC introduction Fusion360
+LOCATION:xhain
+DESCRIPTION:Fusion360 introduction in order to generate g code for the cnc 
+ router
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230311T224036Z
+DTSTAMP:20230411T061620Z
+LAST-MODIFIED:20230411T061620Z
+SEQUENCE:3
+UID:2448da04-5d7f-4518-870f-f786e6c93c7a
+DTSTART;TZID=Europe/Berlin:20230415T140000
+DTEND;TZID=Europe/Berlin:20230415T190000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure and Dinner
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230325T193108Z
+DTSTAMP:20230325T193147Z
+LAST-MODIFIED:20230325T193147Z
+SEQUENCE:2
+UID:7e7619f1-c711-4bf9-ab0c-d5d8046d2735
+DTSTART;TZID=Europe/Berlin:20230427T193000
+DTEND;TZID=Europe/Berlin:20230427T213000
+STATUS:CONFIRMED
+SUMMARY: (digital) Accessibility get together 
+DESCRIPTION:ask Niclas for more details
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20221202T131022Z
+DTSTAMP:20230225T203505Z
+LAST-MODIFIED:20230225T203505Z
+SEQUENCE:7
+UID:1ec26b84-60e1-437d-a455-db6404dff879
+DTSTART:20230127T180000Z
+DTEND:20230127T210000Z
+STATUS:CONFIRMED
+SUMMARY:Drones' night
+RRULE:FREQ=MONTHLY;BYDAY=FR;BYSETPOS=-1;UNTIL=20230331T175959Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230222T081215Z
+DTSTAMP:20230222T081215Z
+LAST-MODIFIED:20230222T081215Z
+SEQUENCE:1
+UID:1ec26b84-60e1-437d-a455-db6404dff879
+DTSTART:20230224T191500Z
+DTEND:20230224T223000Z
+STATUS:CONFIRMED
+SUMMARY:Drones' night
+RECURRENCE-ID:20230224T180000Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230427T063820Z
+DTSTAMP:20230427T063844Z
+LAST-MODIFIED:20230427T063844Z
+SEQUENCE:2
+UID:9c1e1d1c-a487-4753-bce5-f813f5e7ca52
+DTSTART;TZID=Europe/Berlin:20230517T183000
+DTEND;TZID=Europe/Berlin:20230517T200000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin
+DESCRIPTION:ask Matteo for more details
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230509T163657Z
+DTSTAMP:20230630T122404Z
+LAST-MODIFIED:20230630T122404Z
+SEQUENCE:5
+UID:7a0c8d16-1e30-4917-8aaf-3471d9a08944
+DTSTART;TZID=Europe/Berlin:20230516T190000
+DTEND;TZID=Europe/Berlin:20230516T200000
+STATUS:CONFIRMED
+SUMMARY:xProperty hybrid meeting
+DESCRIPTION:link to bbb will be announced shortly before
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20230627T165959Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230430T080320Z
+DTSTAMP:20230430T080328Z
+LAST-MODIFIED:20230430T080328Z
+SEQUENCE:2
+UID:5fdaea41-f1e7-4559-adcc-4913865be844
+DTSTART;TZID=Europe/Berlin:20230506T140000
+DTEND;TZID=Europe/Berlin:20230506T180000
+STATUS:CONFIRMED
+SUMMARY:Coder DoJo
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230430T080541Z
+DTSTAMP:20230430T080646Z
+LAST-MODIFIED:20230430T080646Z
+SEQUENCE:2
+UID:7f1f58a6-0a90-4bc5-8b7c-e12539b68d5d
+DTSTART;TZID=Europe/Berlin:20230513T140000
+DTEND;TZID=Europe/Berlin:20230513T190000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure and Dinner
+DESCRIPTION:We'll get together to fix things at xHain and get to know each 
+ other while sorting screws etc. - if you're new or want to get to know the
+  space\, this is a good time.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230328T102758Z
+DTSTAMP:20230328T102808Z
+LAST-MODIFIED:20230328T102808Z
+SEQUENCE:2
+UID:ff81fe8d-6f3f-4a9d-84a8-7cc83ce00f60
+DTSTART;TZID=Europe/Berlin:20230525T193000
+DTEND;TZID=Europe/Berlin:20230525T213000
+STATUS:CONFIRMED
+SUMMARY:(digital) Accessibility get together 
+DESCRIPTION:ask Niclas for details
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230528T144407Z
+DTSTAMP:20230528T144458Z
+LAST-MODIFIED:20230528T144458Z
+SEQUENCE:2
+UID:641bb4df-0211-4603-967d-b80d893ffc84
+DTSTART;VALUE=DATE:20230605
+DTEND;VALUE=DATE:20230608
+STATUS:CONFIRMED
+SUMMARY:xHain auf der re:publica
+DESCRIPTION:Two prusa's and a belt printer are borrowed out\, in case you'r
+ e looking for them.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230131T075301Z
+UID:4337fa06-419a-4d27-8635-924910bebae2
+SEQUENCE:1
+SUMMARY:Online Meet-up about xHain Governance
+DESCRIPTION:see chat for more
+DTSTART;TZID=Europe/Berlin:20220817T203000
+DTEND;TZID=Europe/Berlin:20220817T220000
+RRULE:FREQ=WEEKLY;UNTIL=20230201;INTERVAL=1;BYDAY=WE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231208T003531Z
+UID:96f54ca5-eed4-40ff-a106-50c3707b07c0
+SUMMARY:Spieleabend - Game Night
+DESCRIPTION:Analogue Game Night with card and tabletop games. Bring yours\,
+  let's play!
+DTSTART;TZID=Europe/Berlin:20220819T200000
+DTEND;TZID=Europe/Berlin:20220819T235500
+RRULE:FREQ=MONTHLY;BYDAY=3FR;UNTIL=20231117T185959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:93e4d352-d46c-4802-ba39-3070d3f3c21b
+SEQUENCE:1
+LAST-MODIFIED:20231208T003531Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221227T095209Z
+UID:e7a803de-3b76-4fed-9bda-42b430f08ac9
+SEQUENCE:1
+SUMMARY:offener Montag
+DTSTART;TZID=Europe/Berlin:20220822T180000
+DTEND;TZID=Europe/Berlin:20220822T220000
+RRULE:FREQ=WEEKLY;UNTIL=20230102;INTERVAL=1;BYDAY=MO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220827T102943Z
+UID:aac34e44-2974-4339-a874-e465d98b4103
+SUMMARY:Open Hackspace Event
+DESCRIPTION:https://www.ccc.de/de/updates/2022/offenehackerspaces
+DTSTART;TZID=Europe/Berlin:20220827T120000
+DTEND;TZID=Europe/Berlin:20220827T220000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220827T102944Z
+UID:7146046d-5a61-4a20-8b45-b9d27ade40c2
+SUMMARY:emacs workgroup
+DESCRIPTION:Random talk about Emacs with Niclas\, feel free to join
+DTSTART;TZID=Europe/Berlin:20220908T190000
+DTEND;TZID=Europe/Berlin:20220908T220000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230131T204914Z
+UID:95b1aba9-c5fe-417d-8ddc-f425ff09a119
+SUMMARY:XMPP-Meetup
+DTSTART;TZID=Europe/Berlin:20220914T200000
+DTEND;TZID=Europe/Berlin:20220914T230000
+RRULE:FREQ=MONTHLY;BYDAY=2WE;UNTIL=20230208T185959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:3591c731-0e27-4902-9ae0-8748d46841f3
+SEQUENCE:1
+LAST-MODIFIED:20230131T204914Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230328T102839Z
+DTSTAMP:20230328T102859Z
+LAST-MODIFIED:20230328T102859Z
+SEQUENCE:3
+UID:2f3e2f7a-9957-41db-859f-fe491902509d
+DTSTART;TZID=Europe/Berlin:20230629T193000
+DTEND;TZID=Europe/Berlin:20230629T213000
+STATUS:CONFIRMED
+SUMMARY:(digital) Accessibility get together 
+DESCRIPTION:Ask Niclas for more details
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220827T102946Z
+UID:9b7867fc-461c-4ef1-a9d1-afabe03ede34
+SUMMARY:Coder Dojo
+DTSTART;TZID=Europe/Berlin:20221008T110000
+DTEND;TZID=Europe/Berlin:20221008T140000
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230330T113956Z
+DTSTAMP:20230330T114112Z
+LAST-MODIFIED:20230330T114112Z
+SEQUENCE:2
+UID:892a586a-6fe5-4fff-8e4b-0c40f57d9388
+DTSTART;TZID=Europe/Berlin:20230411T140000
+DTEND;TZID=Europe/Berlin:20230411T193000
+STATUS:CONFIRMED
+SUMMARY:LED Installation tubes - soldering session 
+DESCRIPTION:Niklas needs some help soldering new connectors and cables to 1
+ m aluminum tubes that formed the dodecahedron at the 36C3 congress
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230331T041128Z
+DTSTAMP:20230331T041202Z
+LAST-MODIFIED:20230331T041202Z
+SEQUENCE:2
+UID:3c26ae15-a379-4d91-becd-75f4c5a1e10e
+DTSTART;TZID=Europe/Berlin:20230419T183000
+DTEND;TZID=Europe/Berlin:20230419T203000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin
+DESCRIPTION:hosted by Matteo (he/him)
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230516T170430Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:Gespräch unter Bäumen
+DTSTART;TZID=Europe/Berlin:20220920T190000
+DTEND;TZID=Europe/Berlin:20220920T200000
+RRULE:FREQ=MONTHLY;BYDAY=3TU;UNTIL=20230516T165959Z
+STATUS:CONFIRMED
+EXDATE;TZID=Europe/Berlin:20221220T190000
+SEQUENCE:2
+LAST-MODIFIED:20230516T170430Z
+RELATED-TO;RELTYPE=SIBLING:3f5f66a2-b92a-4408-adf2-e1e6bbb203b2
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221021T185044Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:Gespräch unter Bäumen mit Dr. Kerstin Schulenburg
+DTSTART;TZID=Europe/Berlin:20221115T190000
+DTEND;TZID=Europe/Berlin:20221115T203000
+STATUS:CONFIRMED
+RECURRENCE-ID;TZID=Europe/Berlin:20221115T190000
+CREATED:20221021T185044Z
+LAST-MODIFIED:20221021T185044Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230113T100909Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:fällt im Januar aus: Gespräch unter Bäumen
+DTSTART;TZID=Europe/Berlin:20230117T190000
+DTEND;TZID=Europe/Berlin:20230117T200000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20230113T100909Z
+RECURRENCE-ID;TZID=Europe/Berlin:20230117T190000
+CREATED:20230113T100909Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230220T212345Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:Gespräch unter Bäumen (mit Lisa Tschorn)
+DTSTART;TZID=Europe/Berlin:20230221T190000
+DTEND;TZID=Europe/Berlin:20230221T200000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20230220T212345Z
+RECURRENCE-ID;TZID=Europe/Berlin:20230221T190000
+CREATED:20230220T212345Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230220T212415Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:Gespräch unter Bäumen (mit Elisa Filevich)
+DTSTART;TZID=Europe/Berlin:20230321T190000
+DTEND;TZID=Europe/Berlin:20230321T200000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20230220T212415Z
+RECURRENCE-ID;TZID=Europe/Berlin:20230321T190000
+CREATED:20230220T212415Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230220T212426Z
+UID:5fb7f276-54d6-4c30-a993-92cfe962e41b
+SUMMARY:Gespräch unter Bäumen (mit Theresia Enzensberger)
+DTSTART;TZID=Europe/Berlin:20230418T190000
+DTEND;TZID=Europe/Berlin:20230418T200000
+STATUS:CONFIRMED
+SEQUENCE:1
+LAST-MODIFIED:20230220T212426Z
+RECURRENCE-ID;TZID=Europe/Berlin:20230418T190000
+CREATED:20230220T212426Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230331T044401Z
+DTSTAMP:20230331T044414Z
+LAST-MODIFIED:20230331T044414Z
+SEQUENCE:2
+UID:c1a18f32-5dac-4307-b893-ae309e7cb7c8
+DTSTART;TZID=Europe/Berlin:20230401T150000
+DTEND;TZID=Europe/Berlin:20230401T170000
+STATUS:CONFIRMED
+SUMMARY:xProperty gettogether
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230331T044429Z
+DTSTAMP:20230331T044706Z
+LAST-MODIFIED:20230331T044706Z
+SEQUENCE:2
+UID:0b7b6b6d-5deb-4a54-b0ad-53fe5d315d75
+DTSTART;TZID=Europe/Berlin:20230331T180000
+DTEND;TZID=Europe/Berlin:20230331T210000
+STATUS:CONFIRMED
+SUMMARY:PriceTag co-hacking
+DESCRIPTION:Some of us went to hackaday Berlin and received price tags that
+  showed the schedule. Dave has more pricetags and will try to get the work
+ flow running.\n\nOpen for guests as well\, if you want to see the space fe
+ el free to come over.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230509T093101Z
+DTSTAMP:20230516T203650Z
+LAST-MODIFIED:20230516T203650Z
+SEQUENCE:4
+UID:87fcc1aa-fc51-49f9-8a67-085b1c4f664d
+DTSTART;TZID=Europe/Berlin:20230516T200000
+DTEND;TZID=Europe/Berlin:20230516T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+DESCRIPTION:[NEW] Ines moves her "neurodivergent creative nights" to xHain
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230209T105449Z
+DESCRIPTION:Have an idea for an LED project you want to work on? Come to xH
+ ain to use our equipment\, make progress on your projects\, share ideas\, 
+ ask for advice - and have fun while making the world glow more!\n\nMore de
+ tails & other LED related events: https://events.glowingkitty.com
+DTEND;TZID=Europe/Berlin:20230216T203000
+DTSTAMP:20231012T161240Z
+DTSTART;TZID=Europe/Berlin:20230216T183000
+EXDATE;TZID=Europe/Berlin:20230427T183000
+EXDATE;TZID=Europe/Berlin:20230608T183000
+EXDATE;TZID=Europe/Berlin:20230817T183000
+LAST-MODIFIED:20231012T161240Z
+LOCATION:xHain
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20231012T162959Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:LED co-hacking evening
+TRANSP:OPAQUE
+UID:66adcfc4-6827-45a2-a5b4-655923d5dd62
+BEGIN:VALARM
+ACKNOWLEDGED:20230706T162802Z
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:5913C46A-E1B8-45C2-84C0-0DF515BC2458
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:5913C46A-E1B8-45C2-84C0-0DF515BC2458
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230216T103644Z
+DESCRIPTION:Do you want to learn how to use the latest AIs in your daily wo
+ rkflow - for… everything? Do you want to see how they can help you with 
+ tasks like writing code\, creating images\, helping with PCB design\, expl
+ aining datasheets and more? Do you want to have fun and test these AIs liv
+ e with your own prompts?\nIf yes\, then join me\, for a talk where I will 
+ share with you my experience and insights on using the new Bing Chat AI\, 
+ Midjourney and others. I will show you how they can enhance your productiv
+ ity and creativity\, as well as the implications of these AIs for various 
+ industries and jobs - both good and bad. I will also explain why ChatGPT i
+ s already outdated\, despite only being a few months old.\nAt the end of t
+ he talk\, we will have a lively and interactive session where you can ask 
+ me questions\, share your opinions and try out these AIs live. You will be
+  surprised by what they can do - and what they can’t do (yet).\n\n(oh an
+ d by the way\, the event description was generated by AI)
+DTEND;TZID=Europe/Berlin:20230302T203000
+DTSTAMP:20230706T162806Z
+DTSTART;TZID=Europe/Berlin:20230302T183000
+LAST-MODIFIED:20230216T103644Z
+LOCATION:xHain
+RECURRENCE-ID;TZID=Europe/Berlin:20230302T183000
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:How to use the latest AIs in your daily workflow - for... everythin
+ g?
+TRANSP:OPAQUE
+UID:66adcfc4-6827-45a2-a5b4-655923d5dd62
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:A39435A6-8BD1-44CE-875C-BEA6A3ED7E82
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:A39435A6-8BD1-44CE-875C-BEA6A3ED7E82
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230530T184515Z
+DTSTAMP:20230530T184521Z
+LAST-MODIFIED:20230530T184521Z
+SEQUENCE:2
+UID:67be2023-220f-40df-801f-80b0a0f5f0fb
+DTSTART;TZID=Europe/Berlin:20230704T200000
+DTEND;TZID=Europe/Berlin:20230704T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230530T215652Z
+DTSTAMP:20230530T215656Z
+LAST-MODIFIED:20230530T215656Z
+SEQUENCE:2
+UID:e77a3ab6-d01f-4e64-9155-f8a1807c673c
+DTSTART;TZID=Europe/Berlin:20230531T183000
+DTEND;TZID=Europe/Berlin:20230531T200000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230531T183121Z
+DTSTAMP:20230531T183232Z
+LAST-MODIFIED:20230531T183232Z
+SEQUENCE:2
+UID:3e23c8e2-02ca-4f48-9bc2-1dad44f0f7da
+DTSTART;TZID=Europe/Berlin:20230702T200000
+DTEND;TZID=Europe/Berlin:20230703T000000
+STATUS:CONFIRMED
+SUMMARY:TheMakerCast
+DESCRIPTION:we'll be livestreaming a MakerCast episode from the space!\nhtt
+ ps://youtube.com/@TheMakerCast
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230531T183342Z
+DTSTAMP:20230531T183435Z
+LAST-MODIFIED:20230531T183435Z
+SEQUENCE:2
+UID:3fd364da-1830-4643-bae2-8e477535dfae
+DTSTART;TZID=Europe/Berlin:20230617T140000
+DTEND;TZID=Europe/Berlin:20230617T220000
+STATUS:CONFIRMED
+SUMMARY:AVX Test Setup For MakerCast
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230531T183438Z
+DTSTAMP:20230531T183451Z
+LAST-MODIFIED:20230531T183451Z
+SEQUENCE:2
+UID:5ca2bc1e-920b-4e05-ade3-ace3b306ed8a
+DTSTART;TZID=Europe/Berlin:20230618T140000
+DTEND;TZID=Europe/Berlin:20230618T220000
+STATUS:CONFIRMED
+SUMMARY:AVX Test Setup MakerCast
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230601T105022Z
+DTSTAMP:20230601T105648Z
+LAST-MODIFIED:20230601T105648Z
+SEQUENCE:3
+UID:e7b3ea5e-c356-46b7-9fce-b38ba0d93fd3
+DTSTART;TZID=Europe/Berlin:20230707T190000
+DTEND;TZID=Europe/Berlin:20230707T210000
+STATUS:CONFIRMED
+SUMMARY:Member Meeting
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230609T100621Z
+DTSTAMP:20230609T100637Z
+LAST-MODIFIED:20230609T100637Z
+SEQUENCE:2
+UID:5e747b6b-669d-458e-929c-7a512a5e94af
+DTSTART;TZID=Europe/Berlin:20230610T120000
+DTEND;TZID=Europe/Berlin:20230610T130000
+STATUS:CONFIRMED
+SUMMARY:Powerbank Building Workshop 
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230601T105630Z
+UID:1695d4c9-aa37-4b52-bda9-2132ac92e3a2
+SUMMARY:xHain Wednesday meeting
+DESCRIPTION:see chat for more
+DTSTART;TZID=Europe/Berlin:20230208T203000
+DTEND;TZID=Europe/Berlin:20230208T220000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20230607T182959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:573c8517-7707-49dd-b09d-a7f80fa3df61
+SEQUENCE:1
+LAST-MODIFIED:20230601T105630Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230602T071634Z
+DTSTAMP:20230602T071656Z
+LAST-MODIFIED:20230602T071656Z
+SEQUENCE:2
+UID:63506cbf-409d-4b56-baad-0e83dbaf1a87
+DTSTART;TZID=Europe/Berlin:20230621T183000
+DTEND;TZID=Europe/Berlin:20230621T200000
+STATUS:CONFIRMED
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\nWe strive to hold Meetups
+  at local Berlin Hack- & Makespaces like xHain in Friedrichshain every two
+  weeks.\nYou can join us in presence or via Discord: https://discord.com/i
+ nvite/Sm3CgrqqQa\nFollow us on Mastodon for updates: https://mastodon.game
+ dev.place/@GodotUserGroupBerlin\nAlso ask Matteo for more details.
+SUMMARY:Godot User Group Berlin
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230602T071715Z
+DTSTAMP:20230602T071727Z
+LAST-MODIFIED:20230602T071727Z
+SEQUENCE:2
+UID:9b027b0b-5585-4ccd-b3d7-749cda61cd3f
+DTSTART;TZID=Europe/Berlin:20230705T183000
+DTEND;TZID=Europe/Berlin:20230705T200000
+STATUS:CONFIRMED
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\nWe strive to hold Meetups
+  at local Berlin Hack- & Makespaces like xHain in Friedrichshain every two
+  weeks.\nYou can join us in presence or via Discord: https://discord.com/i
+ nvite/Sm3CgrqqQa\nFollow us on Mastodon for updates: https://mastodon.game
+ dev.place/@GodotUserGroupBerlin\nAlso ask Matteo for more details.
+SUMMARY:Godot User Group Berlin
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230602T071736Z
+DTSTAMP:20230602T071749Z
+LAST-MODIFIED:20230602T071749Z
+SEQUENCE:2
+UID:61db433a-4b8c-4458-b465-e110461ff212
+DTSTART;TZID=Europe/Berlin:20230719T183000
+DTEND;TZID=Europe/Berlin:20230719T200000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\nWe strive to hold Meetups
+  at local Berlin Hack- & Makespaces like xHain in Friedrichshain every two
+  weeks.\nYou can join us in presence or via Discord: https://discord.com/i
+ nvite/Sm3CgrqqQa\nFollow us on Mastodon for updates: https://mastodon.game
+ dev.place/@GodotUserGroupBerlin\nAlso ask Matteo for more details.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230602T071758Z
+DTSTAMP:20230602T071810Z
+LAST-MODIFIED:20230602T071810Z
+SEQUENCE:2
+UID:cd572b5c-fcaf-4933-924a-fb66777bd2e6
+DTSTART;TZID=Europe/Berlin:20230802T183000
+DTEND;TZID=Europe/Berlin:20230802T200000
+STATUS:CONFIRMED
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\nWe strive to hold Meetups
+  at local Berlin Hack- & Makespaces like xHain in Friedrichshain every two
+  weeks.\nYou can join us in presence or via Discord: https://discord.com/i
+ nvite/Sm3CgrqqQa\nFollow us on Mastodon for updates: https://mastodon.game
+ dev.place/@GodotUserGroupBerlin\nAlso ask Matteo for more details.
+SUMMARY:Godot User Group Berlin
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230603T175805Z
+DTSTAMP:20230603T195108Z
+LAST-MODIFIED:20230603T195108Z
+SEQUENCE:3
+UID:e222efc6-d1a0-4dfa-bada-d21e0267e994
+DTSTART;TZID=Europe/Berlin:20230608T190000
+DTEND;TZID=Europe/Berlin:20230608T220000
+STATUS:CONFIRMED
+SUMMARY:Elixir Meetup
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230531T153243Z
+DTSTAMP:20230604T170355Z
+LAST-MODIFIED:20230604T170355Z
+SEQUENCE:3
+UID:e24e8600-1c34-4b58-9b02-473c792fb5d5
+DTSTART;TZID=Europe/Berlin:20230604T150000
+DTEND;TZID=Europe/Berlin:20230604T170000
+STATUS:CONFIRMED
+SUMMARY:Work Shop Sundays
+DESCRIPTION:Sundays are fun days\, so why not come to the space and learn s
+ omething?\n\nSunday\, June 4th\nCNC Workshop by Markus\nLearn how to desig
+ n something simple in Fusion360 and later setup the fusion CNC tool for ou
+ r CNC machine.\n\nSunday\, June 11th\nAutoethnographical Journey Through t
+ he Origins of Black American Aesthetic Philosophy by Chandra Brooks\nIn th
+ is workshop we will use origami and gelli printing as an introduction to t
+ he topic of Black Aesthetic Philosophy followed by a short reading of auto
+ ethnographical prose to tie it all together. This experience is an example
+  of how my research methodology incorporate past and present as bricolage.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230604T170451Z
+DTSTAMP:20230604T170510Z
+LAST-MODIFIED:20230604T170510Z
+SEQUENCE:2
+UID:ad040a0d-7337-4554-ad3f-8cf93aae49a8
+DTSTART;TZID=Europe/Berlin:20230611T150000
+DTEND;TZID=Europe/Berlin:20230611T170000
+STATUS:CONFIRMED
+SUMMARY:WorkShop Sundays
+DESCRIPTION:Sundays are fun days\, so why not come to the space and learn s
+ omething?\n\nSunday\, June 11th\nAutoethnographical Journey Through the Or
+ igins of Black American Aesthetic Philosophy by Chandra Brooks\nIn this wo
+ rkshop we will use origami and gelli printing as an introduction to the to
+ pic of Black Aesthetic Philosophy followed by a short reading of autoethno
+ graphical prose to tie it all together. This experience is an example of h
+ ow my research methodology incorporate past and present as bricolage.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230608T221943Z
+DTSTAMP:20230726T182923Z
+LAST-MODIFIED:20230726T182923Z
+SEQUENCE:4
+UID:cfe7dbc7-1b38-4379-a56d-addc3cbe44ae
+DTSTART;TZID=Europe/Berlin:20230616T150000
+DTEND;TZID=Europe/Berlin:20230616T180000
+STATUS:CONFIRMED
+DESCRIPTION:Betreut von Niclas\nDie Zeit in der Woche um Jugendlichen und a
+ llen die sich jung fühlen\, einen Ort zum Treffen\, Austauschen oder einf
+ ach zum Chillen zu geben. Also ein junger offener Montag\, nur Freitag. 
+RRULE:FREQ=WEEKLY;COUNT=4;BYDAY=FR
+SUMMARY:Jugend Chilled [working title]
+EXDATE;TZID=Europe/Berlin:20230707T150000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230609T070245Z
+DTSTAMP:20230701T191146Z
+LAST-MODIFIED:20230701T191146Z
+SEQUENCE:4
+UID:0406eb2c-1bb0-4f9c-88ea-2729bd001b31
+DTSTART;TZID=Europe/Berlin:20230702T130000
+DTEND;TZID=Europe/Berlin:20230702T180000
+STATUS:CONFIRMED
+SUMMARY:Kindernachmittag
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230608T064555Z
+DTSTAMP:20230609T213836Z
+LAST-MODIFIED:20230609T213836Z
+SEQUENCE:3
+UID:73259387-19e2-4438-b733-a37764d7cae9
+DTSTART;TZID=Europe/Berlin:20230726T183000
+DTEND;TZID=Europe/Berlin:20230726T213000
+STATUS:CONFIRMED
+DESCRIPTION:We will basically make robots race around a track in a simulato
+ r.\nhttps://www.meetup.com/berlin-ai-deep-racer/
+SUMMARY:Berlin AWS DeepRacer Competitors Club
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230604T170546Z
+DTSTAMP:20230612T183808Z
+LAST-MODIFIED:20230612T183808Z
+SEQUENCE:3
+UID:9088bbe9-e65c-40f8-9bc9-742e5f8c5b19
+DTSTART;TZID=Europe/Berlin:20230618T150000
+DTEND;TZID=Europe/Berlin:20230618T170000
+STATUS:CONFIRMED
+SUMMARY:WorkShop Sundays
+DESCRIPTION:June 12th 3PM\n\nhosted by Niclas\nImagine there is a way to fi
+ nd a group consensus within a small amount of time and without the group f
+ alling apart... \n\nWhen you say consensus\, many people think of long ses
+ sions\, heavy talkers\, decisions by loudness and similar. \n\nTo keep fru
+ stration low\, while looking for a most widely accepted solution in a dive
+ rse group - sounds like a challenge?\n\nResistance-based decision process 
+ might deliver a few ideas to touch that.\n\nWe will check out the idea beh
+ ind the approach and try to get into exploration and experience as fast as
+  possible. 
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230613T174541Z
+DTSTAMP:20230613T180358Z
+LAST-MODIFIED:20230613T180358Z
+SEQUENCE:2
+UID:f7620d0b-625b-4a62-98f0-28c2342a1abb
+DTSTART;TZID=Europe/Berlin:20230625T150000
+DTEND;TZID=Europe/Berlin:20230625T170000
+STATUS:CONFIRMED
+SUMMARY:WorkShop Sundays
+DESCRIPTION:Soldering Kits with Dave\n\nIf you have a kit flying around tha
+ t you always wanted to solder or want to solder one of our available kits 
+ - we'll go over the basics of soldering SMD and through-hole parts with a 
+ soldering iron and solder wire.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T100227Z
+DTSTAMP:20230705T100249Z
+LAST-MODIFIED:20230705T100249Z
+SEQUENCE:2
+UID:093435a0-f913-4b1e-9321-83e4cd0a2425
+DTSTART;TZID=Europe/Berlin:20230708T120000
+DTEND;TZID=Europe/Berlin:20230708T130000
+STATUS:CONFIRMED
+SUMMARY:AfterAfterParty CleanUp
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230728T100859Z
+DTSTAMP:20230728T100903Z
+LAST-MODIFIED:20230728T100903Z
+SEQUENCE:2
+UID:88763c4d-4ee1-4740-9f81-bef81d80d515
+DTSTART;TZID=Europe/Berlin:20230822T200000
+DTEND;TZID=Europe/Berlin:20230822T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230801T143341Z
+DTSTAMP:20230801T143413Z
+LAST-MODIFIED:20230801T143413Z
+SEQUENCE:2
+UID:8cf0ee7c-1855-4909-ba07-0af595d93831
+DTSTART;TZID=Europe/Berlin:20230805T130000
+DTEND;TZID=Europe/Berlin:20230805T180000
+STATUS:CONFIRMED
+SUMMARY:CCCamp packing
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230619T054601Z
+DTSTAMP:20230620T121713Z
+LAST-MODIFIED:20230620T121713Z
+SEQUENCE:6
+UID:54759dba-6a08-43ca-a0e0-3af27d92ede1
+DTSTART;TZID=Europe/Berlin:20230630T200000
+DTEND;TZID=Europe/Berlin:20230630T235500
+STATUS:CONFIRMED
+SUMMARY:Cinematic Friday [members only]
+DESCRIPTION:internes / members only Event\nDr. Thompson will see you now!
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230620T174618Z
+DTSTAMP:20230620T174843Z
+LAST-MODIFIED:20230620T174843Z
+SEQUENCE:2
+UID:d74991e6-ad3b-4682-a8b2-1e7e8ff87baf
+DTSTART;TZID=Europe/Berlin:20230624T140000
+DTEND;TZID=Europe/Berlin:20230624T160000
+STATUS:CONFIRMED
+SUMMARY:xHain wiki support group
+DESCRIPTION:working on our wiki
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231129T155840Z
+DESCRIPTION:This event is a recurring event every 2nd Thursday!\n\n💄invi
+ ted are all female members\, FLINTA are welcomed*. *^ that includes peop
+ le of our whole xHain community\, not only those who pay for their “memb
+ ership”\, but also many of those who love to drop by and join in\n💄no
+ t invited are men - independent of their sexual orientation (an exceptio
+ n are the men renting offices) 💄if necessary men can grab/drop off ur
+ gent works and quickly leave the space with a low profile\n 💄Orga: 
+ 💥 the MakeHERspace Day starts at 12pm and ends when the last keyholder 
+ leaves. There will be announcements when the last ones have left\, so that
+  the space becomes available for men back again 💥\n\nOrganizer: Eva (@p
+ aleva:x-hain.de)
+DTEND;TZID=Europe/Berlin:20231201T000000
+DTSTAMP:20231207T172121Z
+DTSTART;TZID=Europe/Berlin:20231130T120000
+LAST-MODIFIED:20231207T172121Z
+RELATED-TO;RELTYPE=X-CALENDARSERVER-RECURRENCE-SET:8342910D-0817-4EA0-9325-
+ EC8B053F4904
+RELATED-TO;RELTYPE=SIBLING:6ca9f33a-8f7b-4e2f-bb19-590232f1eb43
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20231228T105959Z
+SEQUENCE:1
+SUMMARY:MakeHERSpace
+TRANSP:OPAQUE
+UID:A321A068-1121-438F-A38A-EC6198ECA838
+X-APPLE-CREATOR-IDENTITY:com.apple.mobilecal
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230624T123220Z
+DTSTAMP:20230627T125240Z
+LAST-MODIFIED:20230627T125240Z
+SEQUENCE:6
+UID:e0af8286-9980-4263-bb6d-4dc25ae5252d
+DTSTART;TZID=Europe/Berlin:20230709T150000
+DTEND;TZID=Europe/Berlin:20230709T170000
+STATUS:CONFIRMED
+SUMMARY:Workshop Sunday
+DESCRIPTION:SLA Printing Workshop
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T083150Z
+DTSTAMP:20230705T083153Z
+LAST-MODIFIED:20230705T083153Z
+SEQUENCE:2
+UID:99635a23-b63c-41be-8bc0-95f7c611f02c
+DTSTART;TZID=Europe/Berlin:20230815T200000
+DTEND;TZID=Europe/Berlin:20230815T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T082616Z
+DTSTAMP:20230705T082620Z
+LAST-MODIFIED:20230705T082620Z
+SEQUENCE:2
+UID:caac4403-5c7e-47eb-b481-19fd24ff9351
+DTSTART;TZID=Europe/Berlin:20230711T200000
+DTEND;TZID=Europe/Berlin:20230711T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T082909Z
+DTSTAMP:20230705T082912Z
+LAST-MODIFIED:20230705T082912Z
+SEQUENCE:2
+UID:9312ba01-c9c6-4166-a5ee-2f5142c6db14
+DTSTART;TZID=Europe/Berlin:20230725T200000
+DTEND;TZID=Europe/Berlin:20230725T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T082918Z
+DTSTAMP:20230705T082922Z
+LAST-MODIFIED:20230705T082922Z
+SEQUENCE:2
+UID:dac0ba0d-f5bd-4281-a9e1-59d1ab5c4244
+DTSTART;TZID=Europe/Berlin:20230801T200000
+DTEND;TZID=Europe/Berlin:20230801T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230705T082932Z
+DTSTAMP:20230705T082936Z
+LAST-MODIFIED:20230705T082936Z
+SEQUENCE:2
+UID:079df8e1-5a94-4a48-8815-c3a5f09e6a16
+DTSTART;TZID=Europe/Berlin:20230808T200000
+DTEND;TZID=Europe/Berlin:20230808T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230707T210030Z
+DTSTAMP:20230707T210045Z
+LAST-MODIFIED:20230707T210045Z
+SEQUENCE:2
+UID:7503c2b3-4ff0-4160-9202-3be837640d0b
+DTSTART;TZID=Europe/Berlin:20230811T190000
+DTEND;TZID=Europe/Berlin:20230811T220000
+STATUS:CONFIRMED
+SUMMARY:Hardware Happy Hour Berlin
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230708T124452Z
+DTSTAMP:20230708T124558Z
+LAST-MODIFIED:20230708T124558Z
+SEQUENCE:2
+UID:f71390dc-7678-4008-9806-ebc8e052a6ef
+DTSTART;TZID=Europe/Berlin:20230716T150000
+DTEND;TZID=Europe/Berlin:20230716T170000
+STATUS:CONFIRMED
+SUMMARY:Workshop Sundays
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20230813T150000Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230709T143742Z
+DTSTAMP:20230709T144034Z
+LAST-MODIFIED:20230709T144034Z
+SEQUENCE:2
+UID:12de1650-910f-44f9-b670-683f5d4ade78
+DTSTART;TZID=Europe/Berlin:20230714T170000
+DTEND;TZID=Europe/Berlin:20230714T183000
+STATUS:CONFIRMED
+SUMMARY:Emacs get together
+DESCRIPTION:Hilfe zu Selbsthilfe - all about emacs
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230422T180856Z
+DTSTAMP:20230709T144057Z
+LAST-MODIFIED:20230709T144057Z
+SEQUENCE:4
+UID:c6be94df-94ee-4bec-ab71-b0efe7b00acb
+DTSTART;TZID=Europe/Berlin:20230428T160000
+DTEND;TZID=Europe/Berlin:20230428T180000
+STATUS:CONFIRMED
+SUMMARY:xHain Struktur Meetup
+DESCRIPTION:talking about xHains future / next generation structure
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20230714T135959Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230209T105507Z
+DTSTAMP:20230713T120541Z
+LAST-MODIFIED:20230713T120541Z
+SEQUENCE:9
+UID:892e3abe-3eca-40a6-9b87-4be7da3b10bd
+DTSTART;TZID=Europe/Berlin:20230309T183000
+DTEND;TZID=Europe/Berlin:20230309T203000
+STATUS:CONFIRMED
+SUMMARY:Beginners workshop - How to plan & build your own LED project
+LOCATION:xHain
+DESCRIPTION:Learn how to plan and build a simple LED project\, while learni
+ ng the basics of LEDs\, soldering and how to build an awesome looking LED 
+ project. No experience needed.\n\nMore details and other LED related event
+ s: https://events.glowingkitty.com
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20230713T162959Z
+RELATED-TO;RELTYPE=SIBLING:a50acfcb-b86f-4aa4-8613-a1a7ccc23892
+EXDATE;TZID=Europe/Berlin:20230309T183000
+EXDATE;TZID=Europe/Berlin:20230406T183000
+EXDATE;TZID=Europe/Berlin:20230323T183000
+EXDATE;TZID=Europe/Berlin:20230420T183000
+EXDATE;TZID=Europe/Berlin:20230504T183000
+EXDATE;TZID=Europe/Berlin:20230518T183000
+EXDATE;TZID=Europe/Berlin:20230601T183000
+EXDATE;TZID=Europe/Berlin:20230629T183000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230720T151155Z
+DTSTAMP:20230720T151235Z
+LAST-MODIFIED:20230720T151235Z
+SEQUENCE:3
+UID:fce6c596-b6da-49c4-9da5-002106977549
+DTSTART;TZID=Europe/Berlin:20230721T150000
+DTEND;TZID=Europe/Berlin:20230721T180000
+STATUS:CONFIRMED
+SUMMARY:JugendChillt
+DESCRIPTION:Betreut von Niclas\nDie Zeit in der Woche um Jugendlichen und a
+ llen die sich jung fühlen\, einen Ort zum Treffen\, Austauschen oder einf
+ ach zum Chillen zu geben. Also ein junger offener Montag\, nur Freitag. 
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230728T091027Z
+DTSTAMP:20230728T091031Z
+LAST-MODIFIED:20230728T091031Z
+SEQUENCE:2
+UID:a4fc907c-79d9-4ae2-8559-958b2e05fd02
+DTSTART;TZID=Europe/Berlin:20230711T200000
+DTEND;TZID=Europe/Berlin:20230711T230000
+SUMMARY:neurodivergent creative nights
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230728T100907Z
+DTSTAMP:20230728T100911Z
+LAST-MODIFIED:20230728T100911Z
+SEQUENCE:2
+UID:706c9cfd-5887-4b3b-8d83-162cd70ada0b
+DTSTART;TZID=Europe/Berlin:20230829T200000
+DTEND;TZID=Europe/Berlin:20230829T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230721T130804Z
+DTSTAMP:20231130T185522Z
+LAST-MODIFIED:20231130T185522Z
+SEQUENCE:4
+UID:53887e32-2a8f-47d2-8b2e-8e03527aabf4
+DTSTART;TZID=Europe/Berlin:20230908T160000
+DTEND;TZID=Europe/Berlin:20230908T180000
+STATUS:CONFIRMED
+SUMMARY:Jugend chillt
+DESCRIPTION:Betreut von Niclas\nDie Zeit in der Woche um Jugendlichen und a
+ llen die sich jung fühlen\, einen Ort zum Treffen\, Austauschen oder einf
+ ach zum Chillen zu geben. Also ein junger offener Montag\, nur Freitag. \n
+ \nMelde dich bei nicl\, wenn du beim Betreuen helfen kannst
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20231201T145959Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230726T155709Z
+DTSTAMP:20230726T155821Z
+LAST-MODIFIED:20230726T155821Z
+SEQUENCE:2
+UID:5aefc7da-d4df-4fd9-951e-4026e26e282b
+DTSTART;TZID=Europe/Berlin:20231015T100000
+DTEND;TZID=Europe/Berlin:20231015T160000
+STATUS:CONFIRMED
+SUMMARY:CoderDojo Meet & Code Soldering Workshop
+DESCRIPTION:Event Starts at 11:00 until 15:00
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230531T182502Z
+DTSTAMP:20230610T211209Z
+LAST-MODIFIED:20230610T211209Z
+SEQUENCE:3
+UID:15b97b06-067b-4bbd-8d35-6e53fb3c0915
+DTSTART;TZID=Europe/Berlin:20230610T130000
+DTEND;TZID=Europe/Berlin:20230610T190000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure+Dinner
+DESCRIPTION:We'll get together to fix things at xHain and get to know each 
+ other while sorting screws etc. - if you're new or want to get to know the
+  space\, this is a good time.
+RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230723T102050Z
+DTSTAMP:20230801T143926Z
+LAST-MODIFIED:20230801T143926Z
+SEQUENCE:4
+UID:15b97b06-067b-4bbd-8d35-6e53fb3c0915
+DTSTART;TZID=Europe/Berlin:20230812T130000
+DTEND;TZID=Europe/Berlin:20230812T190000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure & stage moving
+DESCRIPTION:We'll get together to fix things at xHain and get to know each 
+ other while sorting screws etc. - if you're new or want to get to know the
+  space\, this is a good time.
+RECURRENCE-ID;TZID=Europe/Berlin:20230812T130000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230801T185436Z
+DTSTAMP:20230801T185553Z
+LAST-MODIFIED:20230801T185553Z
+SEQUENCE:3
+UID:a9b4f6b6-8294-4a77-b4d0-8914580ee8b0
+DTSTART;TZID=Europe/Berlin:20230826T130000
+DTEND;TZID=Europe/Berlin:20230826T180000
+STATUS:CONFIRMED
+SUMMARY:Infrastructure Saturday
+DESCRIPTION:We'll get together to fix things at xHain and get to know each 
+ other while sorting screws etc. - if you're new or want to get to know the
+  space\, this is a good time.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230801T190012Z
+DTSTAMP:20230801T190026Z
+LAST-MODIFIED:20230801T190026Z
+SEQUENCE:2
+UID:7b524dbb-a75d-4524-a778-03edbffb781b
+DTSTART;TZID=Europe/Berlin:20230810T110000
+DTEND;TZID=Europe/Berlin:20230810T120000
+STATUS:CONFIRMED
+SUMMARY:Lorry leaves for CCCamp
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230801T190032Z
+DTSTAMP:20230801T190053Z
+LAST-MODIFIED:20230801T190053Z
+SEQUENCE:2
+UID:fed1db61-a1a5-4942-a407-f79c4c226155
+DTSTART;TZID=Europe/Berlin:20230821T150000
+DTEND;TZID=Europe/Berlin:20230821T160000
+STATUS:CONFIRMED
+SUMMARY:Lorry arrives from CCCamp
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230803T055510Z
+DTSTAMP:20230803T055546Z
+LAST-MODIFIED:20230803T055546Z
+SEQUENCE:2
+UID:57e5b8c3-93f3-4bb2-a228-ad9b5f290e29
+DTSTART;TZID=Europe/Berlin:20230830T183000
+DTEND;TZID=Europe/Berlin:20230830T203000
+STATUS:CONFIRMED
+SUMMARY:AWS DeepRacer Competitors Club
+DESCRIPTION:organised by @ajrew
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230805T102653Z
+DTSTAMP:20230805T102824Z
+LAST-MODIFIED:20230805T102824Z
+SEQUENCE:2
+UID:6291185d-100d-4470-9b2a-bfb31d54c0a9
+DTSTART;TZID=Europe/Berlin:20230810T090000
+DTEND;TZID=Europe/Berlin:20230810T170000
+STATUS:CONFIRMED
+SUMMARY:Briar Dev Meeting
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230808T220601Z
+UID:3591c731-0e27-4902-9ae0-8748d46841f3
+SUMMARY:XMPP-Meetup
+DTSTART;TZID=Europe/Berlin:20230208T180000
+DTEND;TZID=Europe/Berlin:20230208T210000
+RRULE:FREQ=MONTHLY;BYDAY=2WE
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:95b1aba9-c5fe-417d-8ddc-f425ff09a119
+CREATED:20230131T204914Z
+LAST-MODIFIED:20230808T220601Z
+SEQUENCE:3
+EXDATE;TZID=Europe/Berlin:20230308T180000
+EXDATE;TZID=Europe/Berlin:20230412T180000
+EXDATE;TZID=Europe/Berlin:20230809T180000
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230817T074317Z
+DTSTAMP:20231018T075338Z
+LAST-MODIFIED:20231018T075338Z
+SEQUENCE:3
+UID:bd70a2ba-684e-48e0-b5f7-0d9baf4d15e3
+DTSTART;TZID=Europe/Berlin:20231020T090000
+DTEND;TZID=Europe/Berlin:20231020T160000
+STATUS:CONFIRMED
+SUMMARY:Lobby blocked for external Seminar
+DESCRIPTION:Im Rahmen vom Seminar "Hacking Innovation Bias" betreut Alex ru
+ nd 15 Studenten die an ihren Artefakten arbeiten.\n(dave hat den Kontakt)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230602T071817Z
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\nWe strive to hold Meetups
+  at local Berlin Hack- & Makespaces like xHain in Friedrichshain every two
+  weeks.\nYou can join us in presence or via Discord: https://discord.com/i
+ nvite/Sm3CgrqqQa\nFollow us on Mastodon for updates: https://mastodon.game
+ dev.place/@GodotUserGroupBerlin\nAlso ask Matteo for more details.
+DTEND;TZID=Europe/Berlin:20230823T200000
+DTSTAMP:20230823T161512Z
+DTSTART;TZID=Europe/Berlin:20230823T183000
+LAST-MODIFIED:20230823T161508Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:[Fällt aus | cancelled] Godot User Group Berlin
+TRANSP:OPAQUE
+UID:c68f42d3-cd44-46e6-9d9a-76abce767d58
+BEGIN:VALARM
+ACKNOWLEDGED:20230823T161508Z
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:4A4D19BE-1BFB-4F2B-92C9-AF75ACC567AE
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:4A4D19BE-1BFB-4F2B-92C9-AF75ACC567AE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230826T133006Z
+DTSTAMP:20230906T091030Z
+LAST-MODIFIED:20230906T091030Z
+SEQUENCE:3
+UID:0160c17d-b92b-4114-ae76-4e68087ba2ec
+DTSTART;TZID=Europe/Berlin:20231017T190000
+DTEND;TZID=Europe/Berlin:20231017T210000
+STATUS:CONFIRMED
+SUMMARY:Gespräch unter Bäumen (mit Prof. Dr. Verena V. Hafner)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230826T140524Z
+DTSTAMP:20230826T140605Z
+LAST-MODIFIED:20230826T140605Z
+SEQUENCE:2
+UID:f079b908-c24e-4e05-8238-e308b487e388
+DTSTART;TZID=Europe/Berlin:20230917T150000
+DTEND;TZID=Europe/Berlin:20230917T170000
+STATUS:CONFIRMED
+SUMMARY:Workshop Sundays - Portraits
+DESCRIPTION:portraits workshop by NoGod
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230828T111421Z
+DTSTAMP:20230902T210035Z
+LAST-MODIFIED:20230902T210035Z
+SEQUENCE:3
+UID:51a49c76-ac72-425a-8c27-94cca09d8415
+DTSTART;TZID=Europe/Berlin:20230906T183000
+DTEND;TZID=Europe/Berlin:20230906T200000
+STATUS:CONFIRMED
+SUMMARY:Open Game Creator Night presented by Godot User Group Berlin
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot Engine. Our goal is to share knowledge\, code t
+ ogether\, join Game Jams together and have fun!\n\nThis event is specifica
+ lly dedicated to all the Game Creators who are not yet using Godot but wan
+ t to show us their awesome projects anyway! ✨👀\nRegardless if you use
+  Unity3D\, UnrealEngine\, any other engine or no engine at all! 🦉🎨\n
+ \nAt the beginning we will mingle for half an hour and have a short round 
+ of introductions with a theme question. 👋💬\nThen we will have block 
+ of demos/lighting talks\, which can be anything you want to show or talk a
+ bout for up to 5 Minutes. 🎮✨\nAfterwards we will hang out and code to
+ gether and maybe get a drink at xHain's ScuBar! 💻🍻\n\nYou can join t
+ his event in person at Hack- & Makespace xHain in Friedrichshain or remote
+ ly via Discord on our stage channel.\nhttps://discord.com/invite/Sm3CgrqqQ
+ a\n\nFollow us on Mastodon for updates: https://mastodon.gamedev.place/@Go
+ dotUserGroupBerlin\n\nAlso ask Matteo for more details.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230830T204911Z
+DTSTAMP:20230830T205244Z
+LAST-MODIFIED:20230830T205244Z
+SEQUENCE:2
+UID:a6c03ea0-4c86-4b37-85a2-526849460477
+DTSTART;TZID=Europe/Berlin:20231013T160000
+DTEND;TZID=Europe/Berlin:20231013T190000
+STATUS:CONFIRMED
+SUMMARY:Jugend Hackt Lab
+DESCRIPTION:Jugend Hackt Lab
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230826T132937Z
+DTSTAMP:20230906T091016Z
+LAST-MODIFIED:20230906T091016Z
+SEQUENCE:3
+UID:1176d21a-4276-4996-aefe-a5f3edef157f
+DTSTART;TZID=Europe/Berlin:20230919T190000
+DTEND;TZID=Europe/Berlin:20230919T210000
+STATUS:CONFIRMED
+SUMMARY:Gespräch unter Bäumen (mit Katharina Nocun)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230906T091035Z
+DTSTAMP:20230906T091101Z
+LAST-MODIFIED:20230906T091101Z
+SEQUENCE:2
+UID:e6473d9c-264c-4fb4-ba4e-0c8e239c80fc
+DTSTART;TZID=Europe/Oslo:20231121T190000
+DTEND;TZID=Europe/Oslo:20231121T210000
+STATUS:CONFIRMED
+SUMMARY:Gespräch unter Bäumen (mit Anja Volkmer)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T165505Z
+DESCRIPTION:Hosted by Markus89\nFirst hour is designing a thing in Fusion36
+ 0\, second hour is setting up Fusion360 for the CNC. 
+DTEND;TZID=Europe/Berlin:20230910T170000
+DTSTAMP:20230910T124509Z
+DTSTART;TZID=Europe/Berlin:20230910T150000
+LAST-MODIFIED:20230910T124509Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Workshop Sundays - Fusion360 for (our) CNC
+TRANSP:OPAQUE
+UID:0761c51f-3c64-442b-b14e-d0913ff11cb6
+BEGIN:VALARM
+ACKNOWLEDGED:20230910T124509Z
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:EB63413B-9D6E-4252-9EFC-0DC196E8C8CB
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:EB63413B-9D6E-4252-9EFC-0DC196E8C8CB
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230912T161340Z
+DTSTAMP:20231102T231202Z
+LAST-MODIFIED:20231102T231202Z
+SEQUENCE:3
+UID:9793a8ff-aef1-4267-a938-c539388a1d03
+DTSTART;TZID=Europe/Berlin:20231124T193000
+DTEND;TZID=Europe/Berlin:20231124T213000
+STATUS:CONFIRMED
+SUMMARY:Ich Hund Du [concert]
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230914T082451Z
+DTSTAMP:20230914T082806Z
+LAST-MODIFIED:20230914T082806Z
+SEQUENCE:2
+UID:562a6224-7137-43a5-88e4-16f2b16a6ce5
+DTSTART;TZID=Europe/Berlin:20231003T090000
+DTEND;TZID=Europe/Berlin:20231003T170000
+STATUS:CONFIRMED
+SUMMARY:MausTürÖffnerTag
+DESCRIPTION:Im Rahmen des "Türen auf mit der Maus" Programs öffnet der xH
+ ain für Lötshops und Führungen. \n\nAnsprechpartner: bengoshi\nAnmelde-
+ Link: folgt\n\nMehr infos: https://www.wdrmaus.de/extras/tueren_auf/index.
+ php5
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230915T180455Z
+DTSTAMP:20230915T210259Z
+LAST-MODIFIED:20230915T210259Z
+SEQUENCE:11
+UID:f2c0eb55-dfe1-4707-8629-76b8260bcc77
+DTSTART;TZID=Europe/Berlin:20230920T183000
+DTEND;TZID=Europe/Berlin:20230920T200000
+STATUS:CONFIRMED
+SUMMARY:Godot User Group Berlin - Meet and Greet
+DESCRIPTION:We are a group of people passionate about the cross-platform\, 
+ Free and Open Source Godot game engine. Our goal is to share knowledge\, c
+ reate art together\, code together\, join game jams together and have fun!
+ \n\nWe strive to hold meetups at local Berlin hackspaces and makespaces li
+ ke xHain in Friedrichshain every first and third Wednesday in a month.\n\n
+ This event will be a cosy Meet & Greet for Game Creators of all trades and
+  those aspiring to become one. 🌱🌳\n\nRegardless if you are an Artist
+ \, Designer\, Programmer\, total Beginner or anything in between: please j
+ oin us! 🌟🌼\n\nIt also does not matter which engine you are using\, o
+ r if you are using any engine at all: We are eager to see your awesome pro
+ jects! ✨🎉\n\nThe free and open-source Godot game engine will however 
+ remain our anchor point and primary focus of attention. 🦾🚀\n\nAgenda
+ \n\n1. At the beginning we will mingle for half an hour and have a short r
+ ound of introductions with a theme question. 👋💬\n2. Then we will hav
+ e block of demos/lighting talks\, which can be anything you want to show o
+ r talk about for up to 5 Minutes. 🎮✨ For example:\n\n- Giving a short
+  educational presentation about a Game Creation topic.\n- Showing off the 
+ current state of your game\, art or soundtrack\, whether it's been shown b
+ efore or you want to highlight your progress\, or ask for feedback/playtes
+ ting.\n- Asking for help or input with something where you are stuck or ne
+ ed ideas.\n- Showing off a game that was made with Godot and that you enjo
+ y or are impressed by.\n- Showing off aspects of games that you find intri
+ guing\, no matter the engine.\n- And whatever else you can come up with to
+  show in 5 minutes that may spark interest.\n\n3. Afterwards we will hang 
+ out\, chat and maybe get a drink at ScuBar downstairs in the basement! 
+ 🦜🍻\n\nYou can also join us via Discord on our Discord Server. ☎️
+ \nhttps://discord.com/invite/Sm3CgrqqQa\n\nFollow us on Mastodon for updat
+ es. 📢\nhttps://mastodon.gamedev.place/@GodotUserGroupBerlin\n\nAlso ask
+  Matteo for more details.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230916T114850Z
+DTSTAMP:20230916T115002Z
+LAST-MODIFIED:20230916T115002Z
+SEQUENCE:3
+UID:9991219c-366a-4f08-b900-cbbe6f9fcc14
+DTSTART;TZID=Europe/Berlin:20230927T183000
+DTEND;TZID=Europe/Berlin:20230927T203000
+STATUS:CONFIRMED
+SUMMARY:AWS DeepRace Competitors Club
+DESCRIPTION:organised by @ajrew
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230920T123436Z
+DTSTAMP:20230920T123742Z
+LAST-MODIFIED:20230920T123742Z
+SEQUENCE:3
+UID:c0e7c279-a250-42b6-920b-1ed021b23ccd
+DTSTART;TZID=Europe/Berlin:20230924T120000
+DTEND;TZID=Europe/Berlin:20230924T140000
+STATUS:CONFIRMED
+SUMMARY:Intro to Black Aesthetic Philosophy
+LOCATION:Grünberger Str. 16
+DESCRIPTION:This participatory workshop combines craft with storytelling as
+  an introduction to Black Aesthetic Philosphy. It ends with Autoethnograph
+ ical reading which brings it all together in the present.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230923T141344Z
+DTSTAMP:20230923T141410Z
+LAST-MODIFIED:20230923T141410Z
+SEQUENCE:2
+UID:cba64848-9134-4a8f-8121-3b541fcea9d2
+DTSTART;TZID=Europe/Berlin:20230923T140000
+DTEND;TZID=Europe/Berlin:20230923T170000
+STATUS:CONFIRMED
+SUMMARY:JugendHackt: ATTiny löten und programmieren
+DESCRIPTION:Anmeldung https://anmeldung.jugendhackt.org/berlin/pygames1-2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230925T161946Z
+DTSTAMP:20230925T162013Z
+LAST-MODIFIED:20230925T162013Z
+SEQUENCE:3
+UID:53747b71-1387-401d-a4cb-9929a4c3e971
+DTSTART;TZID=Europe/Berlin:20230926T200000
+DTEND;TZID=Europe/Berlin:20230926T230000
+STATUS:CONFIRMED
+SUMMARY:neurodivergent creative nights
+DESCRIPTION:organised by @inesfcn (she/her)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230926T200030Z
+DTSTAMP:20230926T200050Z
+LAST-MODIFIED:20230926T200050Z
+SEQUENCE:2
+UID:ac7b6b1b-0295-402c-857e-e3f93ccb0f70
+DTSTART;TZID=Europe/Berlin:20231119T130000
+DTEND;TZID=Europe/Berlin:20231119T190000
+STATUS:CONFIRMED
+SUMMARY:Kindernachmittag
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230926T204336Z
+DTSTAMP:20230926T204413Z
+LAST-MODIFIED:20230926T204413Z
+SEQUENCE:3
+UID:b00cdaff-c2bf-467b-afd0-935fe15398ce
+DTSTART;TZID=Europe/Berlin:20231022T140000
+DTEND;TZID=Europe/Berlin:20231022T170000
+STATUS:CONFIRMED
+SUMMARY:coderdojo red: Erste Schritte in PyGame
+DESCRIPTION:https://coderdojo.red/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230927T210432Z
+DTSTAMP:20230927T211826Z
+LAST-MODIFIED:20230927T211826Z
+SEQUENCE:2
+UID:d07b79e9-d848-4883-b04e-eaaebb993274
+DTSTART;TZID=Europe/Berlin:20231001T140000
+DTEND;TZID=Europe/Berlin:20231001T150000
+STATUS:CONFIRMED
+SUMMARY:FDM refresher workshop
+LOCATION:xhain
+DESCRIPTION:Are you looking to fine-tune your 3D printing skills? Slicing i
+ s a critical part of the 3D printing process\, and this workshop will help
+  you master the art of preparing 3D models for your FDM printer. Whether y
+ ou're a beginner or a seasoned maker\, this event is perfect for anyone in
+ terested in creating precise and stunning 3D prints.\n\nWhat to Expect:\n\
+ nIntroduction to Slicing Software: We'll introduce you to popular slicing 
+ software\, providing tips and tricks for efficient use.\nModel Preparation
+ : Learn how to import\, scale\, rotate\, and position 3D models for optima
+ l printing.\nSlicing Parameters: Discover the key slicing parameters like 
+ layer height\, infill density\, and support structures.\nTroubleshooting: 
+ Get insights into common slicing issues and how to troubleshoot them.\nHan
+ ds-On Practice: Bring your laptop and 3D models\, or use one of our demo m
+ odels to practice slicing.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230917T114751Z
+DESCRIPTION:we're playing some Empty Epsilon in the lobby\, sorry for any i
+ nconvenience. https://daid.github.io/EmptyEpsilon/\n\norganised by Leszek 
+ / davedarko
+DTEND;TZID=Europe/Berlin:20230929T220000
+DTSTAMP:20230929T164526Z
+DTSTART;TZID=Europe/Berlin:20230929T190000
+LAST-MODIFIED:20230929T164508Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Lobby: Empty Epsilon 
+TRANSP:OPAQUE
+UID:e9463ae0-9bfb-4cc7-8fab-8f461bf6feb4
+BEGIN:VALARM
+ACKNOWLEDGED:20230929T164508Z
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:D22F8A2E-B003-4336-A246-6D877B7D4902
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:D22F8A2E-B003-4336-A246-6D877B7D4902
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230912T192844Z
+DTSTAMP:20230914T102539Z
+LAST-MODIFIED:20230914T102539Z
+SEQUENCE:3
+UID:d5fab04d-c1e1-42cd-82b5-c389bdbe05a7
+DTSTART;TZID=Europe/Berlin:20231010T201500
+DTEND;TZID=Europe/Berlin:20231010T211500
+STATUS:CONFIRMED
+SUMMARY:Enting meeting [members only]
+LOCATION:xHain Lobby
+DESCRIPTION:On every second Tuesday of the month the Enting has a meeting. 
+ Members are allowed to sit in.
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230930T114549Z
+DTSTAMP:20230930T114549Z
+LAST-MODIFIED:20230930T114549Z
+SEQUENCE:1
+UID:d5fab04d-c1e1-42cd-82b5-c389bdbe05a7
+DTSTART;TZID=Europe/Berlin:20231010T201500
+DTEND;TZID=Europe/Berlin:20231010T211500
+STATUS:CONFIRMED
+SUMMARY:Enting Meeting [members only]
+LOCATION:xHain Lobby
+DESCRIPTION:On every second Tuesday of the month the Enting has a meeting. 
+ Members are allowed to sit in.
+RECURRENCE-ID;TZID=Europe/Berlin:20231010T201500
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230930T114554Z
+DTSTAMP:20230930T114636Z
+LAST-MODIFIED:20230930T114636Z
+SEQUENCE:2
+UID:c1834ed9-629b-4723-9c3a-5d0f32a51a66
+DTSTART;TZID=Europe/Berlin:20231025T201500
+DTEND;TZID=Europe/Berlin:20231025T211500
+STATUS:CONFIRMED
+SUMMARY:Curator Meeting [members only]
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230930T114743Z
+DTSTAMP:20231022T080025Z
+LAST-MODIFIED:20231022T080025Z
+SEQUENCE:3
+UID:d62254f2-8cb9-413e-8e84-2669f6dce28d
+DTSTART;TZID=Europe/Berlin:20231018T183000
+DTEND;TZID=Europe/Berlin:20231018T203000
+STATUS:CONFIRMED
+SUMMARY:AI DeepRacers
+DESCRIPTION:organised by @ajrew
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231005T111101Z
+DTSTAMP:20231005T111423Z
+LAST-MODIFIED:20231005T111423Z
+SEQUENCE:2
+UID:3fd6744b-c677-4ec8-b6d6-00ea43b7821d
+DTSTART;TZID=Europe/Berlin:20231011T140000
+DTEND;TZID=Europe/Berlin:20231011T180000
+STATUS:CONFIRMED
+DESCRIPTION:Lobby meeting\, pls be mindful when entering space!\n\nMeeting 
+ with derMichas friends from Space Of Urgency (https://spaceofurgency.org/)
+  and Kollektiv Spieltrieb (https://kollektiv-spieltrieb.de). They need a l
+ ocation to discuss the future of their project Raumsonde (https://raumsond
+ e.org/).
+SUMMARY:Lobby blocked: Space Of Urgency closed meeting
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231009T185702Z
+DTSTAMP:20231024T124112Z
+LAST-MODIFIED:20231024T124112Z
+SEQUENCE:3
+UID:80140ab7-8b1b-4a6a-ba39-fb9aabfe8399
+DTSTART;TZID=Europe/Berlin:20231031T200000
+DTEND;TZID=Europe/Berlin:20231031T230000
+STATUS:CONFIRMED
+SUMMARY:Neurodivergent crafting night
+DESCRIPTION:https://www.meetup.com/neurodivergent-creative-tuesdays/\norgan
+ iser: inesfcn
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231009T185743Z
+DTSTAMP:20231024T124104Z
+LAST-MODIFIED:20231024T124104Z
+SEQUENCE:3
+UID:c390e8a0-d9f7-44e2-adaf-34c244aa42e2
+DTSTART;TZID=Europe/Berlin:20231024T200000
+DTEND;TZID=Europe/Berlin:20231024T230000
+STATUS:CONFIRMED
+SUMMARY:Neurodivergent crafting night
+DESCRIPTION:https://www.meetup.com/neurodivergent-creative-tuesdays/\norgan
+ iser: inescfn
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231018T075400Z
+DTSTAMP:20231018T075720Z
+LAST-MODIFIED:20231018T075720Z
+SEQUENCE:2
+UID:d012bd4a-371f-47f7-81a5-afd603fa40fa
+DTSTART;TZID=Europe/Berlin:20231111T200000
+DTEND;TZID=Europe/Berlin:20231111T230000
+STATUS:CONFIRMED
+SUMMARY:Empty Epsilon Game Night
+DESCRIPTION:We're playing another round of Empty Epsilon in the lobby and t
+ his time maybe even in the basement with a second ship? We have the power\
+ , we have the technology.\n\nEmpty Epsilon is basically a "star trek" like
+  bridge simulator\, where every station can be played on a single computer
+ . The beamer can be the front sensors of the ship. \n\norganised by: Lesze
+ k (and dave)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231018T115821Z
+DTSTAMP:20231208T113531Z
+LAST-MODIFIED:20231208T113531Z
+SEQUENCE:3
+UID:e5b4bc36-97e7-46ad-a4c2-1ad2e22f8c26
+DTSTART;TZID=Europe/Berlin:20231014T120000
+DTEND;TZID=Europe/Berlin:20231014T130000
+STATUS:CONFIRMED
+SUMMARY:Could somebody check the fire alarms\, that would be great thanks
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=SA;BYSETPOS=2;UNTIL=20240113T105959Z
+RELATED-TO;RELTYPE=SIBLING:814facb3-b310-43b8-a229-8dba317d56cd
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230919T000720Z
+DTSTAMP:20231020T103245Z
+LAST-MODIFIED:20231020T103245Z
+SEQUENCE:6
+UID:294b71c0-a77b-468c-a136-5d7f6d6601a9
+DTSTART;TZID=Europe/Berlin:20231021T150000
+DTEND;TZID=Europe/Berlin:20231021T200000
+SUMMARY:Godot User Group Berlin - Meet and Greet: Multiplayer Best Practice
+ s
+DESCRIPTION:We are very happy to announce a special event: This time on the
+  weekend\, so friends from outside of Berlin can join us! 🎉\nOur topic 
+ will be Multiplayer Best Practices. 👾🕹️\n\nWe will chat about best
+  practices and real-life experiences regarding Multiplayer games made in G
+ odot. We will hear about some lessons learnt from a Godot multiplayer game
+  creator and have a play-testing session with their latest project's beta 
+ build\, so please bring your laptop! 🚀🎮\n\nWe are a group of people 
+ passionate about the cross-platform\, Free and Open Source Godot game engi
+ ne. Our goal is to share knowledge\, create art together\, code together\,
+  join game jams together and have fun!\n\nWe strive to hold meetups at loc
+ al Berlin hackspaces and makespaces like xHain in Friedrichshain every fir
+ st and third Wednesday in a month.\n\nThis event will be a cosy Meet & Gre
+ et for Game Creators of all trades and those aspiring to become one. 🌱
+ 🌳\n\nRegardless if you are an Artist\, Designer\, Programmer\, total Be
+ ginner or anything in between: please join us! 🌟🌼\n\nIt also does no
+ t matter which engine you are using\, or if you are using any engine at al
+ l: We are eager to see your awesome projects! ✨🎉\n\nThe free and open
+ -source Godot game engine will however remain our anchor point and primary
+  focus of attention. 🦾🚀\n\nAgenda\n\n1. At the beginning we will min
+ gle for half an hour and have a short round of introductions with a theme 
+ question. 👋💬\n2. Then we will have block of demos/lighting talks\, w
+ hich can be anything you want to show or talk about for up to 5 Minutes. 
+ 🎮✨ For example:\n\n- Giving a short educational presentation about a 
+ Game Creation topic.\n- Showing off the current state of your game\, art o
+ r soundtrack\, whether it's been shown before or you want to highlight you
+ r progress\, or ask for feedback/playtesting.\n- Asking for help or input 
+ with something where you are stuck or need ideas.\n- Showing off a game th
+ at was made with Godot and that you enjoy or are impressed by.\n- Showing 
+ off aspects of games that you find intriguing\, no matter the engine.\n- A
+ nd whatever else you can come up with to show in 5 minutes that may spark 
+ interest.\n\n3. Afterwards we will hang out\, chat and maybe get a drink a
+ t ScuBar downstairs in the basement! 🦜🍻\n\nYou can also join us via 
+ Discord on our Discord Server. ☎️\nhttps://discord.com/invite/Sm3Cgrqq
+ Qa\n\nFollow us on Mastodon for updates. 📢\nhttps://mastodon.gamedev.pl
+ ace/@GodotUserGroupBerlin\n\nAlso ask Matteo for more details.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231021T113133Z
+DTSTAMP:20231021T113222Z
+LAST-MODIFIED:20231021T113222Z
+SEQUENCE:3
+UID:0407a11f-b766-4f8e-8f6d-ff531ba977ae
+DTSTART;TZID=Europe/Berlin:20231024T203000
+DTEND;TZID=Europe/Berlin:20231024T213000
+STATUS:CONFIRMED
+SUMMARY:[ONLINE] xHain "Wednesday" Meeting
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231022T080034Z
+DTSTAMP:20231102T161534Z
+LAST-MODIFIED:20231102T161534Z
+SEQUENCE:4
+UID:0316377a-e257-4d1c-94f5-8cb2f25788b8
+DTSTART;TZID=Europe/Berlin:20231102T183000
+DTEND;TZID=Europe/Berlin:20231102T203000
+STATUS:CONFIRMED
+SUMMARY:AI DeepRacers 
+DESCRIPTION:https://www.meetup.com/berlin-ai-deep-racer/\n\nOrganised by @a
+ jrew\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231022T152133Z
+DTSTAMP:20231204T210518Z
+LAST-MODIFIED:20231204T210518Z
+SEQUENCE:3
+UID:6184f6d4-6607-4df7-bb79-e5066f6764da
+DTSTART;TZID=Europe/Berlin:20231219T200000
+DTEND;TZID=Europe/Berlin:20231219T220000
+STATUS:CONFIRMED
+SUMMARY:(! MOVED TO JANUARY) xHain Member Meeting 
+DESCRIPTION:Big member meeting\, come plenty - there will be no gifts
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231024T011749Z
+UID:c9158eec-083a-4798-9860-99c4a83cce0f
+SEQUENCE:1
+SUMMARY:offener Montag
+DTSTART;TZID=Europe/Berlin:20230102T180000
+DTEND;TZID=Europe/Berlin:20230102T235900
+RRULE:FREQ=WEEKLY;UNTIL=20231022T215959Z;BYDAY=MO
+CLASS:PUBLIC
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:offener Montag
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231025T081649Z
+DTSTAMP:20231025T082034Z
+LAST-MODIFIED:20231025T082034Z
+SEQUENCE:2
+UID:0ea2171c-d49d-4ab7-aa23-7d794c9a15b7
+DTSTART;TZID=Europe/Berlin:20231109T170000
+DTEND;TZID=Europe/Berlin:20231109T190000
+STATUS:CONFIRMED
+SUMMARY:Parklet: Glühweinweihung
+DESCRIPTION:Our neighbours (Kulturschöpfer) invited us to a round of Glüh
+ wein for an "opening" event of our parklet. Kulturschöpfer and xHain join
+ ed forces to have a parklet in the Kadiner Str. (the one crossing the Grü
+ nberger right in front the space).
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230414T102756Z
+DTSTAMP:20231026T095242Z
+LAST-MODIFIED:20231026T095242Z
+SEQUENCE:6
+UID:895a710d-4793-4c15-b75d-70d34d8c8fd6
+DTSTART;TZID=Europe/Berlin:20231103T180000
+DTEND;TZID=Europe/Berlin:20231103T203000
+STATUS:CONFIRMED
+SUMMARY:Workshop: "Der Kampf ums Internet - Einführung in die Welt der Net
+ zpolitik"
+DESCRIPTION:öffentlich\, d.h. für alle xHainis und auch öffentlich in Be
+ rliner Verteilern beworben\n\nEin größenwahnsinniger Schwachkopf kauft d
+ ie Social Media-Plattform deines Vertrauens. Die Bundesregierung hört dei
+ n Handy ab. Wahlen werden erkauft. Google macht mit deinen Daten Millionen
+ . Jetzt gibt’s auch noch das Metaverse. Aber immer noch keine Glasfaserk
+ abel.\n\nDeutlich wird: Netzpolitik\, also Politik mit dem Schwerpunkt Int
+ ernet\, betrifft uns alle und all unsere Lebensbereiche. In diesem Worksho
+ p lernen wir die Netzpolitik kennen. Wir schauen uns die Geschichte der Di
+ gitalisierung und der Netzpolitik an und beleuchten aktuelle Themenfelder 
+ und Akteur*innen der Netzpolitik.\n\nhttps://bildung.social/@all/111300618
+ 766244089\n\nAnsprechpartner: lanzzz
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231028T143059Z
+UID:573c8517-7707-49dd-b09d-a7f80fa3df61
+SUMMARY:xHain Wednesday meeting
+DESCRIPTION:see chat for more
+DTSTART;TZID=Europe/Berlin:20230607T203000
+DTEND;TZID=Europe/Berlin:20230607T220000
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1;UNTIL=20231101T192959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:1695d4c9-aa37-4b52-bda9-2132ac92e3a2
+RELATED-TO;RELTYPE=SIBLING:b7ef1306-aa13-4d2f-9fa9-78bfc781b368
+CREATED:20230601T105630Z
+LAST-MODIFIED:20231028T143059Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231028T143059Z
+UID:b7ef1306-aa13-4d2f-9fa9-78bfc781b368
+SUMMARY:xHain Round Table
+DESCRIPTION:see chat for more
+DTSTART;TZID=Europe/Berlin:20231101T203000
+DTEND;TZID=Europe/Berlin:20231101T220000
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:1695d4c9-aa37-4b52-bda9-2132ac92e3a2
+RELATED-TO;RELTYPE=SIBLING:573c8517-7707-49dd-b09d-a7f80fa3df61
+CREATED:20231028T143059Z
+LAST-MODIFIED:20231028T143059Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231030T201756Z
+DTSTAMP:20231030T201847Z
+LAST-MODIFIED:20231030T201847Z
+SEQUENCE:2
+UID:8a148981-439c-4263-8aba-efda2fd35e7d
+DTSTART;TZID=Europe/Berlin:20231102T190000
+DTEND;TZID=Europe/Berlin:20231102T210000
+STATUS:CONFIRMED
+SUMMARY:37C3 Planning Meetup
+DESCRIPTION:see #37C3:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231030T201859Z
+DTSTAMP:20231102T194145Z
+LAST-MODIFIED:20231102T194146Z
+SEQUENCE:4
+UID:ce4f79d5-6165-4052-9ef3-49862dde88c3
+DTSTART;TZID=Europe/Berlin:20231108T190000
+DTEND;TZID=Europe/Berlin:20231108T210000
+STATUS:CONFIRMED
+SUMMARY:37C3 Planning [remote]
+DESCRIPTION:see #37C3:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231101T182146Z
+DTSTAMP:20231101T182232Z
+LAST-MODIFIED:20231101T182232Z
+SEQUENCE:2
+UID:256dd2f0-fdf4-4f23-bb0f-97672ee7cdf0
+DTSTART;TZID=Europe/Berlin:20231107T180000
+DTEND;TZID=Europe/Berlin:20231107T230000
+STATUS:CONFIRMED
+SUMMARY:Pen and Paper Night
+DESCRIPTION:We would like to introduce everyone who is interested to the wo
+ rld of Pen&Paper. Discuss about self-made things like 3D-printed and laser
+ -cut equipment and play a oneshot designed for one evening. \n\nWe already
+  have a group of xHain Members as players\, everyone is invited to join us
+  and gain some insights on how to play and even join the game as an NPC (N
+ on Player Character). \nPeople are especially welcome to look over the gam
+ e leader's shoulder and learn how to become a Dungeon Master. Of course we
+  will help everyone who is interested with creating their own characters u
+ sing our material and knowledge. \nIf you would like to know more about it
+ \, you are welcome to join us in the Pen&Paper-channel!\n\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231102T101228Z
+DTSTAMP:20231102T101434Z
+LAST-MODIFIED:20231102T101434Z
+SEQUENCE:2
+UID:450c9b04-7106-4a9d-a7ce-24d9903c8173
+DTSTART;TZID=Europe/Berlin:20231104T110000
+DTEND;TZID=Europe/Berlin:20231104T170000
+STATUS:CONFIRMED
+DESCRIPTION:help us clean the entire basement out of the black mould that i
+ s settling on our walls.\n\nThe process has three parts:\n\n1. First to mo
+ ve all furniture and boxes away from the walls\, so we can easily access t
+ he bottom part of all walls where the mould is (which is nearly all walls)
+ .\n\n2. Then we need to use chemicals (either hydrogen peroxide or a 10% b
+ leach solution) and brush all the mould from all the walls.\n\n3. A day (o
+ r two) later\, after lots of ventilation downstairs\, we need to put all t
+ he stuff back in place.\n\nWho would be willing to help with this?\n\nPlea
+ se note\, using a painter's mask with FFP3 filters is essential for step 2
+ . Using regular ffp3 masks for step 1 is also highly recommended. Step 3 s
+ hould be fine without masks\, if we are successful.\n\norganiser: @urawn:x
+ -hain.de\n
+SUMMARY:Sobotnik: Fight The Mold
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231108T110025Z
+DTSTAMP:20231108T110113Z
+LAST-MODIFIED:20231108T110113Z
+SEQUENCE:2
+UID:aa0e6f5d-6218-42f5-a85e-5e9af18bb9ed
+DTSTART;TZID=Europe/Berlin:20231122T203000
+DTEND;TZID=Europe/Berlin:20231122T213000
+STATUS:CONFIRMED
+SUMMARY:Round Table Meeting
+DESCRIPTION:https://pad.x-hain.de/p/xHain-reboot-2023-11-22-Agenda
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231108T142638Z
+DTSTAMP:20231108T142729Z
+LAST-MODIFIED:20231108T142729Z
+SEQUENCE:2
+UID:578d76af-c98a-4029-9800-216d976d8f0a
+DTSTART;TZID=Europe/Berlin:20231123T190000
+DTEND;TZID=Europe/Berlin:20231123T230000
+STATUS:CONFIRMED
+SUMMARY:Setup for concert on 24th
+LOCATION:Lobby will be partly blocked
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231102T121220Z
+DTSTAMP:20231102T231806Z
+LAST-MODIFIED:20231102T231806Z
+SEQUENCE:4
+UID:20959f15-9c6f-42be-add8-2b1e9da92e38
+DTSTART;TZID=Europe/Berlin:20231118T200000
+DTEND;TZID=Europe/Berlin:20231118T220000
+STATUS:CONFIRMED
+SUMMARY:Never Mind the Gigwork\, Here's The Coffeebots
+DESCRIPTION:Follow our brave little coffeebots and their struggle against t
+ he algorithmic capitalist system. Fly with us to the end of the universe t
+ o fight the big bad endboss and enjoy some tunes along the journey. Get re
+ ady for some old-school hand-made science fiction.\n\nThis is the reconstr
+ uction of the videorecorded version of a nerdy marionette puppet play that
+  was never performed. The completion of a work long in the making\, and in
+  the end turned out to be a film. The coffeebots and those that pull their
+  strings will be present and perform that evening. We use the language of 
+ the Internet: Easy English with heavy accents and lots of technobabble. Fu
+ ll HD\, 64 Minutes\, colour\, original music and score\, english with engl
+ ish subtitles\, Berlin 2023.\n\nThere will be Popcorn!\n\nTrailer: https:/
+ /vimeo.com/827564833\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231108T191501Z
+DTSTAMP:20231108T191533Z
+LAST-MODIFIED:20231108T191533Z
+SEQUENCE:2
+UID:ec5253b0-ef23-4986-a4ae-3c730c943a3f
+DTSTART;TZID=Europe/Berlin:20231116T200000
+DTEND;TZID=Europe/Berlin:20231116T220000
+STATUS:CONFIRMED
+SUMMARY:37C3 Orga Meeting
+DESCRIPTION:see #37C3:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231110T120342Z
+DTSTAMP:20231114T131702Z
+LAST-MODIFIED:20231114T131702Z
+SEQUENCE:3
+UID:b5012cf7-4b4b-4d94-af14-c63892b59185
+DTSTART;TZID=Europe/Berlin:20231114T180000
+DTEND;TZID=Europe/Berlin:20231114T200000
+STATUS:CONFIRMED
+SUMMARY:[Canceled] Rummelsburger Bucht Boatpeople Meeting
+DESCRIPTION:Discussion round: "This people want to meet and discuss how thi
+ s community of very different people could get organized in better way" \n
+ organizer: @dermicha:matrix.cyber4edu.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231116T070519Z
+DTSTAMP:20231119T104516Z
+LAST-MODIFIED:20231119T104516Z
+SEQUENCE:4
+UID:797d644f-b26a-420c-9a0e-3fb8f8cad749
+DTSTART;TZID=Europe/Berlin:20231129T180000
+DTEND;TZID=Europe/Berlin:20231129T220000
+STATUS:CONFIRMED
+SUMMARY:Elixir Lounge
+DESCRIPTION:Die Elixir Lounge ist eine Community von  Freunden der Programm
+ iersprache Elixir. In einer entspannten Atmosphäre wollen wir einen Erfah
+ rungsaustausch organisieren und Erkenntnisse und Einblicke in der Arbeit m
+ it Elixir\, seinen Frameworks\, dem Erlang-Ökosystem\, wichtigen Subsyste
+ men wie Phoenix und Nerves\, sowie funktionaler\, prozessorientierter Soft
+ wareentwicklung im Allgemeinen vermitteln. Wir bringen alte Hasen und Neul
+ inge zusammen und treffen uns grob einmal im Monat im x-hain in Berlin Fri
+ edrichshain.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231024T102838Z
+DTSTAMP:20231114T193730Z
+LAST-MODIFIED:20231114T193730Z
+SEQUENCE:3
+UID:ec0f8639-e6d6-4448-854a-271c7bd5e34e
+DTSTART;TZID=Europe/Berlin:20231201T190000
+DTEND;TZID=Europe/Berlin:20231201T220000
+STATUS:CONFIRMED
+SUMMARY:flow3r badge hacking
+DESCRIPTION:The chaos camp badge hacking team shows up for a badge hacking 
+ evening. Bring your flow3r badge or come see them :) \n\ncontact: @davedar
+ ko:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231117T094414Z
+DESCRIPTION:Organizer: gueldi (@gueldi:x-hain.de)
+DTEND;TZID=Europe/Berlin:20231207T220000
+DTSTAMP:20231117T094416Z
+DTSTART;TZID=Europe/Berlin:20231207T180000
+LAST-MODIFIED:20231117T094414Z
+SEQUENCE:0
+SUMMARY:Synthesizer Meetup
+TRANSP:OPAQUE
+UID:5B1B7C78-FFBA-48B7-A441-D8FBB0EF699E
+X-APPLE-CREATOR-IDENTITY:com.apple.mobilecal
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:DBBC21FA-DB03-4D91-9D18-A7DE8583F031
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:DBBC21FA-DB03-4D91-9D18-A7DE8583F031
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231028T142608Z
+DTSTAMP:20231028T142641Z
+LAST-MODIFIED:20231028T142641Z
+SEQUENCE:2
+UID:609fd668-e939-4e34-8815-21e9d409e4d9
+DTSTART;TZID=Europe/Berlin:20231129T201500
+DTEND;TZID=Europe/Berlin:20231129T211500
+STATUS:CONFIRMED
+SUMMARY:Curator Meeting [members only]
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231120T220626Z
+DTSTAMP:20231120T220757Z
+LAST-MODIFIED:20231120T220757Z
+SEQUENCE:2
+UID:ba2a1234-2ca1-4998-8e37-9854dbb5e62a
+DTSTART;TZID=Europe/Berlin:20231125T110000
+DTEND;TZID=Europe/Berlin:20231125T140000
+STATUS:CONFIRMED
+SUMMARY:After Concert Cleaning
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231125T132730Z
+DTSTAMP:20231125T132806Z
+LAST-MODIFIED:20231125T132806Z
+SEQUENCE:2
+UID:219e15f0-b616-4a14-9a24-1fc29e1f034f
+DTSTART;TZID=Europe/Berlin:20231125T180000
+DTEND;TZID=Europe/Berlin:20231125T210000
+STATUS:CONFIRMED
+SUMMARY:Meshcon Social Get Together
+DESCRIPTION:https://meshcon.net
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231125T132819Z
+DTSTAMP:20231125T132837Z
+LAST-MODIFIED:20231125T132837Z
+SEQUENCE:2
+UID:a02b889f-ce1e-4f61-a226-8ae50f99158b
+DTSTART;TZID=Europe/Berlin:20231126T100000
+DTEND;TZID=Europe/Berlin:20231126T170000
+STATUS:CONFIRMED
+SUMMARY:Meshcon Workshops\, Hands-on Labs\, Project Meetings
+DESCRIPTION:https://meshcon.net/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231129T215433Z
+DTSTAMP:20231129T220655Z
+LAST-MODIFIED:20231129T220655Z
+SEQUENCE:4
+UID:cc7d642c-054f-485c-8813-b61adba27a60
+DTSTART;TZID=Europe/Berlin:20240124T180000
+DTEND;TZID=Europe/Berlin:20240124T220000
+STATUS:CONFIRMED
+SUMMARY:Elixir Lounge
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=4
+DESCRIPTION:Die Elixir Lounge ist eine Community von  Freunden der Programm
+ iersprache Elixir. In einer entspannten Atmosphäre wollen wir einen Erfah
+ rungsaustausch organisieren und Erkenntnisse und Einblicke in der Arbeit m
+ it Elixir\, seinen Frameworks\, dem Erlang-Ökosystem\, wichtigen Subsyste
+ men wie Phoenix und Nerves\, sowie funktionaler\, prozessorientierter Soft
+ wareentwicklung im Allgemeinen vermitteln. Wir bringen alte Hasen und Neul
+ inge zusammen und treffen uns grob einmal im Monat im x-hain in Berlin Fri
+ edrichshain.
+ATTACH;FMTTYPE=image/png;FILENAME=/elixir-lounge.png;X-NC-FILE-ID=132687;X-
+ NC-HAS-PREVIEW=true:/f/132687
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231129T215737Z
+DTSTAMP:20231129T220027Z
+LAST-MODIFIED:20231129T220027Z
+SEQUENCE:3
+UID:b41bbd70-bb8c-43e2-b0b5-08b27f46ab6e
+DTSTART;TZID=Europe/Berlin:20231221T180000
+DTEND;TZID=Europe/Berlin:20231221T220000
+STATUS:CONFIRMED
+SUMMARY:Elixir Lounge
+CATEGORIES:Elixir
+DESCRIPTION:Die Elixir Lounge ist eine Community von  Freunden der Programm
+ iersprache Elixir. In einer entspannten Atmosphäre wollen wir einen Erfah
+ rungsaustausch organisieren und Erkenntnisse und Einblicke in der Arbeit m
+ it Elixir\, seinen Frameworks\, dem Erlang-Ökosystem\, wichtigen Subsyste
+ men wie Phoenix und Nerves\, sowie funktionaler\, prozessorientierter Soft
+ wareentwicklung im Allgemeinen vermitteln. Wir bringen alte Hasen und Neul
+ inge zusammen und treffen uns grob einmal im Monat im x-hain in Berlin Fri
+ edrichshain.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231130T175135Z
+DTSTAMP:20231130T175637Z
+LAST-MODIFIED:20231130T175637Z
+SEQUENCE:3
+UID:aaaec9d6-40e8-4741-98c0-13a8babe5134
+DTSTART;TZID=Europe/Berlin:20231227T201500
+DTEND;TZID=Europe/Berlin:20231227T211500
+STATUS:CONFIRMED
+SUMMARY:Curator Meeting
+DESCRIPTION:xHain's Curators coming together\, discussing branch related to
+ pics and exchange ideas how to handle the responsibilities.
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=-1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231205T072716Z
+DESCRIPTION:Organizer: gueldi (@gueldi:x-hain.de)
+DTEND;TZID=Europe/Berlin:20240104T230000
+DTSTAMP:20231205T072717Z
+DTSTART;TZID=Europe/Berlin:20240104T180000
+LAST-MODIFIED:20231205T072716Z
+SEQUENCE:0
+SUMMARY:Synthesizer Meetup
+TRANSP:OPAQUE
+UID:2C8DBC77-FE2A-49E4-8501-159591B62496
+URL;VALUE=URI:
+X-APPLE-CREATOR-IDENTITY:com.apple.mobilecal
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+UID:507086A4-B5EF-4ECC-9E4C-2CC4AE4FFDFF
+X-APPLE-DEFAULT-ALARM:TRUE
+X-WR-ALARMUID:507086A4-B5EF-4ECC-9E4C-2CC4AE4FFDFF
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231207T020100Z
+UID:9d7f25e6-558f-46a6-be9f-04a28d10c3d0
+SUMMARY:JugendhacktLab
+DTSTART;TZID=Europe/Berlin:20230225T140000
+DTEND;TZID=Europe/Berlin:20230225T170000
+RRULE:FREQ=MONTHLY;BYDAY=-1SA;UNTIL=20231028T115959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:789946f3-751b-4a11-a505-f3b9f5fc1efc
+RELATED-TO;RELTYPE=SIBLING:98e36d3f-c2b8-481c-9ce8-8f25680a0069
+SEQUENCE:3
+LAST-MODIFIED:20231207T020100Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231216T115943Z
+UID:98e36d3f-c2b8-481c-9ce8-8f25680a0069
+SUMMARY:JugendhacktLab
+DTSTART;TZID=Europe/Berlin:20231028T140000
+DTEND;TZID=Europe/Berlin:20231028T170000
+RRULE:FREQ=MONTHLY;BYDAY=-1SA;UNTIL=20231125T125959Z
+STATUS:CONFIRMED
+RELATED-TO;RELTYPE=SIBLING:789946f3-751b-4a11-a505-f3b9f5fc1efc
+RELATED-TO;RELTYPE=SIBLING:9d7f25e6-558f-46a6-be9f-04a28d10c3d0
+SEQUENCE:1
+LAST-MODIFIED:20231216T115943Z
+DESCRIPTION:Für Details und Anmeldung:\nhttps://jugendhackt.org/lab/berlin
+ /
+CREATED:20231207T020100Z
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231114T135410Z
+DESCRIPTION:💄invited are all female members\, FLINTA are welcomed*. *^
+  that includes people of our whole xHain community\, not only those who pa
+ y for their “membership”\, but also many of those who love to drop by 
+ and join in\n💄not invited are men - independent of their sexual orienta
+ tion (an exception are the men renting offices) 💄if necessary men c
+ an grab/drop off urgent works and quickly leave the space with a low profi
+ le\n 💄Orga: 💥 the MakeHERspace Day starts at 12pm and ends when 
+ the last keyholder leaves. There will be announcements when the last ones 
+ have left\, so that the space becomes available for men back again 💥\n\
+ nOrganizer: Eva (@paleva:x-hain.de)
+DTEND;TZID=Europe/Berlin:20231116T235500
+DTSTAMP:20231207T020638Z
+DTSTART;TZID=Europe/Berlin:20231116T120000
+LAST-MODIFIED:20231207T020638Z
+RELATED-TO;RELTYPE=X-CALENDARSERVER-RECURRENCE-SET:8342910D-0817-4EA0-9325-
+ EC8B053F4904
+RRULE:FREQ=WEEKLY;COUNT=1;INTERVAL=2;BYDAY=TH
+SEQUENCE:1
+SUMMARY:MakeHERSpace
+TRANSP:OPAQUE
+UID:EC41A698-A34E-4710-AACB-456FEEC181B3
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231204T214331Z
+DTSTAMP:20231207T172104Z
+LAST-MODIFIED:20231207T172104Z
+SEQUENCE:5
+UID:de879f10-51e3-4fbf-ba86-346e4b02e055
+DTSTART;TZID=Europe/Berlin:20231231T200000
+DTEND;TZID=Europe/Berlin:20231231T235900
+STATUS:CONFIRMED
+SUMMARY:New Years Eve at Scubar
+DESCRIPTION:At least Richard will be there.
+LOCATION:Scubar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231207T172157Z
+UID:824ec8bd-c573-4d0c-a29f-676af609bed3
+SUMMARY:offener Montag
+DTSTART;TZID=Europe/Berlin:20231023T180000
+DTEND;TZID=Europe/Berlin:20231023T235900
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20231127T165959Z
+CLASS:PUBLIC
+RELATED-TO;RELTYPE=SIBLING:bd660240-d39f-436f-becd-7433020f7b29
+SEQUENCE:1
+LAST-MODIFIED:20231207T172157Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231207T172157Z
+UID:bd660240-d39f-436f-becd-7433020f7b29
+SUMMARY:offener Montag
+DTSTART;TZID=Europe/Berlin:20231127T180000
+DTEND;TZID=Europe/Berlin:20231127T235900
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CLASS:PUBLIC
+LOCATION:xHain
+RELATED-TO;RELTYPE=SIBLING:824ec8bd-c573-4d0c-a29f-676af609bed3
+CREATED:20231207T172157Z
+LAST-MODIFIED:20231207T172157Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231208T003531Z
+UID:93e4d352-d46c-4802-ba39-3070d3f3c21b
+SUMMARY:Spieleabend - Game Night
+DESCRIPTION:Analogue Game Night with card and tabletop games. Bring yours\,
+  let's play!
+DTSTART;TZID=Europe/Berlin:20231117T200000
+DTEND;TZID=Europe/Berlin:20231117T235500
+RRULE:FREQ=MONTHLY;BYDAY=3FR
+STATUS:CONFIRMED
+LOCATION:Lobby
+RELATED-TO;RELTYPE=SIBLING:96f54ca5-eed4-40ff-a106-50c3707b07c0
+CREATED:20231208T003531Z
+LAST-MODIFIED:20231208T003531Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113531Z
+DTSTAMP:20231208T113631Z
+LAST-MODIFIED:20231208T113631Z
+SEQUENCE:3
+UID:814facb3-b310-43b8-a229-8dba317d56cd
+DTSTART;TZID=Europe/Berlin:20240113T123000
+DTEND;TZID=Europe/Berlin:20240113T123400
+STATUS:CONFIRMED
+SUMMARY:Could somebody check the fire alarms\, that would be great thanks
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=SA;BYSETPOS=2
+RELATED-TO;RELTYPE=SIBLING:e5b4bc36-97e7-46ad-a4c2-1ad2e22f8c26
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113641Z
+DTSTAMP:20231208T114210Z
+LAST-MODIFIED:20231208T114210Z
+SEQUENCE:4
+UID:1b3f7e67-c641-45d9-bdf2-3c5b87966801
+DTSTART;TZID=Europe/Berlin:20240120T100000
+DTEND;TZID=Europe/Berlin:20240120T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie N02
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114713Z
+DTSTAMP:20231208T114753Z
+LAST-MODIFIED:20231208T114753Z
+SEQUENCE:3
+UID:a08b0e3e-fc95-4723-8764-8e70abb39f0b
+DTSTART;TZID=Europe/Berlin:20240413T100000
+DTEND;TZID=Europe/Berlin:20240413T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E08
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113706Z
+DTSTAMP:20231208T113825Z
+LAST-MODIFIED:20231208T113825Z
+SEQUENCE:4
+UID:f7ae1179-ff2f-4d5f-8625-1cf2b068682d
+DTSTART;TZID=Europe/Berlin:20240120T130000
+DTEND;TZID=Europe/Berlin:20240120T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113902Z
+DTSTAMP:20231208T113922Z
+LAST-MODIFIED:20231208T113922Z
+SEQUENCE:2
+UID:71f92b15-9556-419c-b88e-b11ce9142cf6
+DTSTART;TZID=Europe/Berlin:20240203T130000
+DTEND;TZID=Europe/Berlin:20240203T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113940Z
+DTSTAMP:20231208T114235Z
+LAST-MODIFIED:20231208T114235Z
+SEQUENCE:3
+UID:9565b6e5-1f61-4a6a-8214-6af496d24f77
+DTSTART;TZID=Europe/Berlin:20240210T100000
+DTEND;TZID=Europe/Berlin:20240210T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E01
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114037Z
+DTSTAMP:20231208T114049Z
+LAST-MODIFIED:20231208T114049Z
+SEQUENCE:2
+UID:22aa43b0-dace-4314-beeb-3523717e6dd5
+DTSTART;TZID=Europe/Berlin:20240217T130000
+DTEND;TZID=Europe/Berlin:20240217T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:Siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113142Z
+DTSTAMP:20231208T114146Z
+LAST-MODIFIED:20231208T114146Z
+SEQUENCE:3
+UID:1bdf6f6e-35fa-4e81-9ac1-82356fc435c9
+DTSTART;TZID=Europe/Berlin:20240106T100000
+DTEND;TZID=Europe/Berlin:20240106T110000
+STATUS:CONFIRMED
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+SUMMARY:Amateurfunklehrgang - Info Veranstaltung
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113414Z
+DTSTAMP:20231208T114203Z
+LAST-MODIFIED:20231208T114203Z
+SEQUENCE:3
+UID:ac526c10-2459-4c5c-877d-b92d7cdbb7d6
+DTSTART;TZID=Europe/Berlin:20240113T100000
+DTEND;TZID=Europe/Berlin:20240113T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie N01
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113725Z
+DTSTAMP:20231208T114219Z
+LAST-MODIFIED:20231208T114219Z
+SEQUENCE:4
+UID:b9c68b53-6af1-452b-94c5-e1ba81599f03
+DTSTART;TZID=Europe/Berlin:20240127T100000
+DTEND;TZID=Europe/Berlin:20240127T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie N03
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T113837Z
+DTSTAMP:20231208T114228Z
+LAST-MODIFIED:20231208T114228Z
+SEQUENCE:3
+UID:0c75f156-c0bb-44dc-8b42-b0fab481aad6
+DTSTART;TZID=Europe/Berlin:20240203T100000
+DTEND;TZID=Europe/Berlin:20240203T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie N04
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114013Z
+DTSTAMP:20231208T114240Z
+LAST-MODIFIED:20231208T114240Z
+SEQUENCE:3
+UID:ccb349bf-1540-4760-ae82-937fc05dcc03
+DTSTART;TZID=Europe/Berlin:20240217T100000
+DTEND;TZID=Europe/Berlin:20240217T123000
+STATUS:CONFIRMED
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+SUMMARY:Amateurfunklehrgang - Theorie E02
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114101Z
+DTSTAMP:20231208T114307Z
+LAST-MODIFIED:20231208T114307Z
+SEQUENCE:4
+UID:3b0720a3-6364-4ffd-a74e-6c05c097482e
+DTSTART;TZID=Europe/Berlin:20240224T100000
+DTEND;TZID=Europe/Berlin:20240224T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E03
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114311Z
+DTSTAMP:20231208T114333Z
+LAST-MODIFIED:20231208T114333Z
+SEQUENCE:2
+UID:8b2fbab8-a9bb-4668-985d-ae8e00768fbb
+DTSTART;TZID=Europe/Berlin:20240302T100000
+DTEND;TZID=Europe/Berlin:20240302T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E04
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114339Z
+DTSTAMP:20231208T114345Z
+LAST-MODIFIED:20231208T114345Z
+SEQUENCE:2
+UID:d50ca1d2-abb8-4d1e-9e63-050347716af8
+DTSTART;TZID=Europe/Berlin:20240302T130000
+DTEND;TZID=Europe/Berlin:20240302T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114428Z
+DTSTAMP:20231208T114439Z
+LAST-MODIFIED:20231208T114439Z
+SEQUENCE:2
+UID:58ce6eb7-6468-4ff2-a744-01b1fe87c1f6
+DTSTART;TZID=Europe/Berlin:20240316T100000
+DTEND;TZID=Europe/Berlin:20240316T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E05
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114445Z
+DTSTAMP:20231208T114455Z
+LAST-MODIFIED:20231208T114455Z
+SEQUENCE:2
+UID:fb79123b-c2d0-4e46-aa51-c57e048b9233
+DTSTART;TZID=Europe/Berlin:20240316T130000
+DTEND;TZID=Europe/Berlin:20240316T160000
+STATUS:CONFIRMED
+DESCRIPTION:siehe oben
+SUMMARY:Amateurfunklehrgang - Praxis
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114459Z
+DTSTAMP:20231208T114519Z
+LAST-MODIFIED:20231208T114519Z
+SEQUENCE:2
+UID:562653a4-f472-4782-b31e-cf86e1e851fe
+DTSTART;TZID=Europe/Berlin:20240323T100000
+DTEND;TZID=Europe/Berlin:20240323T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E06
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114523Z
+DTSTAMP:20231208T114530Z
+LAST-MODIFIED:20231208T114530Z
+SEQUENCE:2
+UID:d5e37592-b5c0-404b-a61d-b954835e82d1
+DTSTART;TZID=Europe/Berlin:20240323T130000
+DTEND;TZID=Europe/Berlin:20240323T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114600Z
+DTSTAMP:20231208T114625Z
+LAST-MODIFIED:20231208T114625Z
+SEQUENCE:2
+UID:a6b96876-d540-45a7-a95e-c6032e8fa508
+DTSTART;TZID=Europe/Berlin:20240406T100000
+DTEND;TZID=Europe/Berlin:20240406T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E07
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114628Z
+DTSTAMP:20231208T114646Z
+LAST-MODIFIED:20231208T114646Z
+SEQUENCE:2
+UID:90a3e868-452f-43ec-bfab-ae02a0c7347d
+DTSTART;TZID=Europe/Berlin:20240406T130000
+DTEND;TZID=Europe/Berlin:20240406T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben\n
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114758Z
+DTSTAMP:20231208T114817Z
+LAST-MODIFIED:20231208T114817Z
+SEQUENCE:2
+UID:73b2c73f-bcd2-4f58-99c9-84d55865fe53
+DTSTART;TZID=Europe/Berlin:20240420T100000
+DTEND;TZID=Europe/Berlin:20240420T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie E09
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114820Z
+DTSTAMP:20231208T114837Z
+LAST-MODIFIED:20231208T114837Z
+SEQUENCE:2
+UID:1aa05d5d-9e9f-4ff4-b524-c35ecee278cc
+DTSTART;TZID=Europe/Berlin:20240420T130000
+DTEND;TZID=Europe/Berlin:20240420T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114851Z
+DTSTAMP:20231208T114905Z
+LAST-MODIFIED:20231208T114905Z
+SEQUENCE:2
+UID:45ee4c4b-de67-4bda-8cf8-6abc94613da3
+DTSTART;TZID=Europe/Berlin:20240427T100000
+DTEND;TZID=Europe/Berlin:20240427T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114917Z
+DTSTAMP:20231208T114939Z
+LAST-MODIFIED:20231208T114939Z
+SEQUENCE:2
+UID:c54a3003-c7bc-421c-846d-dff972265c46
+DTSTART;TZID=Europe/Berlin:20240504T100000
+DTEND;TZID=Europe/Berlin:20240504T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A01
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T114943Z
+DTSTAMP:20231208T114953Z
+LAST-MODIFIED:20231208T114953Z
+SEQUENCE:2
+UID:16680e8b-f0cd-446d-83b8-ca7a88f5662f
+DTSTART;TZID=Europe/Berlin:20240504T130000
+DTEND;TZID=Europe/Berlin:20240504T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115002Z
+DTSTAMP:20231208T115035Z
+LAST-MODIFIED:20231208T115035Z
+SEQUENCE:2
+UID:a5cf2af8-78f2-4c21-93d9-6eb735def097
+DTSTART;TZID=Europe/Berlin:20240525T100000
+DTEND;TZID=Europe/Berlin:20240525T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A02
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115055Z
+DTSTAMP:20231208T115121Z
+LAST-MODIFIED:20231208T115121Z
+SEQUENCE:3
+UID:7b1c4c25-17c3-454d-aaa2-422c4f873815
+DTSTART;TZID=Europe/Berlin:20240601T100000
+DTEND;TZID=Europe/Berlin:20240601T123000
+STATUS:CONFIRMED
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+SUMMARY:Amateurfunklehrgang - Theorie A03
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115122Z
+DTSTAMP:20231208T115143Z
+LAST-MODIFIED:20231208T115143Z
+SEQUENCE:3
+UID:20cc64eb-ae3c-4fe8-9fed-6f2069174bca
+DTSTART;TZID=Europe/Berlin:20240601T130000
+DTEND;TZID=Europe/Berlin:20240601T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115201Z
+DTSTAMP:20231208T115225Z
+LAST-MODIFIED:20231208T115225Z
+SEQUENCE:2
+UID:ba2cfc13-c556-4a97-aded-a298de89ba75
+DTSTART;TZID=Europe/Berlin:20240608T100000
+DTEND;TZID=Europe/Berlin:20240608T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A04
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115229Z
+DTSTAMP:20231208T115249Z
+LAST-MODIFIED:20231208T115249Z
+SEQUENCE:2
+UID:317ec31a-24e1-4919-b10a-d7efd738303a
+DTSTART;TZID=Europe/Berlin:20240615T100000
+DTEND;TZID=Europe/Berlin:20240615T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A05
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115251Z
+DTSTAMP:20231208T115303Z
+LAST-MODIFIED:20231208T115303Z
+SEQUENCE:2
+UID:fb81742a-1d01-442c-ae96-adace9007db1
+DTSTART;TZID=Europe/Berlin:20240615T130000
+DTEND;TZID=Europe/Berlin:20240615T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115314Z
+DTSTAMP:20231208T115353Z
+LAST-MODIFIED:20231208T115353Z
+SEQUENCE:3
+UID:e67bcf7e-5503-4ad7-b2e5-56daf88262a1
+DTSTART;TZID=Europe/Berlin:20240622T100000
+DTEND;TZID=Europe/Berlin:20240622T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A06
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115337Z
+DTSTAMP:20231208T115346Z
+LAST-MODIFIED:20231208T115346Z
+SEQUENCE:2
+UID:5cbf6978-23f8-4bfa-9f13-a07f7ddb7e70
+DTSTART;TZID=Europe/Berlin:20240622T130000
+DTEND;TZID=Europe/Berlin:20240622T160000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Praxis
+DESCRIPTION:siehe oben
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115426Z
+DTSTAMP:20231208T115443Z
+LAST-MODIFIED:20231208T115443Z
+SEQUENCE:2
+UID:1a83b654-28df-4742-8432-e837a0b82eb9
+DTSTART;TZID=Europe/Berlin:20240706T100000
+DTEND;TZID=Europe/Berlin:20240706T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A7
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115450Z
+DTSTAMP:20231208T115502Z
+LAST-MODIFIED:20231208T115502Z
+SEQUENCE:2
+UID:f918127a-aa4a-42c2-81af-4a635ffa3df9
+DTSTART;TZID=Europe/Berlin:20240713T100000
+DTEND;TZID=Europe/Berlin:20240713T123000
+STATUS:CONFIRMED
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+SUMMARY:Amateurfunklehrgang - Theorie A08
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115505Z
+DTSTAMP:20231208T115516Z
+LAST-MODIFIED:20231208T115516Z
+SEQUENCE:2
+UID:283f1226-c3ce-4ade-a631-ee368ac8bd2a
+DTSTART;TZID=Europe/Berlin:20240720T100000
+DTEND;TZID=Europe/Berlin:20240720T123000
+STATUS:CONFIRMED
+SUMMARY:Amateurfunklehrgang - Theorie A09
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231208T115522Z
+DTSTAMP:20231208T115536Z
+LAST-MODIFIED:20231208T115536Z
+SEQUENCE:2
+UID:7e540daf-6b2c-48d7-ab57-517ef963708c
+DTSTART;TZID=Europe/Berlin:20240727T100000
+DTEND;TZID=Europe/Berlin:20240727T123000
+STATUS:CONFIRMED
+DESCRIPTION:Dieser Amateurfunklehrgang nach der neuen Prüfungsordnung von 
+ 2024 soll die nötigen Grundlagen vermitteln und auf die Prüfung zum Funk
+ amateur vorbereiten. Nach bestandener Prüfung und mit einem erhaltenen Ru
+ fzeichen ausgestattet\, darf man empfangend und sendend am weltweiten Amat
+ eurfunkdienst teilnehmen und Funkgeräte selbst bauen.\n\nMehr Infos: http
+ s://chaoswelle.de/Lehrgang_Berlin_2024\nKoordinator: @lars:x-hain.de
+SUMMARY:Amateurfunklehrgang - Theorie A10
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231204T210530Z
+DTSTAMP:20231216T211858Z
+LAST-MODIFIED:20231216T211858Z
+SEQUENCE:7
+UID:a7e5c73f-16be-473a-b374-8c2b18294a03
+DTSTART;TZID=Europe/Berlin:20231219T190000
+DTEND;TZID=Europe/Berlin:20231219T220000
+STATUS:CONFIRMED
+SUMMARY:[CANCELLED] Gespräch unter Bäumen
+LOCATION:Lobby
+END:VEVENT
+END:VCALENDAR
