@@ -1,0 +1,55 @@
+<div id="background_wrap">
+    <div id="forest_top"></div>
+    <div id="forest_middle"></div>
+    <div id="forest_bottom"></div>
+</div>
+<div class="some_trees" id="one_tree"></div>
+<div class="some_trees" id="sec_tree"></div>
+<button id="zoom_out" onclick="handle_zoom(this)" title="zoom"></button>
+<div id="export_wrap">
+    <h1>xHain Calendar</h1>
+    <a href="https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export" title="export calendar">
+        <span aria-hidden="true" role="img" decorative="" class="material-design-icon download-icon" data-v-2e49be1e="">
+            <svg fill="currentColor" width="20" height="20" viewBox="0 0 24 24" class="material-design-icon__svg">
+                <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" />
+            </svg>
+        </span>
+    </a>
+</div>
+<div id="main_wrap">
+    <div id="xhain_calendar">
+        <div id="the_calendar">
+            {{range $year, $months := .}}
+            <div class="year_title">{{$year}}</div>
+            {{range $month, $days := $months}}
+            <div class="month_title {{if eq $month (printf "%02d" (now.Month))}}its_this_month{{end}}" data-month="{{$month}}" data-year="{{$year}}">{{$month | monthName}}</div>
+            {{range $days}}
+            <div class="cal_item {{if isToday .Start}}today{{end}} {{.Start.Weekday | weekdayName}}">
+                <span class="monthday">{{.Start.Day}}</span>
+                <span class="weekday">{{.Start.Weekday | weekdayName}}</span>
+
+                <div class="cal_entry" data-date="{{.Start.Format "2006-01-02"}}" data-weekday="{{.Start.Weekday | weekdayName}}">
+                    <div class="the_times">
+                        <span class="start_time">{{.Start.Format "15:04"}}</span>
+                        <span class="end_time"> - {{.End.Format "15:04"}}</span>
+                    </div>
+                    <span class="event_title">{{.Summary}}</span>
+                    <span class="event_location">{{.Location}}</span>
+                    <div class="event_description">{{.Description}}</div>
+                </div>
+            </div>
+            {{end}}
+            {{end}}
+            {{end}}
+        </div>
+    </div>
+    <div id="cal_overlay">
+        <div id="info_item">
+            <div id="info_date_time"></div>
+            <div id="info_location"></div>
+            <div id="info_rule"></div>
+            <div id="info_title"></div>
+            <div id="info_description"></div>
+        </div>
+    </div>
+</div>
