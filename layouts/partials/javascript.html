@@ -2,6 +2,6 @@
 <script src="/js/maplibre-gl.js"></script>
 <script src="/js/ical.min.js"></script>
 {{ $javascript := resources.Get "js/main.js" | js.Build | minify | fingerprint }}
-{{ $javascript := resources.Get "js/calendar.js" | js.Build | minify | fingerprint }}
+{{ $javascript := resources.Get "js/calendar.js" | minify | fingerprint }}
 
 <script type="text/javascript" src="{{ $javascript.RelPermalink }}" defer></script>
