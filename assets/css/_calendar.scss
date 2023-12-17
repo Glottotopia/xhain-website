@@ -1,0 +1,748 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #002225;
+    background-color: black;
+    font-family: 'Berlin', sans-serif;
+    font-family: open sans, helvetica, arial, sans-serif;
+    line-height: unset;
+    /* color: #e0e0e0; */
+}
+
+body.show_details {
+    overflow: hidden;
+}
+
+/* ###### OVERWRITES ##### */
+
+/* header {
+  opacity: 0.4;
+} */
+
+footer {
+    border: none;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        margin-top: 100px !important;
+    }
+}
+
+/* ###### OUTER LAYOUT ##### */
+
+#main_wrap {
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-attachment: fixed;
+}
+
+#export_wrap {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-end;
+    gap: 0.6rem;
+    padding: 0.5rem;
+}
+
+#export_wrap h1 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+#export_wrap a {}
+
+/* ###### xHAIN CALENDAR ##### */
+
+/* ###### MOBILE STUFF ##### */
+
+.flex_breaker {
+    display: none;
+}
+
+button#zoom_out {
+    display: none;
+}
+
+/* ###### WRAPPER ##### */
+
+#xhain_calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(20vh, auto);
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 20vh;
+    box-sizing: border-box;
+    grid-gap: 0.2rem;
+    position: relative;
+}
+
+/* ###### MONTH & YEARS ##### */
+
+.year_title {
+    font-size: 11rem;
+    grid-column: 1/-1;
+    font-weight: bold;
+    line-height: 6rem;
+    margin-top: 4rem;
+    justify-self: flex-end;
+}
+
+.month_title {
+    grid-column: span 4;
+    font-size: 5rem;
+    justify-self: flex-end;
+    line-height: 9rem;
+    margin-right: 4rem;
+    letter-spacing: -0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.month_title.its_this_month {
+    color: #aed919;
+}
+
+/* ###### CALENDAR ITEM ##### */
+
+.cal_item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: min-content min-content 1fr;
+    grid-template-rows: min-content;
+    grid-gap: 0.4rem;
+    padding: 0.4rem 0;
+    align-items: flex-start;
+    border-top: 2px solid #59595970;
+    margin-right: 0.4rem;
+    margin-top: 2vh;
+    grid-template-rows: repeat(4, auto);
+    height: 100%;
+}
+
+.cal_item.today {
+    border-top: 3px solid #aed919;
+    margin-top: calc(2vh - 1px);
+}
+
+.weekday {
+    text-transform: uppercase;
+    font-size: 1rem;
+    align-self: flex-start;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.monthday {
+    font-size: 2rem;
+    align-self: flex-start;
+    line-height: 2rem;
+    grid-row: 1/3;
+    font-family: 'Berlin', sans-serif;
+}
+
+.today .weekday,
+.today .monthday {
+    color: #aed919;
+    position: relative;
+}
+
+.today .weekday::after {
+    content: '\00a0\00B7\00a0today';
+    position: absolute;
+}
+
+.in_german .today .weekday::after {
+    content: '\00a0\00B7\00a0Heute';
+}
+
+/* ###### CALENDAR ENTRY ##### */
+
+.cal_entry {
+    grid-column: 2/-1;
+    background: #606060;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.cal_entry.with_info {
+    cursor: pointer;
+    position: relative;
+    padding-right: 0.8rem;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.cal_entry .info_points {
+    position: absolute;
+    right: -0.3rem;
+    top: 0;
+    height: 100%;
+    width: 1rem;
+    background-color: inherit;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cal_entry .info_points div {
+    transform: rotate(-90deg);
+    height: 0.2rem;
+    line-height: 0;
+    letter-spacing: 0.2rem;
+    transition: color 0.4s;
+    color: #aed919;
+    background-color: transparent;
+}
+
+.cal_entry:hover .info_points div {
+    color: #002225;
+}
+
+.cal_entry.with_info:hover {
+    background: #aed919;
+    color: #002225;
+}
+
+/* .cal_entry.long_event {
+  min-height: 50%;
+} */
+.cal_entry.till_midnight {
+    /* align-self: flex-end; */
+    grid-row-end: 5 !important;
+}
+
+.event_title {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.start_time,
+.end_time {
+    font-size: 0.8rem;
+    position: relative;
+    top: -0.16rem;
+}
+
+/* ###### HAPPENING NOW ##### */
+
+.now .start_time::before {
+    content: '';
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #aed919;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 0.4rem 0 0;
+    animation: blinking 1.8s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: #606060;
+    }
+
+    30% {
+        background-color: #aed919;
+    }
+
+    100% {
+        background-color: #606060;
+    }
+}
+
+/* ###### HIDDEN INFORMATION ##### */
+
+.event_description,
+.event_location,
+.event_rule {
+    display: none;
+}
+
+/* ###### INFO OVERLAY ##### */
+
+#cal_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #00000085;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20vh;
+    cursor: zoom-out;
+}
+
+.show_details #cal_overlay {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#info_item {
+    background: #aed919;
+    color: #002225;
+    padding: 1.6vw 2vw;
+    border-radius: 0.6rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 0.6rem;
+    max-width: 50vw;
+    max-height: 60vh;
+    overflow: scroll;
+    cursor: default;
+    transform: scale(0.5);
+    transition: transform 0.4s;
+    overscroll-behavior: contain;
+}
+
+.show_details #info_item {
+    transform: scale(1);
+}
+
+#info_title {
+    font-size: 2rem;
+    font-weight: bold;
+    grid-column: 1/-1;
+    position: sticky;
+    top: -1.6vw;
+    background: #aed919;
+    padding-top: 0.2vw;
+}
+
+#info_rule {
+    font-size: 0.6rem;
+    align-self: center;
+    text-align: right;
+}
+
+#info_description {
+    grid-column: 1/-1;
+    grid-column: 1/-1;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#info_description a {
+    color: #000;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+#info_date_time {
+    font-weight: bold;
+}
+
+#info_location {
+    color: #aed919;
+    background-color: #002225;
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 0 0.3rem;
+    border-radius: 0.2rem;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+#info_date_time span:nth-child(1) {
+    text-transform: uppercase;
+    margin: 0 0.2rem;
+    font-size: 0.85rem;
+    position: relative;
+    top: -0.04rem;
+}
+
+/* ###### PARALLAX SCOLLING COMING SOON TO FIREFOX ##### */
+
+/* ###### BACKGROUND ANIMATION ##### */
+
+#background_wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 118vh;
+    width: 157.3vh;
+    z-index: -2;
+    display: grid;
+    opacity: 0.4;
+    justify-items: center;
+    /* grid-template-rows: 45.8% 15.1% 39.1%; */
+    grid-template-rows: 35.8% 15.1% 49.1%;
+    /* animation: shift_perspective linear;
+  animation-timeline: scroll(); */
+}
+
+/* @keyframes shift_perspective {
+  to {
+    grid-template-rows: 55.8% 15.1% 29.1%;
+    top: -18vh;
+  }
+} */
+
+#background_wrap>div {
+    height: 100%;
+    width: 100%;
+}
+
+#forest_top {
+    background: url("/images/forest-top.jpg") center / 100% 100.1% no-repeat;
+}
+
+#forest_middle {
+    background: url("/images/forest-middle.jpg") center / 100% 100.1% no-repeat;
+}
+
+#forest_bottom {
+    background: url("/images/forest-bottom.jpg") center / 100% 100.1% no-repeat;
+}
+
+.some_trees {
+    position: fixed;
+    top: 0;
+    height: 150vh;
+    width: 66.75vh;
+    z-index: -1;
+}
+
+#one_tree {
+    background: url("/images/one-tree.png") center / 100% 100% no-repeat;
+    left: -33vh;
+    /* animation: treeit linear;
+  animation-timeline: scroll(); */
+}
+
+#sec_tree {
+    background: url("/images/one-tree.png") center / 100% 100% no-repeat;
+    right: -33vh;
+}
+
+/* @keyframes treeit {
+  to {
+    top: -100vh;
+  }
+} */
+
+/* ###### RESPONSIVE ##### */
+
+@media (max-width: 1100px) {
+    #xhain_calendar {
+        grid-template-columns: 100%;
+        grid-auto-rows: auto;
+    }
+
+    .flex_breaker {
+        display: block;
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .cal_item {
+        grid-row: unset !important;
+        grid-column: 1 !important;
+    }
+
+    .month_title {
+        font-size: 4rem;
+        margin-right: 0;
+    }
+
+    .year_title {
+        display: none;
+    }
+
+    #xhain_calendar {
+        width: 98%;
+        padding: 1%;
+    }
+
+    .cal_month {
+        font-size: 4rem;
+    }
+
+    .month_title {
+        grid-column: 1 !important;
+        z-index: 1;
+    }
+
+    .month_title.stay_a_bit {
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100vw;
+        font-size: 2.1rem;
+        line-height: 3rem;
+        letter-spacing: -0.1rem;
+        display: flex;
+        justify-content: center;
+        transition: background-color 0.4s;
+    }
+
+    .month_title.stay_a_bit span {
+        margin-left: 0.4rem;
+    }
+
+    .month_title.stay_a_bit.on_stage {
+        background-color: black;
+    }
+
+    .cal_item.first_day {
+        margin-top: 60px;
+    }
+
+    #info_item {
+        max-width: 90vw;
+        max-height: 80vh;
+        position: relative;
+    }
+
+    #cal_overlay {
+        padding-top: 15vh;
+    }
+
+    #cal_overlay::before {
+        content: '\00D7';
+        position: absolute;
+        top: 0;
+        right: 2%;
+        font-size: 5rem;
+        color: #aed919;
+    }
+
+    #info_title {
+        line-height: 1.05;
+    }
+
+    main {
+        margin: 84px 0 50px;
+    }
+
+    .month_title {
+        justify-self: center !important;
+    }
+
+    .cal_entry {
+        width: 88%;
+    }
+
+    #info_item {
+        grid-template-columns: 15ch 1fr;
+    }
+
+    #info_location {
+        grid-row: 2;
+    }
+
+    #info_rule {
+        align-self: flex-start;
+        margin-top: 0.2rem;
+    }
+
+    #info_title {
+        text-align: center;
+        padding-top: 0.6rem;
+    }
+
+    /* ###### ADD ZOOM ##### */
+
+    button#zoom_out {
+        display: block;
+        position: fixed;
+        top: 30vh;
+        right: 1rem;
+        z-index: 100;
+        background: #aed919 url("/images/lupe-icon-minus.svg") center / 60% no-repeat;
+        height: 3rem;
+        width: 3rem;
+        border: none;
+        border-radius: 50%;
+        box-shadow: -2px 1px 2px #00000070;
+    }
+
+    .zoom_out button#zoom_out {
+        background-image: url("/images/lupe-icon-plus.svg");
+    }
+
+    .zoom_out #xhain_calendar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .zoom_out .cal_item {
+        grid-template-columns: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+        padding: 0;
+        margin-right: 0.1rem;
+        grid-gap: 0.2rem;
+    }
+
+    .zoom_out .cal_item::after {
+        content: '·';
+        order: 9999;
+        padding-right: 3px;
+    }
+
+    .zoom_out .month_title.stay_a_bit {
+        width: auto;
+        font-size: 1.7rem;
+        position: static;
+        flex-basis: 100%;
+    }
+
+    /* .zoom_out .cal_item .monthday, */
+    .zoom_out .cal_item .the_times,
+    .zoom_out .cal_item .info_points {
+        display: none;
+    }
+
+    .zoom_out .cal_item.montag .monthday,
+    .zoom_out .cal_item.first_day .monthday {
+        display: block;
+    }
+
+    .zoom_out .cal_item.first_day .monthday {
+        margin-left: 20vw;
+    }
+
+    .zoom_out .cal_item.first_day.montag .monthday {
+        margin-left: 0;
+    }
+
+    .zoom_out .cal_item.last_day {
+        margin-right: 20vw;
+    }
+
+    .zoom_out .cal_item.last_day.sonntag {
+        margin-right: 0;
+    }
+
+    .zoom_out .monthday {
+        font-size: 0.7rem;
+        align-self: center;
+        line-height: 0.9rem;
+        flex-grow: 1;
+    }
+
+    .zoom_out .cal_item.today .weekday {
+        color: #aed919;
+    }
+
+    /* .zoom_out .cal_item .weekday:first-letter {
+    font-size: 0.8rem;
+  } */
+
+    .zoom_out .cal_entry {
+        width: unset;
+        padding: 0.1rem;
+        font-size: 0.5rem;
+        align-self: center;
+    }
+
+    .zoom_out .cal_entry.with_info {
+        padding-right: 0;
+    }
+
+    .zoom_out .cal_entry.long_event {
+        min-height: unset;
+    }
+
+    .zoom_out .cal_entry.till_midnight {
+        align-self: center;
+    }
+
+    .zoom_out .event_title {
+        max-width: 30vw;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .zoom_out .month_title span {
+        padding-left: 0.5rem;
+    }
+
+    .zoom_out .cal_entry {
+        grid-row: 2;
+        grid-column: unset;
+    }
+
+    .zoom_out .weekday {
+        grid-column: 1;
+        justify-self: flex-start;
+    }
+
+    .zoom_out .cal_item.montag .weekday {
+        grid-column: 2;
+    }
+
+    .zoom_out .cal_item.today {
+        border: inherit;
+    }
+
+    .zoom_out .today .weekday::after {
+        content: unset;
+    }
+
+    /* .zoom_out .cal_item.first_day {
+    margin-top: 0.5rem;
+  } */
+
+    .zoom_out .event_title {
+        max-width: 0.6rem;
+    }
+
+    .zoom_out .weekday {
+        align-self: center;
+        color: grey;
+        font-size: 0.55rem;
+        display: none;
+    }
+
+    .zoom_out .monthday {
+        font-size: 0.7rem;
+        align-self: center;
+        line-height: 1rem;
+        flex-grow: 1;
+        height: 0.75rem;
+    }
+
+    .zoom_out .cal_entry {
+        border-radius: 0.1rem;
+        height: 0.7rem;
+        line-height: 0.6rem;
+    }
+
+    .zoom_out .cal_item {
+        /* margin-top: 0.5rem; */
+        margin-top: 0;
+        padding: 0.1rem 0;
+    }
+
+    #xhain_calendar {
+        /* grid-gap: 0.2rem; */
+        grid-gap: 0rem;
+    }
+
+    .cal_entry.with_info:hover {
+        background: inherit;
+        color: inherit;
+    }
+}
+
+/* fin */
