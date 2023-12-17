@@ -31,6 +31,7 @@ paginate = 6
   term = ["HTML"]
 
 [markup.goldmark.renderer]
+  hardWraps = false
   unsafe= true
 
 
