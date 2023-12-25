@@ -8,22 +8,18 @@ draft: false
 <div id="xhain_calendar">
     {{range $year, $months := .Events}}
     {{range $month, $daysData := $months}}
-    <div class="month_wrapper">
-        <div class="year">{{$year}}</div>
-        <div class="month">{{$month | monthName}}</div>
-    </div>
+    {{if eq $month "01"}}
+    <div class="year">{{$year}}</div>
+    {{end}}
+    <div class="month">{{$month | monthName}}</div>
     {{range $day, $dayData := $daysData}}
-    <div class="day" id="{{.Date.Format "2006-01-02"}}">
+    <div class="day" id="{{.Date.Format "2006-01-02"}}" data-wota="{{.Weekday | weekdayShort}}">
         <div class="day_title">
             <span class="monthday">{{$day}}</span>
             <span class="weekday">{{.Weekday | weekdayShort}}</span>
         </div>
         {{range $dayData.Events}}
-        <div class="event"
-        data-start-time="{{.Start.Format "15:04"}}"
-        data-end-time="{{.End.Format "15:04"}}"
-        data-weekday="{{.Weekday | weekdayShort}}"
-        data-verticalpos="{{.Weekday | weekdayShort}}">
+        <div class="event" data-hour="{{.Start.Format "15"}}" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
             <div class="time">
                 <span class="start">{{.Start.Format "15:04"}}</span>
                 <span class="end"> - {{.End.Format "15:04"}}</span>
@@ -33,8 +29,8 @@ draft: false
             <div class="description">{{.Description}}</div>
         </div>
         {{else}}
-            <div class="no-event"></div>
-            {{end}}
+        <div class="no-event"></div>
+        {{end}}
     </div>
     {{end}}
     {{end}}

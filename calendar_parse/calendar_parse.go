@@ -112,10 +112,6 @@ func generateHTML(events []gocal.Event, start time.Time, end time.Time) (string,
 		"now": func() time.Time {
 			return time.Now()
 		},
-		// day css classes, e.g. today, first of month, vertical position (early, mid day, late & till_midnight), ...
-		// "verticalPos": func() time.Time {
-		// 	return "till_midmight"
-		// },
 	}
 
 	// Load template file
