@@ -5,6 +5,13 @@ draft: false
 ---
 
 {{index .HtmlWrapper 0}}
+<div id="background_wrap">
+    <div id="forest_top"></div>
+    <div id="forest_middle"></div>
+    <div id="forest_bottom"></div>
+</div>
+<div class="some_trees" id="one_tree"></div>
+<div class="some_trees" id="sec_tree"></div>
 <div id="xhain_calendar">
     {{range $year, $months := .Events}}
     {{range $month, $daysData := $months}}

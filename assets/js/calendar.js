@@ -166,3 +166,43 @@ function doubleColumnsAreUgly() {
     }
   }
 }
+
+// parallax scrolling
+const back_wrap = document.getElementById('background_wrap');
+const one_tree = document.getElementById('one_tree');
+const sec_tree = document.getElementById('sec_tree');
+let height_plus = 0;
+
+window.addEventListener('scroll', scrolling);
+
+function scrolling() {
+  const the_factor = window.scrollY / (document.body.offsetHeight - window.innerHeight + 150);
+  back_wrap.style.top = the_factor * window.innerHeight * -0.12 - height_plus + 96 + 'px';
+  let the_top = 35.8 - (2 - the_factor * 6);
+  let the_bottom = 45.1 + (22 - the_factor * 42);
+  back_wrap.style.gridTemplateRows = the_top + '% 15.1% ' + the_bottom + '%';
+  one_tree.style.top = -1 * the_factor * (window.innerHeight / 2) + 96 + 'px';
+  sec_tree.style.top = -1 * the_factor * (window.innerHeight / 2) + 96 + 'px';
+}
+
+window.addEventListener('resize', positionBackWrap);
+window.addEventListener('load', positionBackWrap);
+
+function positionBackWrap() {
+  let win_height = window.innerHeight * 1.3;
+  let win_width = window.innerWidth;
+  let ratio = win_width / 4 / (win_height / 3);
+  if (ratio > 1) {
+    // cut off top and bottom
+    back_wrap.style.width = win_width + 'px';
+    back_wrap.style.height = win_width * 0.75 + 'px';
+    height_plus = win_width * 0.75 - win_height;
+  } else {
+    //cut of left and right
+    back_wrap.style.width = win_height * 1.33 + 'px';
+    back_wrap.style.height = win_height + 'px';
+    height_plus = 0;
+    back_wrap.style.left = '-' + (win_height * 1.33 - win_width) / 2 + 'px';
+  }
+  scrolling();
+}
